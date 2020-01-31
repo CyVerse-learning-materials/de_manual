@@ -13,7 +13,6 @@ Welcome to the user manual for the CyVerse Discovery Environment (DE). Here you'
 To get you started, you may want to read through the introductory information in the Quick Links. 
 Hints for how to use this manual are also on this page.
 
-TEST
 
 Table of Contents
 -----------------
