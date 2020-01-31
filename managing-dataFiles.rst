@@ -157,7 +157,7 @@ Understanding inaccessible data items
 
 Data items that are inaccessible are displayed in red italicized font.
 
-.. image: img/de/InaccessibleDataItem.gif
+.. image:: img/de/InaccessibleDataItem.gif
 
 
 This may be due to special characters (' or ~) in the path or name, or system-level items, such as your iplant/home/shared folder or your home directory. 
