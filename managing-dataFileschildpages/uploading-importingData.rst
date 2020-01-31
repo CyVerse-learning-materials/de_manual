@@ -137,39 +137,19 @@ Special characters to avoid
 
 Files, folder names, or analysis names cannot contain the following special characters or any special characters on a non-English keyboard:
 
-.. list-table::
-    :header-rows: 1
+.. image:: img/charToAvoid.png
 
-    * - ~
-    * - 
-    * - !
-    * - @
-    * - #
-    * - $
-    * - %
-    * - ^
-    * - &
-    * - *
-    * - (
-    * - )
-    * - +
-    * - =
-    * -  
-      - {
-      - }
-      - [
-      - ]
-      - |
-      - \
-      - :
-      - ;
-      - "
-      - '
-      - <
-      - >
-      - ,
-      - ?
-      - /
+In addition, it is recommended that you avoid the use of **spaces** in the file names, folder names, and analyses of names used in the DE.
+
+
+Prohibited special characters
+-----------------------------
+
+The following characters are prohibited in files or folders uploaded via the Data Store and will be displayed in red italics to indicate they are not accessible:
+
+.. image:: img/prohibitedChar.png
+
+    
 
 
 
