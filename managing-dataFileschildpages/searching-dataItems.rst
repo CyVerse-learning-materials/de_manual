@@ -28,6 +28,64 @@ Before you begin, you may want to watch a `YouTube video on advanced data search
 | reflected in search results.                   |
 +------------------------------------------------+
 
+You also can search for other files and folders with the same `tag <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Data+Tags+and+Tag+Descriptions>`_, as described in the section below. 
+
+
+Opening the advanced search options window
+------------------------------------------
+
+.. |icon| image:: img/AdvancedSearchIcon.gif
+
+You can customize a complex or simple query using the advanced search parameters.
+
+1. In the Data window, open the advanced search options window by clicking |icon| next to the search field:
+
+.. image :: img/DataAdvSearchWithTaggedWith1-9-2.png
+
+--------------
+Search options
+--------------
+
+
+File and folder names
+---------------------
+
+You can search for file and folder names in the Data window search field, and include or exclude file and folder names in the advanced search options window.
+
+    1. In the Data list search field, enter at least 3 characters (case-insensitive) of the file or folder name.
+       The middle section displays the number of search results returned for the query, and the name and path of each result.
+
+    .. image:: img/SearchResultsBasicData.gif
+
+
+Including or excluding specific words in the file or folder name (advanced search)
+----------------------------------------------------------------------------------
+
+    1. If necessary, click |icon| next to the search field to open the advanced search options window.
+    2. To include specific words in the query, click in the **File/Folder name has the words** and enter the word(s) to include in the query.
+    3. To exclude specific words in the query, click in the **File/Folder name doesn't have** field and enter the word(s) to exclude in the query.
+    4. Continue adding more parameters, `save it as a filter <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items#SearchingforDataItems-_savedSearchFilter>`_ for future reuse, or click **Done** to execute the search. 
+
+
+Metadata attributes and value (advanced search)
+-----------------------------------------------
+
+For more information on metadata attributes and values, see `Using Metadata in the DE <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE>`_.
+
+    1. Click |icon| next to the search field to open the advanced search options window:
+
+    .. image:: img/AdvSearch-Metadata.jpg
+
+    2. Click in either the **Metadata attribute has the words** field or **Metadata value has the words** field and enter the attribute or value to include in the query, and then click **Search**.
+
+    +----------------------------------------------------------------+
+    | To search on info-type, enter **info-type** for the attribute. |
+    +----------------------------------------------------------------+
+
+    
+
+
+
 ----
 
 **Fix or improve this documentation:**
