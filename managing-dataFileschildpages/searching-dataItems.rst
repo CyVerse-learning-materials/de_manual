@@ -190,14 +190,16 @@ Editing a saved search filter (advanced search)
 
     1. Click the filter name at the bottom of your Navigation list:
 
-    ..image:: img/SavedSearchName.gif
+    .. image:: img/SavedSearchName.gif
 
     2. Click the |icon| next to the search field to open the advanced search options window.
     3. Edit the values.
     4. To save your changes as a new filter, click **Create filter with this search** at the bottom of the form, and then click **Save**.
     5. Either:
         - Click **Search** to execute and save the search with the new settings to the existing advanced search.
+        
         *or*
+        
         - Click **Save** to save as a new search, enter a new name, and then click **Save**. 
 
     
