@@ -67,7 +67,7 @@ You can receive (or not receive) an email when the status of your imported data 
 
 
     1. Copy the URL for the first file to import. 
-    2. In your personal folder, select the destination folder for the import. (To create a new folder, see `Create a Folder <https://wiki.cyverse.org/wiki/display/DEmanual/Uploading+and+Importing+Data+Items+Within+the+DE#UploadingandImportingDataItemsWithintheDE-createFolder>`_. 
+    2. In your personal folder, select the destination folder for the import. (To create a new folder, see `Create a Folder <https://wiki.cyverse.org/wiki/display/DEmanual/Uploading+and+Importing+Data+Items+Within+the+DE#UploadingandImportingDataItemsWithintheDE-createFolder>`_.)
     3. Click **Upload** and then click **Import from URL**.
 
     .. image:: img/ImportUrl.png
