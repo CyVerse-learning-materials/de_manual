@@ -211,6 +211,9 @@ Deleting a saved search filter (Data window)
 
     1. Click the filter name at the bottom of your Navigation list:
 
+
+    
+
     .. image:: img/SavedSearchName.gif
 
 
