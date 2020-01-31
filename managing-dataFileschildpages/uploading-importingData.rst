@@ -99,6 +99,7 @@ You can upload a genome directly from CoGe for use in the DE. THe genome is impo
        You will recieve an email when the genome has completed importing to your **coge_data** personal Data folder. 
 
 
+------------------
 Useful information
 ------------------
 
@@ -122,6 +123,7 @@ If you experience issues with uploading or importing in the DE, try the followin
 For additional assistance, please `contact CyVerse Support <support@cyverse.org>`_.
 
 
+----------------------------------
 Using Special Characters in the DE
 ----------------------------------
 
