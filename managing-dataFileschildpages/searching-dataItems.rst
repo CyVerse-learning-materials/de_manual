@@ -207,7 +207,7 @@ Editing a saved search filter (advanced search)
 Deleting a saved search filter (Data window)
 --------------------------------------------
 
-.. |deleteicon| image:: img/SavedSearchDeleteIcon.gif
+    .. |deleteicon| image:: img/SavedSearchDeleteIcon.gif
 
     1. Click the filter name at the bottom of your Navigation list:
 
