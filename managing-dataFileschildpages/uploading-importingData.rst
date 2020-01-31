@@ -135,6 +135,7 @@ Special characters to avoid
 Files, folder names, or analysis names cannot contain the following special characters or any special characters on a non-English keyboard:
 
 .. list-table::
+    :header-rows: 1
 
     * - ~
     * - ```
