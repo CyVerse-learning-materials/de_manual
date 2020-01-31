@@ -213,6 +213,8 @@ Deleting a saved search filter (Data window)
 
     .. image:: img/SavedSearchName.gif
 
+
+
     2. Click |deleteicon| next to the filter name.
         The search filter is removed from your Navigation list. 
 
