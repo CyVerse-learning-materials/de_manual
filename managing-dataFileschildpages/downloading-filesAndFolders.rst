@@ -13,6 +13,7 @@ You can also download data items outside the DE; some methods allow download wit
 
 .. image:: img/DownloadMenu.png
 
+
     - **Simple download** allows you to download single or multiple files (but not folders), and does not require any external app installation or configuration. 
     - **Bulk download** allows you to download multiple files and folders, and requires installation and configuration of `Cyberduck <https://wiki.cyverse.org/wiki/display/DS/Using+Cyberduck+for+Uploading+and+Downloading+to+the+Data+Store>`_ (recommended).
 
