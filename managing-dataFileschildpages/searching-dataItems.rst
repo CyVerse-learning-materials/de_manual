@@ -133,8 +133,8 @@ When searching on multiple tags, you build a list of tags then execute the searc
 
     1. If necessary, click |icon| next to the search field to open the advanced search options window.
     2. In the  
-    **Tagged with**  
-    search field:
+        **Tagged with**  
+        search field:
         a. Enter the first few characters of the first tag to find.
         b. Click the matching tag.
            The orange tag is added below the search field. If no suggestion is displayed, the tag you entered has not been used in any files or folders in your Data list.
