@@ -14,8 +14,8 @@ You can also download data items outside the DE; some methods allow download wit
 .. image:: img/DownloadMenu.png
 
 
-    - **Simple download** allows you to download single or multiple files (but not folders), and does not require any external app installation or configuration. 
-    - **Bulk download** allows you to download multiple files and folders, and requires installation and configuration of `Cyberduck <https://wiki.cyverse.org/wiki/display/DS/Using+Cyberduck+for+Uploading+and+Downloading+to+the+Data+Store>`_ (recommended).
+- **Simple download** allows you to download single or multiple files (but not folders), and does not require any external app installation or configuration. 
+- **Bulk download** allows you to download multiple files and folders, and requires installation and configuration of `Cyberduck <https://wiki.cyverse.org/wiki/display/DS/Using+Cyberduck+for+Uploading+and+Downloading+to+the+Data+Store>`_ (recommended).
 
 In addition, you can use `iDrop Desktop <https://wiki.cyverse.org/wiki/display/DS/Using+iDrop+Desktop>`_ to upload and download data files outside of the DE, download a file via a `data link <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+Data+Files+Via+Public+Links>`_ that was shared by another CyVerse user, and `upload and import data files <https://wiki.cyverse.org/wiki/display/DEmanual/Uploading+and+Importing+Data+Items+Within+the+DE>`_.
 
