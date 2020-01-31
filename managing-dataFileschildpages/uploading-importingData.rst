@@ -78,7 +78,7 @@ You can receive (or not receive) an email when the status of your imported data 
         See `Using the Preferences Menu <https://wiki.cyverse.org/wiki/display/DEmanual/Using+the+Preferences+Menu>`_ for more information for how to set the preference to reciev e an email when the status of your imported item changes.
     
 
-.. TIP:: Password Help
+**Password Help**
 
     - If you are importing from an FTP URL that requires authentication, be sure to include your FTP username and password (not your CyVerse username and password) in the URL, as described `here <https://www.cs.rutgers.edu/~watrous/user-pass-url.html>`_. 
     - If your password contains special characters, you may have to `convert to percent encoding <https://www3.trustwave.com/support/kb/article.aspx?id=14938>`_ first.
