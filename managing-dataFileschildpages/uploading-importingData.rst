@@ -66,10 +66,22 @@ You can receive (or not receive) an email when the status of your imported data 
 
 
 
+    1. Copy the URL for the first file to import. 
+    2. In your personal folder, select the destination folder for the import. (To create a new folder, see `Create a Folder <https://wiki.cyverse.org/wiki/display/DEmanual/Uploading+and+Importing+Data+Items+Within+the+DE#UploadingandImportingDataItemsWithintheDE-createFolder>.`_ 
+    3. Click **Upload** and then click **Import from URL**.
 
+    .. image:: img/importUrl.png
 
+    4. Paste the URL for the file to import in the first row. 
+    5. Repeat for each file to import. 
+    6. Click the **Import from URL** button. The files are imported to the destination folder. 
+        See `Using the Preferences Menu <https://wiki.cyverse.org/wiki/display/DEmanual/Using+the+Preferences+Menu>`_ for more information for how to set the preference to reciev e an email when the status of your imported item changes.
+    
 
+.. TIP:: Password Help
 
+    - If you are importing from an FTP URL that requires authentication, be sure to include your FTP username and password (not your CyVerse username and password) in the URL, as described `here <https://www.cs.rutgers.edu/~watrous/user-pass-url.html>`_. 
+    - If your password contains special characters, you may have to `convert to percent encoding <https://www3.trustwave.com/support/kb/article.aspx?id=14938>`_ first.
 
 
 
