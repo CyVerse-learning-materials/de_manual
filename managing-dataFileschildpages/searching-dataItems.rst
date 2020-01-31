@@ -78,11 +78,11 @@ For more information on metadata attributes and values, see `Using Metadata in t
 
     2. Click in either the **Metadata attribute has the words** field or **Metadata value has the words** field and enter the attribute or value to include in the query, and then click **Search**.
 
-    +----------------------------------------------------------------+
-    | To search on info-type, enter **info-type** for the attribute. |
-    +----------------------------------------------------------------+
++----------------------------------------------------------------+
+| To search on info-type, enter **info-type** for the attribute. |
++----------------------------------------------------------------+
 
-    
+
 
 
 
