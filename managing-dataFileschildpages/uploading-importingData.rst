@@ -84,8 +84,89 @@ You can receive (or not receive) an email when the status of your imported data 
     - If your password contains special characters, you may have to `convert to percent encoding <https://www3.trustwave.com/support/kb/article.aspx?id=14938>`_ first.
 
 
+Importing a Genome from CoGe
+----------------------------
+
+You can upload a genome directly from CoGe for use in the DE. THe genome is imported to the **coge_data** folder in your personal Data folder. 
+
+    1. In the Data window, click **Upload** and then click **Upload Genome from CoGe**:
+
+    .. image:: img/ImportGenomeFromCoGe.jpg
+
+    The organism name, version, chromosone count, and sequence type are displayed. To sort any of the columns, click the column header.
+
+    2. Click to select the genome to upload and then click **Import**.
+       You will recieve an email when the genome has completed importing to your **coge_data** personal Data folder. 
 
 
+Useful information
+------------------
+
+About status updates
+--------------------
+
+As the import profresses, you recieve several updates in the form of popups, `notifications <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+and+Deleting+Notifications>`_, and emails. Once you have received notification that your file has been successfully imported, it is available in the destination folder.
+
+**If the window isn't updating...**
+    - It may take up to 30 minutes for the window to be updated. Refresh your browser window to see if the changes have taken effect. 
+
+Troubleshooting tips
+--------------------
+
+If you experience issues with uploading or importing in the DE, try the following:
+
+    - Check that the file or folder name does not contain any special characters. For more information, see **Using Special Characters in the DE** below.
+    - Go to `Ask CyVerse <http://ask.cyverse.org/>`_ and search on upload or import.
+        - `This question <http://ask.cyverse.org/question/1989/i-am-not-able-to-upload-my-files-into-data-folder-in-discovery-enviroment/>`_ may help you too.
+
+For additional assistance, please `contact CyVerse Support <support@cyverse.org>`_.
+
+
+Using Special Characters in the DE
+----------------------------------
+
+If you intend to use a data file in an analysis submitted through the DE, you should rename files previously imported or uploaded through the CyVerse Data Store containing these characters before using them in an analysis submitted in the DE. 
+Data file names, folder names, and analysis names containing special characters or spaces have been known to cause failed analyses in the DE, and may return empty or no output files.
+
+
+Special characters to avoid
+---------------------------
+
+Files, folder names, or analysis names cannot contain the following special characters or any special characters on a non-English keyboard:
+
+.. list-table::
+    :header-rows:
+
+    * - ~
+    * - ```
+    * - !
+    * - @
+    * - #
+    * - $
+    * - %
+    * - ^
+    * - &
+    * - *
+    * - (
+    * - )
+    * - +
+    * - =
+    * -  
+      - {
+      - }
+      - [
+      - ]
+      - |
+      - \
+      - :
+      - ;
+      - "
+      - '
+      - <
+      - >
+      - ,
+      - ?
+      - /
 
 
 
