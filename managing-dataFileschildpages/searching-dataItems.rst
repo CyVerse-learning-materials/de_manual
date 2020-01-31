@@ -145,6 +145,82 @@ When searching on multiple tags, you build a list of tags then execute the searc
     6. Continue adding more parameters, `save it as a filter <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items#SearchingforDataItems-_savedSearchFilter>`_ for future reuse, or click **Done** to execute the search.
 
 
+
+Including trash items in the query (advanced search)
+----------------------------------------------------
+
+    1. If necessary, click |icon| next to the search field to open the advanced search options window.
+    2. Click the **Include items in Trash** checkbox.
+
+For more information on managing the trash, see `Deleting Files and Folders (Trash) <https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=11446737>`_.
+
+
+--------------------------
+Using saved search filters
+--------------------------
+
+Saving an advanced search query as a search filter (advanced search)
+--------------------------------------------------------------------
+
+You can save the query as a filter to reuse it quickly later. You also can modify a saved filter, and either save it as a new filter, or re-execute the search without saving, as well as delete the saved filter.
+
+    1. If necessary, click |icon| next to the search field to open the advanced search options window.
+    2. Click **Create filter with this search** at the bottom of the form.
+    3. Enter the filter name and click **Save**. 
+
+        The saved search is displayed at the bottom of your Navigation list in the left section. 
+    
+    .. image:: img/SavedSearches.gif
+
+
+Executing a saved search filter (Data window)
+---------------------------------------------
+
+    1. In your Data window Navigation list, find the saved search filter at the bottom of your Navigation list.
+
+
+    .. image:: img/SavedSearches.gif
+
+    2. Click the filter name to execute the search. 
+        The search results are displayed in the middle section, and the number of results and name of the saved search are displayed in the middle section's header.
+
+
+Editing a saved search filter (advanced search)
+-----------------------------------------------
+
+    1. Click the filter name at the bottom of your Navigation list:
+
+    ..image:: img/SavedSearchName.gif
+
+    2. Click the |icon| next to the search field to open the advanced search options window.
+    3. Edit the values.
+    4. To save your changes as a new filter, click **Create filter with this search** at the bottom of the form, and then click **Save**.
+    5. Either:
+        - Click **Search** to execute and save the search with the new settings to the existing advanced search.
+        *or*
+        - Click **Save** to save as a new search, enter a new name, and then click **Save**. 
+
+    
+
+Deleting a saved search filter (Data window)
+--------------------------------------------
+
+.. |deleteicon| image:: img/SavedSearchDeleteIcon.gif
+
+    1. Click the filter name at the bottom of your Navigation list:
+
+    ..image:: img/SavedSearchName.gif
+
+    2. Click |deleteicon| next to the filter name.
+        The search filter is removed from your Navigation list. 
+
+
+
+
+
+
+
+
 ----
 
 **Fix or improve this documentation:**
