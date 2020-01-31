@@ -304,7 +304,7 @@ To begin, you need the data files you want to use in your analysis. You can use 
 .. toctree::
 	:maxdepth: 9
   managing-dataFileschildpages/uploading-importingData.rst
-  managing-dataFileschildpages/uploading-filesAndFolders.rst
+  managing-dataFileschildpages/downloading-filesAndFolders.rst
   managing-dataFileschildpages/searching-dataItems.rst
   managing-dataFileschildpages/editing-filesAndFolders.rst
   managing-dataFileschildpages/sharingDataFiles.rst
