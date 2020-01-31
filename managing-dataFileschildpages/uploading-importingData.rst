@@ -117,7 +117,7 @@ Troubleshooting tips
 If you experience issues with uploading or importing in the DE, try the following:
 
     - Check that the file or folder name does not contain any special characters. For more information, see **Using Special Characters in the DE** below.
-    
+
     - Go to `Ask CyVerse <http://ask.cyverse.org/>`_ and search on upload or import.
         - `This question <http://ask.cyverse.org/question/1989/i-am-not-able-to-upload-my-files-into-data-folder-in-discovery-enviroment/>`_ may help you too.
 
@@ -141,7 +141,7 @@ Files, folder names, or analysis names cannot contain the following special char
     :header-rows: 1
 
     * - ~
-    * - ```
+    * - 
     * - !
     * - @
     * - #
