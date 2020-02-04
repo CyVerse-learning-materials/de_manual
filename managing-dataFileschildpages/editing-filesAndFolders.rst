@@ -160,7 +160,7 @@ You can view data files, raw data, and CSV and TSV files in tabular or comma-del
 
    2. Click to open the file.
 
-   .. image:: img/ViewFile1-8-8.png
+    .. image:: img/ViewFile1-8-8.png
 
        - **Save** is available only for editable files for which you are the `owner <https://wiki.cyverse.org/wiki/display/DEmanual/Changing+and+Viewing+Data+Permission+Levels+in+the+DE>`_.
        - **Refresh** allows you to update the window.
@@ -224,12 +224,12 @@ You can view comments by other users about a file or folder, add comments to any
 
    1. In the Data window, `search <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_ for the file or folder. You may want to `add the Path column <https://wiki.cyverse.org/wiki/display/DEmanual/Uploading%2C+Importing%2C+Downloading%2C+Sharing%2C+Editing%2C+Searching+Data+Files+in+the+DE#Uploading,Importing,Downloading,Sharing,Editing,SearchingDataFilesintheDE-pathcolumn>`_ to view the path.
 
-   +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | To perform an advanced query, such as including or excluding words in a file or folder name, searching for metadata attribute or value, file size range, created or modified date, owner, shared recipient, or tag, see `Searching for Data Items <>`_. |
-   +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | To perform an advanced query, such as including or excluding words in a file or folder name, searching for metadata attribute or value, file size range, created or modified date, owner, shared recipient, or tag, see `Searching for Data Items <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_. |
+   +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-   2. Click .. image:: img/AppCommentIcon.png on the right side of the row, or click the **Edit** menu and then click **Edit Comments**.
+   2. Click .. image:: img/AppCommentsIcon.png on the right side of the row, or click the **Edit** menu and then click **Edit Comments**.
 
    3. Either:
          - **To add a comment**, click in the lower text box and enter your comment, and then click **Add**. Your comment is added to the top section and now visible to other users.
