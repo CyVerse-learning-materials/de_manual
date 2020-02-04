@@ -26,7 +26,7 @@ You can edit a **one-page** plain text or tabular data (CSV, TSV) file that you 
 
    - **Create a copy of the file** by `downloading <https://wiki.cyverse.org/wiki/display/DEmanual/Downloading+Files+and+Folders>`_ the file, editing it as needed, and then `uploading <https://wiki.cyverse.org/wiki/display/DEmanual/Uploading+and+Importing+Data+Items+Within+the+DE>`_ it into the DE as a new file.
 
-   - **Copy a large file** in the Data Store using the iCommands command line utility. For more information, see `Using iCommands <https://pods.iplantcollaborative.org/wiki/display/DS/Using+iCommands>`_/
+   - **Copy a large file** in the Data Store using the iCommands command line utility. For more information, see `Using iCommands <https://pods.iplantcollaborative.org/wiki/display/DS/Using+iCommands>`_.
 
    1. In the Data window, `search <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_ for the file or folder. You may want to `add the Path column <https://wiki.cyverse.org/wiki/display/DEmanual/Uploading%2C+Importing%2C+Downloading%2C+Sharing%2C+Editing%2C+Searching+Data+Files+in+the+DE#Uploading,Importing,Downloading,Sharing,Editing,SearchingDataFilesintheDE-pathcolumn>`_ to view the path. 
 
@@ -40,11 +40,11 @@ You can edit a **one-page** plain text or tabular data (CSV, TSV) file that you 
 
       When you first open the file, the **Page Size (KB) slider** by default is at the far left position, more than one page is displayed in the page navigation (unless the file is very small), the Save button is not enabled, and Not Editable is displayed.
 
-      .. image:: EditTextFile1.png
+      .. image:: img/EditTextFile1.png
 
    4. Drag the Page Size (KB) slider until the page navigation at the bottom displays 1 of 1.
 
-      .. image:: EditTextFile2.png
+      .. image:: img/EditTextFile2.png
 
       Once page 1 of 1 is displayed, the file becomes editable. If the file still is not editable, youn either don't have Own permissions to the file, the file is not an editable text file, or it is too large.
 
@@ -56,7 +56,7 @@ You can edit a **one-page** plain text or tabular data (CSV, TSV) file that you 
 Editing a File's Info-type
 --------------------------
 
-.. |removeIcon| image:: RemoveInfoTypeIcon.gif
+.. |removeIcon| image:: img/RemoveInfoTypeIcon.gif
 
 When a file is imported or uploaded, it is auto-assigned an info-type to identify the type of data it contains. You can change or assign the info-type for a file you own or to which you have write `permissions <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+Data+Files+and+Folders>`_. 
 File-type auto-detection is available mfor text files, including .bam, .csv, .fasta, .fastq, .fa, .fq, .nwk, .newick, .phylip, .tsv, and more.
