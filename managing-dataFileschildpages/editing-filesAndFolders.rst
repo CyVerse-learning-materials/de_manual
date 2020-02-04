@@ -285,6 +285,7 @@ Opening the Trash folder
    *or*
 
    - Click the **Trash** folder in your Navigation list.
+   
       The list of deleted files and folders is displayed.
 
 
