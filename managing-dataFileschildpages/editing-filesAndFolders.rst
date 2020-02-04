@@ -253,9 +253,129 @@ There is a limit of 1000 items (all files within all subfolders under the parent
 
    2. Click **File** and then click **Move to Trash**.
 
+   +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | **Move to Trash not available?**                                                                                                                                                                                                                                        |
+   +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | You must be an `owner <https://wiki.cyverse.org/wiki/display/DEmanual/Changing+and+Viewing+Data+Permission+Levels+in+the+DE>`_ of the file or folder to delete it. You can view your rights to the item in the Details panel on the right on the Permissions line.      |
+   +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+    The deleted item is moved to your Trash folder and is no longer accessible to other users who have shared access to it, even if they are co-owners of the item. (You may need to refresh the page and/or browser window to verify that the item is removed).
+
+    You can view the list of items in the Trash, restore a deleted file or folder, and permanently delete all or selected items in the Trash.
+
+
+Managing deleted data items in the Trash
+----------------------------------------
+
+Deleted items are moved to the Trash folder of the user who deleted them, and that person is the only person who can restore or permanently delete it.
+
+You can restore an item you deleted to the location in which it was stored before you deleted it. When you know an item is no longer needed, you can either empty the Trash folder to permanently delete all items in the list, or you can delete just some of the items.
+
+
+Opening the Trash folder
+------------------------
+
+1. In the Data window, either:
+
+   - Click **Trash** on the top right and then click **Open Trash**
+   
+   .. image:: img/Data_TrashMenu.jpg
+
+   *or*
+
+   - Click the **Trash** folder in your Navigation list.
+      The list of deleted files and folders is displayed.
+
+
+   +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | When an item is moved to the Trash folder, additional random alphanumeric characters are added to the end of the name to distinguish it from other items with the same name, and an icon to the left shows a red minus sign:                                            | 
+   +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | .. image:: img/DE_TrashDelete.jpg                                                                                                                                                                                                                                       |
+   +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+Restoring a deleted file or folder
+----------------------------------
+
+The person who deleted the file or folder can restore it from the Trash to its previous location.
+
+   1. Open the Trash.
+   2. In the Trash list, select the data item or items to restore.
+   3. Click **Trash** again and then click **Restore**.
+      Each item is restored to its original name and previous location.
+
+
+Emptying the Trash (Permanently deleting all items in the Trash)
+----------------------------------------------------------------
+
+If you know that you no longer any of the files or folders you previously deleted, you can empty the Trash folder.
+
++------------------------------------------------------------------+
+| **This action cannot be undone!**                                |
++------------------------------------------------------------------+
+| Once the Trash is emptied, the items cannot be restored.         |
++------------------------------------------------------------------+
+
+   1. Open the Trash.
+   2. Review the items in the Trash list to make sure you want to delete them all. (If you want to keep some of the items, skip to the next section.)
+   3. Click **Trash** again and then click **Empty Trash**.
+   4. Click **Yes** in the warning prompt.
 
 
 
+Permanently deleting selected items in the Trash
+------------------------------------------------
+
++------------------------------------------------------------------+
+| **This action cannot be undone!**                                |
++------------------------------------------------------------------+
+| Once the Trash is emptied, the items cannot be restored.         |
++------------------------------------------------------------------+
+
+   1. Open the Trash.
+   2. In the Trash list, click the checkbox next to the files or folders to permanently delete.
+   3. Click Trash again and then click Delete.
+   4. Click Yes in the warning prompt.
+
+
+
+
+--------------------
+Using Data Favorites
+--------------------
+
+You can create a short list of the Data files and folders you use most frequently.
+
+
+
+Adding an item to your data Favorites list
+------------------------------------------
+
+.. |datafavorite| image:: img/DataFavoriteStarIcon.jpg
+
+   1. In the Data window, find the file or folder to add to your Favorites list.
+   2. Click the star to the left of the name in the middle section: |datafavorite| 
+      The star now is yellow and the app is listed in your Favorites folder at the bottom of the Navigation list.
+      Note that the path of the file or folder is displayed.
+
+
+Removing an item from your data Favorites list
+----------------------------------------------
+
+   1. Click the **Favorites** folder at the bottom of your Navigation list.
+
+   2. Click the yellow star to the left of the data item to remove it from your Favorites list.
+
+
+
+
+Viewing your data Favorites list
+--------------------------------
+
+   1. Click the **Favorites** folder at the bottom of the Navigation list.
+      The list of your favorite data items and their paths is displayed.
+   2. To view or open an item, verify the correct location in the Path column, and click the name.
 
 
 
