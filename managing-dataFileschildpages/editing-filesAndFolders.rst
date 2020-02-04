@@ -235,6 +235,7 @@ You can view comments by other users about a file or folder, add comments to any
    2. Click |appcomments| on the right side of the row, or click the **Edit** menu and then click **Edit Comments**.
 
    3. Either:
+   
          - **To add a comment**, click in the lower text box and enter your comment, and then click **Add**. Your comment is added to the top section and now visible to other users.
          - **To retract a comment**, click **Retract** in the Comments window, and then click **Yes** in the confirmation prompt. Your comment text is removed and is replaced with *This comment is retracted*.
 
@@ -285,7 +286,7 @@ Opening the Trash folder
    *or*
 
    - Click the **Trash** folder in your Navigation list.
-   
+
       The list of deleted files and folders is displayed.
 
 
