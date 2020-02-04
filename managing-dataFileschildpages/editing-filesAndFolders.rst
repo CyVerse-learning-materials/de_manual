@@ -24,6 +24,69 @@ You can edit a **one-page** plain text or tabular data (CSV, TSV) file that you 
 
 **If the file is too large, you can:**
 
+   - **Create a copy of the file** by `downloading <https://wiki.cyverse.org/wiki/display/DEmanual/Downloading+Files+and+Folders>`_ the file, editing it as needed, and then `uploading <https://wiki.cyverse.org/wiki/display/DEmanual/Uploading+and+Importing+Data+Items+Within+the+DE>`_ it into the DE as a new file.
+
+   - **Copy a large file** in the Data Store using the iCommands command line utility. For more information, see `Using iCommands <https://pods.iplantcollaborative.org/wiki/display/DS/Using+iCommands>`_/
+
+   1. In the Data window, `search <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_ for the file or folder. You may want to `add the Path column <https://wiki.cyverse.org/wiki/display/DEmanual/Uploading%2C+Importing%2C+Downloading%2C+Sharing%2C+Editing%2C+Searching+Data+Files+in+the+DE#Uploading,Importing,Downloading,Sharing,Editing,SearchingDataFilesintheDE-pathcolumn>`_ to view the path. 
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| To perform an advanced query, such as including or excluding wors in a file or folder name, searching for metadata attribute or value, file size range, created or modified date, owner, shared recipient, or tag, see `Searching for Data Items <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_.  |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+   2. Click the chekbox for the file you own.
+
+   3. Click **Edit** and then click **Edit File**.
+
+      When you first open the file, the **Page Size (KB) slider** by default is at the far left position, more than one page is displayed in the page navigation (unless the file is very small), the Save button is not enabled, and Not Editable is displayed.
+
+      .. image:: EditTextFile1.png
+
+   4. Drag the Page Size (KB) slider until the page navigation at the bottom displays 1 of 1.
+
+      .. image:: EditTextFile2.png
+
+      Once page 1 of 1 is displayed, the file becomes editable. If the file still is not editable, youn either don't have Own permissions to the file, the file is not an editable text file, or it is too large.
+
+   
+   5. Edit the file.
+   6. When done, click **Save**.
+
+--------------------------
+Editing a File's Info-type
+--------------------------
+
+.. |removeIcon| image:: RemoveInfoTypeIcon.gif
+
+When a file is imported or uploaded, it is auto-assigned an info-type to identify the type of data it contains. You can change or assign the info-type for a file you own or to which you have write `permissions <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+Data+Files+and+Folders>`_. 
+File-type auto-detection is available mfor text files, including .bam, .csv, .fasta, .fastq, .fa, .fq, .nwk, .newick, .phylip, .tsv, and more.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| The automatic info-type assignment is an asynchronous process that is dependent on other requests in the queue, which may cause a delay until the info-type is assigned. You can manually assign the info-type immediately, if necessary. |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+   1. In the Data window, click the file you own. The Info-Type row in the details section on the right displays the current info-type, if any. 
+
+   2. **To define or change the info-type:**
+
+      a. Either click **Select** (if the info-type has not yet been defined) or click the current info-type in the Details section on the right, or click the **Edit** menu and then click **Edit Information Type**.
+
+      b. In the **Select Type** drop-down list, select the info-type to use.
+
++------------------------------------------------------------------------------------------------------------------------------------+
+| **File type not in the list?**                                                                                                     |
++------------------------------------------------------------------------------------------------------------------------------------+
+| If your file type is not in the list, email `CyVerse Support <support@cyverse.org>`_ with the sample file to be added to the list. |
++------------------------------------------------------------------------------------------------------------------------------------+
+
+
+
+      c. Click **OK**.
+
+   3. **To remove the info-type**, click |removeIcon| next to the Info-Type displayed in the Details section. 
+
+   
+
 
 
 ----
