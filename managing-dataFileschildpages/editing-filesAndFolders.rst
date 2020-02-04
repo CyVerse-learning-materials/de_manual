@@ -9,17 +9,17 @@ Using the Data Edit menu to edit files and folders
 --------------------------------------------------
 
 There are several different ways you can edit files and folders. You can `rename <https://wiki.cyverse.org/wiki/display/DEmanual/Renaming+a+Data+File+or+Folder>`_ a file or folder;
- `edit <https://wiki.cyverse.org/wiki/display/DEmanual/Editing+the+Contents+of+a+File>`_ a file you own; add, edit, and retract `comments <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing%2C+Adding%2C+and+Retracting+Data+Comments>`_; 
- edit a file's `info-type <https://wiki.cyverse.org/wiki/display/DEmanual/Editing+a+File%27s+Info-Type>`_; move a file or folder; and add or edit `metadata <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE>`_.
+`edit <https://wiki.cyverse.org/wiki/display/DEmanual/Editing+the+Contents+of+a+File>`_ a file you own; add, edit, and retract `comments <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing%2C+Adding%2C+and+Retracting+Data+Comments>`_; 
+edit a file's `info-type <https://wiki.cyverse.org/wiki/display/DEmanual/Editing+a+File%27s+Info-Type>`_; move a file or folder; and add or edit `metadata <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE>`_.
 
 
- .. image:: img/Data-EditMenu.jpg
+.. image:: img/Data-EditMenu.jpg
 
 
- Editing the Contents of a File
- ------------------------------
+Editing the Contents of a File
+------------------------------
 
- You can edit a **one-page** plain text or tabular data (CSV, TSV) file that you own, both in the file view and in the Tabular View. **In order to do so, you adjust the Page Size (KB) slider until all of the data is displayed on one page.**
+You can edit a **one-page** plain text or tabular data (CSV, TSV) file that you own, both in the file view and in the Tabular View. **In order to do so, you adjust the Page Size (KB) slider until all of the data is displayed on one page.**
 
 
 **If the file is too large, you can:**
