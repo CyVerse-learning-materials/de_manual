@@ -220,6 +220,9 @@ In CSV and TSV files with the Tabular View tab (the file must be defined with an
 Viewing, adding, and retracting data comments
 ---------------------------------------------
 
+.. |appcomments| image:: img/AppCommentsIcon.png
+
+
 You can view comments by other users about a file or folder, add comments to any file, and retract any comments you made. You also can retract comments made by other users if you are an owner of the item. Retraction removes the content of the comment but leaves the author's name and date the comment was added.
 
    1. In the Data window, `search <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_ for the file or folder. You may want to `add the Path column <https://wiki.cyverse.org/wiki/display/DEmanual/Uploading%2C+Importing%2C+Downloading%2C+Sharing%2C+Editing%2C+Searching+Data+Files+in+the+DE#Uploading,Importing,Downloading,Sharing,Editing,SearchingDataFilesintheDE-pathcolumn>`_ to view the path.
@@ -229,7 +232,7 @@ You can view comments by other users about a file or folder, add comments to any
    +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-   2. Click .. image:: img/AppCommentsIcon.png on the right side of the row, or click the **Edit** menu and then click **Edit Comments**.
+   2. Click |appcomments| on the right side of the row, or click the **Edit** menu and then click **Edit Comments**.
 
    3. Either:
          - **To add a comment**, click in the lower text box and enter your comment, and then click **Add**. Your comment is added to the top section and now visible to other users.
