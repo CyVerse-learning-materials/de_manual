@@ -69,9 +69,9 @@ File-type auto-detection is available mfor text files, including .bam, .csv, .fa
 
    2. **To define or change the info-type:**
 
-      a. Either click **Select** (if the info-type has not yet been defined) or click the current info-type in the Details section on the right, or click the **Edit** menu and then click **Edit Information Type**.
+       a. Either click **Select** (if the info-type has not yet been defined) or click the current info-type in the Details section on the right, or click the **Edit** menu and then click **Edit Information Type**.
 
-      b. In the **Select Type** drop-down list, select the info-type to use.
+       b. In the **Select Type** drop-down list, select the info-type to use.
 
 +------------------------------------------------------------------------------------------------------------------------------------+
 | **File type not in the list?**                                                                                                     |
@@ -81,11 +81,11 @@ File-type auto-detection is available mfor text files, including .bam, .csv, .fa
 
 
 
-      c. Click **OK**.
+       c. Click **OK**.
 
    3. **To remove the info-type**, click |removeIcon| next to the Info-Type displayed in the Details section. 
 
-   
+
 
 
 
