@@ -307,7 +307,7 @@ To begin, you need the data files you want to use in your analysis. You can use 
   managing-dataFileschildpages/downloading-filesAndFolders.rst
   managing-dataFileschildpages/searching-dataItems.rst
   managing-dataFileschildpages/editing-filesAndFolders.rst
-  managing-dataFileschildpages/sharingDataFiles.rst
+  managing-dataFileschildpages/sharing-dataFilesandFolders.rst
   managing-dataFileschildpages/using-metadataInDe.rst
   managing-dataFileschildpages/using-dataTags.rst
   managing-dataFileschildpages/opening-newDataWindows.rst
