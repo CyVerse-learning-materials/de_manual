@@ -143,6 +143,29 @@ To create the public link, the owner selects the file, creates the link, and the
 
 
 
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Recipient has the file? Deactivate it.**                                                                                                                                                                                                                      |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Once the recipient has downloaded the file using the public link, it is recommended that you `deactivate <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+Data+Files+Via+Public+Links#SharingDataFilesViaPublicLinks-DeactivatePublicLink>`_ the link.   |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+You can create a public link to a file you own in several different ways: by creating the URL to the file from which the user can import the file via URL to the DE, or by creating an iRODS iget iCommand, the Gnu Wget command, or cURL statement. Once the link is created, you copy the link and send the message.
+
+
+You also can send a `shared path folder link <https://wiki.cyverse.org/wiki/display/DEmanual/Creating+Shared+Path+Folder+Links>`_ to a DE user so that any files that have been shared with that recipient are available and `share data files you own with the public <https://wiki.cyverse.org/wiki/display/DS/Sharing+Data+with+the+Public+in+the+Community+Data+Directory+and+Mirrors+Site>`_ in the Mirrors site.
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| For more information about other methods of accessing data, see `Downloading and Uploading Data <https://wiki.cyverse.org/wiki/display/DS/Downloading+and+Uploading+Data>`_.  |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+
+
+
+
+----
+
 **Fix or improve this documentation:**
 
 - On Github: |Github Repo Link|
