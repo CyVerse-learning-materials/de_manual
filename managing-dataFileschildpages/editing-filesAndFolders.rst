@@ -356,7 +356,9 @@ Adding an item to your data Favorites list
 
 .. |datafavorite| image:: img/DataFavoriteStarIcon.jpg
 
+   
    1. In the Data window, find the file or folder to add to your Favorites list.
+
    2. Click the star to the left of the name in the middle section: |datafavorite| 
       The star now is yellow and the app is listed in your Favorites folder at the bottom of the Navigation list.
       Note that the path of the file or folder is displayed.
