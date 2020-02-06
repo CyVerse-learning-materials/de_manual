@@ -180,6 +180,77 @@ The quickest way to create a public link is in the Data window.
     4. Send the message.
 
 
+-----------------------------------------------------
+Managing your public links in the Manage Links window
+-----------------------------------------------------
+
+While you can quickly create a public link in a couple of steps right in the Data window, the real meat of using public links is in the **Manage Public Links** window. From this window, you can create or copy an existing one, delete data links,
+and access advanced sharing to send a URL that allows the user to upload the file via URL to the DE, or send iRods iCommands, Wget, or cURL commands.
+
+
+Step 1: Open the Manage Data Links window
+-----------------------------------------
+
+    1. In the middle section of the Data window, select the file.
+
+    2. Click the Share menu and then click Create a Public Link.
+
+
+Step 2. Share the link
+-----------------------
+
+    Do one of the following:
+
+    **Create a new public link**
+    ----------------------------
+
+    1. In the Manage Public Links window, click the file name and then click **Create**.
+    2. The new link is added below the file name.
+    3. Click the new link and then click **Copy Link**.
+    4. In the Copy dialog, copy the link and click **OK**.
+    5. Close the window.
+    6. Open the message application to use (email client, twitter, or chat window) and paste the link to the item.
+    7. Send the message.
+    8. Verify that the recipient has downloaded the file.
+    9. Continue to Step 3 to delete the public link.
+
+
+    **Send an existing public link**
+    ---------------------------------
+
+    1. In the Manage Public Links window, click the link to use, click **Done**, and then close the window.
+    2. Open the message application to use (email client, twitter, or chat window), paste the link to the item, and then send the message.
+    3. Verify that the recipient has downloaded the file.
+    4. Continue to Step 3 to delete the public link.
+
+
+    **Use advanced sharing (URL, iCommands, Wget, or cURL commands)**
+    -----------------------------------------------------------------
+
+    1. In the Manage Public Links window, click the link, and click **Advanced Sharing**. Select the alternative download method to use, click **Copy**, and then close the window.
+    2. Open the message application to use (email client, twitter, or chat window), paste the URL link to the item, and send the message.
+        If you shared the file, the link takes the recipient to your username Shared With Me folder in the recipient's Data window.
+        If you did not share the file, the link opens a download page from which the recipient can download the file.
+    3. Verify that the recipient has downloaded the file.
+    4. Continue to Step 3 to delete the public link.
+
+
+
+Step 3: Delete the public link
+------------------------------
+
+**Public links are accessible to everyone who has the link. We recommend that you delete the link once you have verified that the recipient has downloaded it.**
+
+
+1. Open the Manage Public Links window.
+
+2. Click the red icon to the left of the file:
+
+
+.. image:: img/DataLink_Deactivate.png
+
+The public link is removed from the file, and future attempts to download it will display the message, "That ticket does not exist".
+
 
 
 
