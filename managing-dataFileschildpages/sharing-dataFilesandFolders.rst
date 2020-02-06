@@ -207,7 +207,7 @@ Step 2. Share the link
 
     Do one of the following:
 
-    **Create a new public link**
+    - **Create a new public link**
     
 
     1. In the Manage Public Links window, click the file name and then click **Create**.
@@ -221,7 +221,7 @@ Step 2. Share the link
     9. Continue to Step 3 to delete the public link.
 
 
-    **Send an existing public link**
+    - **Send an existing public link**
     
 
     1. In the Manage Public Links window, click the link to use, click **Done**, and then close the window.
@@ -230,13 +230,16 @@ Step 2. Share the link
     4. Continue to Step 3 to delete the public link.
 
 
-    **Use advanced sharing (URL, iCommands, Wget, or cURL commands)**
+    - **Use advanced sharing (URL, iCommands, Wget, or cURL commands)**
     
 
     1. In the Manage Public Links window, click the link, and click **Advanced Sharing**. Select the alternative download method to use, click **Copy**, and then close the window.
+
     2. Open the message application to use (email client, twitter, or chat window), paste the URL link to the item, and send the message.
+
         If you shared the file, the link takes the recipient to your username Shared With Me folder in the recipient's Data window.
         If you did not share the file, the link opens a download page from which the recipient can download the file.
+        
     3. Verify that the recipient has downloaded the file.
     4. Continue to Step 3 to delete the public link.
 
