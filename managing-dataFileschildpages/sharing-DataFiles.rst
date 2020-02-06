@@ -159,6 +159,26 @@ You also can send a `shared path folder link <https://wiki.cyverse.org/wiki/disp
 | For more information about other methods of accessing data, see `Downloading and Uploading Data <https://wiki.cyverse.org/wiki/display/DS/Downloading+and+Uploading+Data>`_.  |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+Creating a public link in the Data window
+-----------------------------------------
+
+.. |shareicon| image:: img/ShareViaPublicLinkIcon.gif
+
+
+The quickest way to create a public link is in the Data window.
+
+    1. In the middle section of the Data window, select the file to which you want to create the public link and then click |shareicon|.
+
+    +---------------------------------------------------------+
+    | If |shareicon| is not displayed, you are not the owner. |
+    +---------------------------------------------------------+
+
+    2. In the Manage Data Links window, copy the link to send and click Done.
+    
+    3. Open the message application to use (email client, twitter, or chat window) and paste the link to the item.
+
+    4. Send the message.
+
 
 
 
