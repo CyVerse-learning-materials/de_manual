@@ -105,7 +105,7 @@ Step 3: Changing the permission level
     2. Repeat for each user.
 
     3. Click **Done**.
-    
+
         Both the sharer and the recipient recieve notification that the data item has been shared.
 
 
@@ -330,15 +330,45 @@ Problems?
 If you can't access a shared file or folder, contact the owner to verify that the item has been shared with your CyVerse username.
 
 
+---------------------------
+Unsharing Files and Folders
+---------------------------
 
 
+You can remove the shared file permission for a user for a data item you own.
+
+    .. |shareviaDE| image:: img/ShareViaDeIcon.gif
+
+    1. In the Data window, search for the file or folder. You may want to add the Path column to view the path.
+
+        +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+        | To perform an advanced query, such as including or excluding words in a file or folder name, searching for metadata attribute or value, file size range, created or modified date, owner, shared recipient, or tag, see `Searching for Data Items. <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_    |
+        +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+    2. Click |shareviaDE| in the row for the item to unshare.
+
+    3. In the **Who has access** list:
+
+        a. Verify the file to unshare is listed in the top section.
+        b. Next to the user with whom you want to unshare the file, click the Delete icon on the right.
+
+        .. image:: img/Share_Unshare.png
+
+        c. Click **Done**.
 
 
+See `Sharing Data Files and Folders <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+Data+Files+and+Folders>`_ for information on how to share data items with users.
+
+You can remove the shared file permission for a user for a data item you own.
+
+    1. In the Data window, `search <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_ for the file or folder. You may want to `add the Path column <https://wiki.cyverse.org/wiki/display/DEmanual/Uploading%2C+Importing%2C+Downloading%2C+Sharing%2C+Editing%2C+Searching+Data+Files+in+the+DE#Uploading,Importing,Downloading,Sharing,Editing,SearchingDataFilesintheDE-pathcolumn>`_ to view the path.
+
+    +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | To perform an advanced query, such as including or excluding words in a file or folder name, searching for metadata attribute or value, file size range, created or modified date, owner, shared recipient, or tag, see `Searching for Data Items <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_.    | 
+    +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-
-
-
+    2. Click share
 
 ----
 
