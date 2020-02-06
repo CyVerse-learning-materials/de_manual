@@ -105,6 +105,7 @@ Step 3: Changing the permission level
     2. Repeat for each user.
 
     3. Click **Done**.
+    
         Both the sharer and the recipient recieve notification that the data item has been shared.
 
 
