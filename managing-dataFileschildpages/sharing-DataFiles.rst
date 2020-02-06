@@ -58,6 +58,73 @@ Step 1: Share the file or folder
 +------------------------------------------------------------+
 
 
+The Manage Sharing window opens, displaying the name of the file or folder and the names of any CyVerse users with whom you have already shared the file or folder.
+
+
+.. image:: img/ManageSharing.png
+
+
+Step 2: Select the recipients
+-----------------------------
+
+    1. Either:
+
+        - Select a user in your `Collaborators list <https://wiki.cyverse.org/wiki/display/DEmanual/Adding+and+Deleting+Users+from+the+Collaborators+List+in+Preferences>`_: Click **Choose Collaborators**, select the user, click **OK**, and then click **Done**.
+
+
+        *or*
+
+
+        - Search for any CyVerse use by clicking in the search field, begin entering the user's name, and then click the user's name from the list.
+
+
+
+
+Step 3: Changing the permission level
+-------------------------------------
+
+    1. Either:
+
+        - To allow the user only to read the item, leave the Permissions level at **read**.
+
+        - To allow the user to add metadata and change the info-type, click **write**.
+
+        - To grant the user full access to the item, including the ability to rename, move, and delete, click **own**.
+
+
+        +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+        | **Use Caution**                                                                                                                                                                                   |
+        +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+        | Learn more about `permission levels <https://wiki.cyverse.org/wiki/display/DEmanual/Changing+and+Viewing+Data+Permission+Levels+in+the+DE>`_ before you grant this ownership level.               |
+        +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+    
+    2. Repeat for each user.
+
+    3. Click **Done**.
+        Both the sharer and the recipient recieve notification that the data item has been shared.
+
+
+
+
+
+Unsharing a file or folder in the Data window
+---------------------------------------------
+
+    .. |xIcon| image:: img/X-icon.png
+
+    .. |collab| image:: img/CurrentCollabIcon.jpg
+
+
+    1. Find and select the shared data item you own to which you want to revoke sharing.
+    
+    2. Either click |collab| next to the item, or click the checkbox for the item and then click the **Share** menu and then click **Share with Collaborators**.
+    
+    3. Click |xIcon|.
+    
+    4. Click **Done**.
+
+
 
 
 
