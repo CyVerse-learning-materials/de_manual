@@ -125,6 +125,21 @@ Unsharing a file or folder in the Data window
     4. Click **Done**.
 
 
+-----------------------------------
+Sharing Data Files Via Public Links
+-----------------------------------
+
+You can create and send a public link to a data **file** (though not for a folder) you own. Once the recipient has the link to the file, it can be downloaded for purposes of validating, manipulating, or analyzing the file or results on their system.
+
+The advantages are that the recipient does not have to have a CyVerse account in order to download the file through the link, and the original file is not affected because the downloaded file is used on his or her system instead of in the CyVerse Data Store.
+
+You can send the same public link to more than one recipient, or create separate public links for each recipient. Separate public links are useful when you want to share or revoke access to the same file on a per-recipient basis, while sending the same link to a group of recipients allows you to share or revoke access to the file in one action.
+
+To create the public link, the owner selects the file, creates the link, and then emails, tweets, or text the link to the recipient.
+    
+    - If you previously `shared <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+Files+and+Folders>`_the file in the DE, clicking the link takes the recipient CyVerse user to the Shared With Me folder under the name of the owner who shared the file. From there, the recipient can download or view the shared file within that Shared With Me folder.
+
+    - If you have not shared the file, clicking the link opens a download window from which the recipient can download the file.
 
 
 
