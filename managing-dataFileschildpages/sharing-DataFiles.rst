@@ -15,6 +15,16 @@ For instructions on how recipients can access shared items, see `Accessing Share
 Data files of up to 2 GB can be shared with the public and anonymous users (no account required) by `sending a Public Link for files you own <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+Data+Files+Via+Public+Links>`_, which allows anyone with the link to download the file in order to view, analyze, and manipulate it on his or her system, independent of the CyVerse Data Store or the need for an account.
 Before you begin, you may want to watch a `video <http://www.youtube.com/watch?v=iZDj_MMX3hg>`_ about data sharing in the Discovery Environment (current for version 1.6).
 
+------------------------------------------------------
+Sharing and Unsharing Data Files and Folders in the DE
+------------------------------------------------------
+
+Before you begin, you may want to read an overview about sharing data files and folders in the DE above. 
+You can share an item you own with someone in your Collaborators list or any other DE user. 
+Access is granted only to the specifically shared data item, folder, or subfolder. You also can request a permanent identifier (a DOI or ARK) within the DE. 
+For information on how to do so, see `Requesting a Permanent Identifier in the Data Commons <https://wiki.cyverse.org/wiki/display/DC/Requesting+a+Permanent+Identifier+in+the+Data+Commons>`_.
+
+
 
 
 
