@@ -239,7 +239,7 @@ Step 2. Share the link
 
         If you shared the file, the link takes the recipient to your username Shared With Me folder in the recipient's Data window.
         If you did not share the file, the link opens a download page from which the recipient can download the file.
-        
+
     3. Verify that the recipient has downloaded the file.
     4. Continue to Step 3 to delete the public link.
 
@@ -274,7 +274,9 @@ You also can send a public link to a **file**, see `Sharing Data Files Via Publi
     .. |sharepath| image:: img/SharePathIcon.gif
 
     1. In the middle section of the Data window, find the folder to share.
+
     2. Either:
+    
         - Click the **Share** menu and then click **Share Folder Location**.
 
         *or*
