@@ -208,7 +208,7 @@ Step 2. Share the link
     Do one of the following:
 
     **Create a new public link**
-    ----------------------------
+    
 
     1. In the Manage Public Links window, click the file name and then click **Create**.
     2. The new link is added below the file name.
@@ -222,7 +222,7 @@ Step 2. Share the link
 
 
     **Send an existing public link**
-    ---------------------------------
+    
 
     1. In the Manage Public Links window, click the link to use, click **Done**, and then close the window.
     2. Open the message application to use (email client, twitter, or chat window), paste the link to the item, and then send the message.
@@ -231,7 +231,7 @@ Step 2. Share the link
 
 
     **Use advanced sharing (URL, iCommands, Wget, or cURL commands)**
-    -----------------------------------------------------------------
+    
 
     1. In the Manage Public Links window, click the link, and click **Advanced Sharing**. Select the alternative download method to use, click **Copy**, and then close the window.
     2. Open the message application to use (email client, twitter, or chat window), paste the URL link to the item, and send the message.
