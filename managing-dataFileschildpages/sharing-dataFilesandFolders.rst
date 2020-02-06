@@ -120,6 +120,7 @@ Step 3: Changing the permission level
 
 Unsharing a file or folder in the Data window
 ---------------------------------------------
+
     .. |xIcon| image:: img/X-icon.png
 
     .. |collab| image:: img/CurrentCollabIcon.jpg
