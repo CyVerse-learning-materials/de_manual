@@ -24,6 +24,38 @@ You can share an item you own with someone in your Collaborators list or any oth
 Access is granted only to the specifically shared data item, folder, or subfolder. You also can request a permanent identifier (a DOI or ARK) within the DE. 
 For information on how to do so, see `Requesting a Permanent Identifier in the Data Commons <https://wiki.cyverse.org/wiki/display/DC/Requesting+a+Permanent+Identifier+in+the+Data+Commons>`_.
 
+------------------------
+Sharing a file or folder
+------------------------
+
+Step 1: Share the file or folder
+--------------------------------
+
+    1. In the Data window, `search <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_ for the file or folder. You may want to `add the Path column <https://wiki.cyverse.org/wiki/display/DEmanual/Uploading%2C+Importing%2C+Downloading%2C+Sharing%2C+Editing%2C+Searching+Data+Files+in+the+DE#Uploading,Importing,Downloading,Sharing,Editing,SearchingDataFilesintheDE-pathcolumn>`_ to view the path.
+
+    +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | To perform an advanced query, such as including or excluding words in a file or folder name, searching for metadata attribute or value, file size range,              |
+    | created or modified date, owner, shared recipient, or tag, see `Searching for Data Items. <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_ |
+    +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+    2. Either:
+
+        - Click **Share** on the toolbar and then click **Share With Collaborators**.
+
+        *or*
+
+        - In the **Details** section, click either **Begin sharing** (if the item has not been shared) or click the numeral in the **Share** line (displaying the number of users with whom the item has been shared).
+
+
+.. image:: img/searching-dataItems.png
+
+
++------------------------------------------------------------+
+| **Share not available?**                                   |
++------------------------------------------------------------+
+| You must be an owner to share the file or folder.          |
++------------------------------------------------------------+
 
 
 
