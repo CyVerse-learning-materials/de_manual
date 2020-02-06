@@ -276,7 +276,7 @@ You also can send a public link to a **file**, see `Sharing Data Files Via Publi
     1. In the middle section of the Data window, find the folder to share.
 
     2. Either:
-    
+
         - Click the **Share** menu and then click **Share Folder Location**.
 
         *or*
@@ -301,7 +301,7 @@ Shared With Me folder is displayed. You can access the file either from the Noti
 The permissions you have for the shared item are set by the file owner who shared the data item with you.
 By default, permissions are set to read only. For more information, see `Changing and Viewing Data Permission Levels in the DE <https://wiki.cyverse.org/wiki/display/DEmanual/Changing+and+Viewing+Data+Permission+Levels+in+the+DE>`_.
 
-    .. |notificationIcon| image:: NotificationsIcon.png
+    .. |notificationIcon| image:: img/NotificationsIcon.png
 
     1. In the Data window, click to open the **Shared With Me** folder.
 
