@@ -137,7 +137,7 @@ You can send the same public link to more than one recipient, or create separate
 
 To create the public link, the owner selects the file, creates the link, and then emails, tweets, or text the link to the recipient.
     
-    - If you previously `shared <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+Files+and+Folders>`_the file in the DE, clicking the link takes the recipient CyVerse user to the Shared With Me folder under the name of the owner who shared the file. From there, the recipient can download or view the shared file within that Shared With Me folder.
+    - If you previously `shared <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+Files+and+Folders>`_ the file in the DE, clicking the link takes the recipient CyVerse user to the Shared With Me folder under the name of the owner who shared the file. From there, the recipient can download or view the shared file within that Shared With Me folder.
 
     - If you have not shared the file, clicking the link opens a download window from which the recipient can download the file.
 
