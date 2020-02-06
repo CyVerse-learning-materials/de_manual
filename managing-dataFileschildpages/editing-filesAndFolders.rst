@@ -354,7 +354,7 @@ You can create a short list of the Data files and folders you use most frequentl
 Adding an item to your data Favorites list
 ------------------------------------------
 
-.. |datafavorite| image:: img/DataFavoriteStarIcon.jpg
+   .. |datafavorite| image:: img/DataFavoriteStarIcon.jpg
 
    
    1. In the Data window, find the file or folder to add to your Favorites list.
