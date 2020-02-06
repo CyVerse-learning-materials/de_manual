@@ -370,6 +370,32 @@ You can remove the shared file permission for a user for a data item you own.
 
     2. Click share
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
 ----
 
 **Fix or improve this documentation:**
