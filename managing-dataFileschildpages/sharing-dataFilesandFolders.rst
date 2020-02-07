@@ -368,27 +368,92 @@ You can remove the shared file permission for a user for a data item you own.
     +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-    2. Click share
+    2. Click |shareviaDE| in the row for the item to unshare.
+
+    3. In the **Who has access** list:
+        
+         a. Verify the file to unshare is listed in the top section.
+         b. Next to the user with whom you want to unshare the file, click the Delete icon on the right.
+
+         .. image:: img/Share_Unshare.png
+
+
+         c. Click **Done**.
+
+
+
+See `Sharing Data Files and Folders <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+Data+Files+and+Folders>`_ for information on how to share data items with users.
+
+You can remove the shared file permission for a user for a data item you own.
+
+    1. In the Data window, `search <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_ for the file or folder. You may want to `add the Path column <https://wiki.cyverse.org/wiki/display/DEmanual/Uploading%2C+Importing%2C+Downloading%2C+Sharing%2C+Editing%2C+Searching+Data+Files+in+the+DE#Uploading,Importing,Downloading,Sharing,Editing,SearchingDataFilesintheDE-pathcolumn>`_ to view the path.
+
+    +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    |  To perform an advanced query, such as including or excluding words in a file or folder name, searching for metadata attribute or value, file size range, created or modified date, owner, shared recipient, or tag, see `Searching for Data Items <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_.  |
+    +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+    2. Click |shareviaDE| in the row for the item to unshare. 
+
+    3. In the **Who has access** list:
+
+         a. Verify the file to unshare is listed in the top section.
+
+         b. Next to the user with whom you want to unshare the file, click the Delete icon on the right.
+
+         .. image:: img/Share_Unshare.png
+
+         c. Click **Done**.
+
+
+See `Sharing Data Files and Folders <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+Data+Files+and+Folders>`_ for information on how to share data items with users.
 
 
 
 
+-----------------------------------------------------
+Changing and Viewing Data Permission Levels in the DE
+-----------------------------------------------------
+
+As part of `data sharing <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+Data+Files+and+Folders>`_, you can specify the permission level the recipient has for the shared data item or analysis. This page discusses how to do it in the Discovery Environment, but you can also `view permission levels for a data item using iCommands <https://wiki.cyverse.org/wiki/display/DS/Using+iCommands>`_. The permission level also affects the `metadata <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE>`_ for the data item.
+
+By default, recipients are granted read-only access to shared data items. Permission levels range from read-only, write, and own, as noted in the following tables.
 
 
+.. |check| image:: img/Checkmark.jpg 
 
 
+.. list-table::
+    :header-rows: 1
 
-
-
-
-
-
-
-
-
-
-
-
+    * - **Permission Level (Set within the DE)**
+      - **Read**
+      - `**Download** <https://wiki.cyverse.org/wiki/display/DEmanual/Downloading+Files+and+Folders>`_ 
+      - `**Info Types** <https://wiki.cyverse.org/wiki/display/DEmanual/Editing+a+File%27s+Info-Type>`_
+      - `**Rename** <https://wiki.cyverse.org/wiki/display/DEmanual/Renaming+a+Data+File+or+Folder>`_ 
+      - `**Move** <https://wiki.cyverse.org/wiki/display/DEmanual/Moving+a+Data+File+or+Folder>`_
+      - `**Delete <https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=11446737>`_ 
+    * - **Read**
+      - |check|
+      - |check|
+      - 
+      - 
+      - 
+      - 
+    * - **Write**
+      - |check|
+      - |check|
+      - |check|
+      - |check|
+      - 
+      - 
+    * - **Own**
+      - |check|
+      - |check|
+      - |check|
+      - |check|
+      - |check|
+      - |check|
 
 
 
