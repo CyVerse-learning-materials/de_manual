@@ -641,9 +641,9 @@ You can view newick info-type genome files you own in the Tree Viewer. You also 
 
     4. On the Visualization tab:
 
-         a. Click **Send to Tree Viewer**.
+        a. Click **Send to Tree Viewer**.
         
-         b. Click the URL.
+        b. Click the URL.
 
     5. When done viewing the tree, click to close.
 
