@@ -621,6 +621,32 @@ The files must be `tagged with the info-type <https://wiki.cyverse.org/wiki/disp
 
 
 
+Viewing Newick Files in the Tree Viewer
+---------------------------------------
+
+You can view newick info-type genome files you own in the Tree Viewer. You also can view genome files in the `Genome Browser <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+Genome+Files+in+a+Genome+Browser>`_ and in `CoGe <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+Genome+Files+in+CoGe>`_.
+
+    1. In the Data window, `find the Newick tree file <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_ you own.
+    
+    2. Verify the Info-Type in the Details section on the right shows **newick**.
+       If not, click **Select** or the displayed info-type link (you must have Own permissions), select **newick** from the list, and then click **OK**.
+
+    3. Click to select the file and then either:
+
+        - Click the **Share** menu and then click **Send to Tree Viewer**.
+
+        *or*
+
+        - Click **Tree Viewer** in the Details pane.
+
+    4. On the Visualization tab:
+
+         a. Click **Send to Tree Viewer**.
+        
+         b. Click the URL.
+
+    5. When done viewing the tree, click to close.
+
 
 
 
