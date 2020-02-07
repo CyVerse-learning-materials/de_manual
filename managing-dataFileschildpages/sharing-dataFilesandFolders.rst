@@ -459,7 +459,143 @@ By default, recipients are granted read-only access to shared data items. Permis
 
 
 
+
+
+Changing the permission level for a data item in the DE
+-------------------------------------------------------
+
+    1. In the Data window, `search <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_ for the file or folder. You may want to `add the Path column <https://wiki.cyverse.org/wiki/display/DEmanual/Uploading%2C+Importing%2C+Downloading%2C+Sharing%2C+Editing%2C+Searching+Data+Files+in+the+DE#Uploading,Importing,Downloading,Sharing,Editing,SearchingDataFilesintheDE-pathcolumn>`_ to view the path.
+
+    +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | To perform an advanced query, such as including or excluding words in a file or folder name, searching for metadata attribute or value, file size range, created or modified date, owner, shared recipient, or tag, see `Searching for Data Items <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_.    |
+    +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+    2. Click |shareviaDE| on the row of the data item. (You also can click either **Begin sharing** (if the item has not been shared) or click the numeral in the **Share** line (displaying the number of users with whom the item has been shared) in the Details section of the selected item.)
+
+
+    .. image:: img/ShareViaDE3.png
+
+
+    3. In the **Who has access** list, find the user whose permissions you want to change for the item.
+
+        * **User not listed?** 
+            
+            - If the user is not listed, you must first `share the item <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+and+Unsharing+Data+Files+and+Folders+in+the+DE>`_ with the user. 
+
+
+
+    4. Click in the **Permissions** column for the user and change the permission according to the table above.
+
     
+    .. image:: img/ManageSharingChangePermission.png
+
+
+
+    +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | **Caution**                                                                                                                                                                                                                                                                                     |
+    +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | Once you have shared ownership with another user, the new co-owner has full access to the item, including the ability to rename the item to a name you don't recognize, move the item to a different folder (for example, to a folder to which you don't have access), or even delete the item. |
+    | **Actions taken on a co-owned data item affect all users who have been granted rights to the item.**                                                                                                                                                                                            |
+    +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+
+
+
+    5. Click **Done**.
+
+
+Viewing the permission level for a data item in the DE
+------------------------------------------------------
+
+    1. `Find <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_ the data item whose permission level you want to check.
+
+    2. Click the checkbox for the item.
+
+    3. View the permission level in the Details panel on the right.
+
+    .. image:: img/Data_CheckPermission.png
+
+
+      You also can view the `permission levels for a data item using iCommands <https://wiki.cyverse.org/wiki/display/DS/Using+iCommands>`_. 
+
+
+For more information on data sharing, see `Sharing Data Files and Folders <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+Data+Files+and+Folders>`_. 
+
+
+
+
+-----------------------------------------------------------------
+Viewing Genome Files in the Genome Browser, CoGe, and Tree Viewer
+-----------------------------------------------------------------
+
+
+You can view genome files in CoGe or external Genome Browsers, and tree files in the Tree Viewer.
+
+
+
+Viewing Genome Files in CoGe
+----------------------------
+
+You can view Fasta `info-type <https://wiki.cyverse.org/wiki/display/DEmanual/Editing+a+File%27s+Info-Type>`_ genome files you own in `CoGe <http://genomevolution.org/CoGe/>`_. You must have `access to CoGe <http://www.cyverse.org/learning-center/manage-account#AddAppsServices>`_ in your CyVerse account.
+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------+
+| **Looking for how to load your genome file into CoGe?**                                                                                    |
++--------------------------------------------------------------------------------------------------------------------------------------------+
+| See `How to load genomes into CoGe <https://genomevolution.org/wiki/index.php/How_to_load_genomes_into_CoGe>`_ on the CoGePedia website.   |
++--------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+    1. In the Data window, `search <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_ for the file or folder. You may want to `add the Path column <https://wiki.cyverse.org/wiki/display/DEmanual/Uploading%2C+Importing%2C+Downloading%2C+Sharing%2C+Editing%2C+Searching+Data+Files+in+the+DE#Uploading,Importing,Downloading,Sharing,Editing,SearchingDataFilesintheDE-pathcolumn>`_ to view the path.
+
+    +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | To perform an advanced query, such as including or excluding words in a file or folder name, searching for metadata attribute or value, file size range, created or modified date, owner, shared recipient, or tag, see `Searching for Data Items <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_.  |
+    +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+
+    2. Click the checkbox for the file and:
+
+         a. Verify the **Permissions** row in the Details pane shows **own**.
+
+         b. Verify the Info-Type in the Details section on the right shows **fasta**. If not, `change the info-type <https://wiki.cyverse.org/wiki/display/DEmanual/Editing+a+File%27s+Info-Type>`_ to fasta.
+
+    3. Click **CoGe** in the **Send to** line of the Details pane (or click the **Share** menu and then click **Send to CoGe**).
+    4. In the CoGe prompt, click the **here** link to load and visualize the genome in CoGe.
+    5. In the Loading Genome dialog, click **GO** to view the genome, or click the drop-down list and select either **Load Annotations** or **Load Another Genome** and then click **GO**.
+    6. When done, click **Sign-out**.
+
+
+
+Viewing Genome Files in a Genome Browser
+----------------------------------------
+
+.. |sharecollabs| image:: img/ShareCollabsIcon.png
+
+
+You can view bam, vcf, gff, gtf, and—new for the 2.11 release—bed, bigBed, and bigWig—genome files you own in the genome browsers at Ensembl, UCSC, IGV, GBrowse, jbrowse, and (new for 2.11) the WashU EPIGenome Browser. 
+The files must be `tagged with the info-type <https://wiki.cyverse.org/wiki/display/DEmanual/Editing+a+File%27s+Info-Type>`_ for that file. You also can `view genome files in CoGe <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+Genome+Files+in+CoGe>`_ and `view Newick files in the Tree Viewer <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+Newick+Files+in+the+Tree+Viewer>`_.
+
+    1. Open the **Data** window.
+    2. In the Data window, find the `bam, vcf, gff, btf, bed, bigBed, or bigWig file <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_ you own. (Hint: If |sharecollabs| is not displayed in the file's right column, you don't own the file. You can `download and upload it <https://wiki.cyverse.org/wiki/display/DS/Downloading+and+Uploading+Data>`_ to your personal directory to give you own permissions.) Example data can be retrieved in Data Commons at http://datacommons.cyverse.org/browse/iplant/home/shared/iplant_public_test/by-range or via the DE under **Community Data>>iplant_public_test/by-range**.
+
+
+    +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | **About file requirements**                                                                                                                                                                                                                                                                                |
+    +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | Genome file requirements depend on the file type.                                                                                                                                                                                                                                                          |
+    |                                                                                                                                                                                                                                                                                                            |
+    | **Bam and vcf files** require a matching index file (bam.bai or vcf.vci) to tell it which part of the genome to load, and both files must in the same directory with the same name. For example, if the file is named sample.bam, its index file must be in the same directory and named sample.bam.bai.   |
+    |                                                                                                                                                                                                                                                                                                            |
+    | **Gff, gtf, bed, bigBed, and bigWig files** require that the name of the reference genome's fasta header match the gene name in the gff, gtf, bed, bigBed and bigWig file.                                                                                                                                 |
+    +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+
+
+
 
 ----
 
