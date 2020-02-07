@@ -649,6 +649,26 @@ You can view newick info-type genome files you own in the Tree Viewer. You also 
 
 
 
+About Reference Genomes
+-----------------------
+
+**Genome Services release information**
+
+
+The Discovery Environment has a number of reference genomes uploaded and available for use. View the list `here <http://mirrors.cyverse.org/browse/iplant/home/shared/iplantcollaborative/genomeservices/builds/1.0.0/19_72>`_. If the genome you want to use is not listed, `contact CyVerse Support <support@cyverse.org>`_ to ask that it be added.
+
+iPlant Genome Services Release build 0.2.1
+Thu June 7 05:50:32 2012
+
+CyVerse Genome Services has moved temporarily to using species data provided by Ensembl as the basis for bioinformatic support files. This release of Genome Services makes support available for all the species in Ensembl Plants v13, as well as several new animal species from Ensembl Metazoa 67. We are working on a solution to support species not catalogued by Ensembl in a future release.
+
+This data is available for analysis in the:
+
+
+
+
+
+
 
 
 ----
