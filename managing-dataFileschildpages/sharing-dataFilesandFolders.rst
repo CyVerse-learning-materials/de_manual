@@ -455,7 +455,7 @@ By default, recipients are granted read-only access to shared data items. Permis
       - |check|
       - |check|
 
-* With the 2.11 release, you now can share analysis results that used unpublished Agave apps or workflows. Unless you are an experienced Agave user, we recommend you set data permissions within the DE instead of within Agave to avoid conflicts. For more information, see Sharing and Unsharing an Analysis.
+\* With the 2.11 release, you now can share analysis results that used unpublished Agave apps or workflows. Unless you are an experienced Agave user, we recommend you set data permissions within the DE instead of within Agave to avoid conflicts. For more information, see Sharing and Unsharing an Analysis.
 
 
 
