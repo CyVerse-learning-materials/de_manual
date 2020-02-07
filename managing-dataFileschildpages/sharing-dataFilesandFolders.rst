@@ -593,6 +593,34 @@ The files must be `tagged with the info-type <https://wiki.cyverse.org/wiki/disp
     +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
+    3. Click the checkbox for the files to send.
+
+    4. In the Details section on the right, verify that the **Info-Type** shows the correct type, and `change the info-type <https://wiki.cyverse.org/wiki/display/DEmanual/Editing+a+File%27s+Info-Type>`_ if necessary.
+
+
+
+    +-----------------------------+
+    | **Can't send to browser?**  |
+    +-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | You will not get the option to send to browser if the file is of the wrong Info-Type or has no Info-Type.                                                         |
+    | You can set the Info-Type by checking the box next to the file, then editing the metadata on the right of the screen. There is a drop-down menu for **Info-Type.**|
+    +-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+    5. In the Details pane, click **Genome Browser**:
+
+    .. image:: img/sendtobrowser.png
+
+    6. In the View in Genome Browser dialog:
+
+         a. Copy the URL to the file. 
+
+         b. Click the link for the genome browser to use.
+
+         c. Click OK. **Note**: If you have an issue, you may need to change **https://** to **http://** in the URL.
+
+
+
 
 
 
