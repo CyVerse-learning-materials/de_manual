@@ -428,11 +428,11 @@ By default, recipients are granted read-only access to shared data items. Permis
 
     * - **Permission Level (Set within the DE)**
       - **Read**
-      - `**Download** <https://wiki.cyverse.org/wiki/display/DEmanual/Downloading+Files+and+Folders>`_ 
-      - `**Info Types** <https://wiki.cyverse.org/wiki/display/DEmanual/Editing+a+File%27s+Info-Type>`_
-      - `**Rename** <https://wiki.cyverse.org/wiki/display/DEmanual/Renaming+a+Data+File+or+Folder>`_ 
-      - `**Move** <https://wiki.cyverse.org/wiki/display/DEmanual/Moving+a+Data+File+or+Folder>`_
-      - `**Delete <https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=11446737>`_ 
+      - `Download <https://wiki.cyverse.org/wiki/display/DEmanual/Downloading+Files+and+Folders>`_ 
+      - `Info Types <https://wiki.cyverse.org/wiki/display/DEmanual/Editing+a+File%27s+Info-Type>`_
+      - `Rename <https://wiki.cyverse.org/wiki/display/DEmanual/Renaming+a+Data+File+or+Folder>`_ 
+      - `Move <https://wiki.cyverse.org/wiki/display/DEmanual/Moving+a+Data+File+or+Folder>`_
+      - `Delete <https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=11446737>`_ 
     * - **Read**
       - |check|
       - |check|
