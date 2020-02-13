@@ -18,17 +18,6 @@ For information on using data files in your analyses, see `Submitting an Analysi
 You can access and manage data from outside the DE as well. For more information, see `Downloading and Uploading Data <https://wiki.cyverse.org/wiki/display/DS/Downloading+and+Uploading+Data>`_.
 
 
-.. toctree::
-	:maxdepth: 9
-  managing-dataFileschildpages/uploading-importingData.rst
-  managing-dataFileschildpages/downloading-filesAndFolders.rst
-  managing-dataFileschildpages/searching-dataItems.rst
-  managing-dataFileschildpages/editing-filesAndFolders.rst
-  managing-dataFileschildpages/sharing-dataFilesandFolders.rst
-  managing-dataFileschildpages/using-metadataInDe.rst
-  managing-dataFileschildpages/using-dataTags.rst
-  managing-dataFileschildpages/opening-newDataWindows.rst
-  managing-dataFileschildpages/creating-newFiles.rst
 
 
 
@@ -56,7 +45,7 @@ Window Icons
     * - |WindowIcon-minMaxClose|
       - Minimize, Maximize, or close the active window. 
 
-----------
+
 Data Menus
 ----------
 .. |datamenu| image:: img/de/DataMenu.jpg
@@ -65,13 +54,13 @@ The Data toolbar helps you `manage files and folders. <https://wiki.cyverse.org/
 
 |datamenu|
 
-
+-----------
 Upload menu
 -----------
 
     - `Upload (simple and bulk) and import <https://wiki.cyverse.org/wiki/display/DEmanual/Managing+Data+Files+and+Folders>`_ files and folders
 
-
+---------
 File menu
 ---------
 
@@ -80,7 +69,7 @@ File menu
     - `Create a new file <https://wiki.cyverse.org/wiki/display/DEmanual/Creating+New+Files+and+Folders>`_ including plain text files; tabular data files; R, Perl, Python, and Shell scripts; and Markdown files.
     - `Move a file or folder to Trash <https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=11446737>`_ 
 
-
+---------
 Edit menu
 ---------
 
@@ -90,14 +79,14 @@ Edit menu
     - `Edit information type <https://wiki.cyverse.org/wiki/display/DEmanual/Editing+a+File%27s+Info-Type>`_ 
     - `Move files and folders <https://wiki.cyverse.org/wiki/display/DEmanual/Moving+a+Data+File+or+Folder>`_ 
 
-
+------------
 Dowload menu
 ------------
 
     - `Download a file or folder using Simple or Bulk ownload <https://wiki.cyverse.org/wiki/display/DEmanual/Downloading+Files+and+Folders>`_ 
 
 
-
+----------
 Share menu
 ----------
 
@@ -106,25 +95,25 @@ Share menu
     - `Share a folder location <https://wiki.cyverse.org/wiki/display/DEmanual/Creating+Shared+Path+Folder+Links>`_ 
     - View genome files in `CoGe <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+Genome+Files+in+CoGe>`_ or `Ensembl <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+Genome+Files+in+a+Genome+Browser>`_, or Newick files in the `Tree Viewer <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+Newick+Files+in+the+Tree+Viewer>`_. These commands are also available for selected CoGe, Ensembl, or Newick files in the details pane. 
 
-
+--------
 Metadata
 --------
 
     - Use `metadata and metadata templates <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE>`_, and `request a permanent identifier <https://wiki.cyverse.org/wiki/display/DC/Requesting+a+Permanent+Identifier+in+the+Data+Commons>`_ (DOI or ARK) to allow others to reuse your datasets
 
-
+-------
 Refresh
 -------
 
     - Refresh the Data window if results are not updating as expected.
 
-
+------
 Search
 ------
 
     - Search for a file using `basic or advanced search <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_.
 
-
+-----
 Trash
 -----
 
@@ -140,6 +129,7 @@ Using the Data list
     - Click a folder in the Navigation list to displays its contents (files and subfolders) in the middle column.
     - Click a checkbox in the middle pane to view details about the item in the Details section in the right column.
 
+--------------------------------------
 Viewing and selecting files and folders
 ---------------------------------------
 
@@ -162,7 +152,7 @@ The navigation list in the left pane is where you navigate through data files an
     * - Favorites
       - The list of your `favorite files and folders <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Data+Favorites>`_. 
 
-
+-------------------------------------
 Understanding inaccessible data items
 -------------------------------------
 
@@ -174,7 +164,7 @@ Data items that are inaccessible are displayed in red italicized font.
 This may be due to special characters (' or ~) in the path or name, or system-level items, such as your iplant/home/shared folder or your home directory. 
 These data items cannot be opened, renamed, moved, deleted, or accessed in any way. For more information, see `Using Special Characters in the DE <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Special+Characters+in+the+DE>`_.
 
-
+----------------------------------------------------
 Sorting, adding, and hiding columns in the Data list
 ----------------------------------------------------
 
@@ -194,7 +184,7 @@ You can sort on any column in the Data list, and hide or show columns to customi
     Show the **Path** column to help you determine which file or folder to use in search results. 
 
 
-
+----------------------------
 Using the Data actions icons
 ----------------------------
 
@@ -224,7 +214,8 @@ Using the Data actions icons
     * - |commentsicon|
       - Add or retract `comments about a file or folder <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing%2C+Adding%2C+and+Retracting+Data+Comments>`_ 
 
-        
+
+---------------
 Viewing Details
 ---------------
 
@@ -294,7 +285,7 @@ Click the checkbox for a file or folder in the middle column to view information
       - |check|
 
 
-
+-------------
 Basic process
 -------------
 
@@ -310,6 +301,21 @@ To begin, you need the data files you want to use in your analysis. You can use 
 .. tip::
     It is also possible to manage data outside of the Discovery Environment using other tools, as documented in `Downloading and Uploading Data <https://wiki.cyverse.org/wiki/display/DS/Downloading+and+Uploading+Data>`_.
 
+
+Table of contents
+-----------------
+
+.. toctree::
+	:maxdepth: 9
+  managing-dataFileschildpages/uploading-importingData.rst
+  managing-dataFileschildpages/downloading-filesAndFolders.rst
+  managing-dataFileschildpages/searching-dataItems.rst
+  managing-dataFileschildpages/editing-filesAndFolders.rst
+  managing-dataFileschildpages/sharing-dataFilesandFolders.rst
+  managing-dataFileschildpages/using-metadataInDe.rst
+  managing-dataFileschildpages/using-dataTags.rst
+  managing-dataFileschildpages/opening-newDataWindows.rst
+  managing-dataFileschildpages/creating-newFiles.rst
 
 
 
