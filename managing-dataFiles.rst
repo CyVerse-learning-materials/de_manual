@@ -4,9 +4,9 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-==================================
-**Managing Data Files and Folder**
-==================================
+===============================
+Managing Data Files and Folders
+===============================
 
 The Data window contains both input data files that are used in analyses and output data files that are returned as the result of completed analyses. 
 Input data files can be uploaded or imported to your personal workspace from your desktop or from URL, as well as made available by other users in the Community Data folder and `shared <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+and+Unsharing+Data+Files+and+Folders+in+the+DE>`_ with others.
