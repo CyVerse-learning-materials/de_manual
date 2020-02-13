@@ -6,7 +6,7 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 ===================================
-**Using the Discovery Environment**
+Using the Discovery Environment
 ===================================
 
 Welcome to the user manual for the CyVerse Discovery Environment (DE). Here you'll find all the how-to instructions for using the DE. 
@@ -24,9 +24,9 @@ Table of Contents
       using_DEchildpages/logIn-out-DE
       using_DEchildpages/using-preferences-menu
       using_DEchildpages/Viewing-deleting-notifications
-      using_DEchildpages/Feedback-Help
+      using_DEchildpages/providing-feedback
 
-**Navigating the app**
+Navigating the app
 ----------------------
 While much of the interface is intuitive and easy to use, there are a few tips to keep in mind as you move between windows in the DE.
 

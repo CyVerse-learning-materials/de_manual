@@ -5,7 +5,7 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-**Using the DE: Logging in to the Discovery Environment**
+Using the DE: Logging in to the Discovery Environment
 ---------------------------------------------------------
    If you have not already done so, you will need to msign up for a CyVerse account. For more information, see `Create Account <https://cyverse.org/learning-center/create-account>`_.
     1. Go to `CyVerse Discovery Environment <https://de.cyverse.org/de/>`_ and enter your CyVerse credentials. If you need to reset your password or forgot your CyVerse username, click **Need to reset your password?** and complete the form.
@@ -13,9 +13,10 @@
 
 
 
-**Logging out of the Discovery Environment**
+Logging out of the Discovery Environment
 --------------------------------------------
-.. |person_icon| image:: img/person_icon.png
+
+    .. |person_icon| image:: img/person_icon.png
 
     1. Click the |person_icon| preferences icon at the top of the screen.
     
