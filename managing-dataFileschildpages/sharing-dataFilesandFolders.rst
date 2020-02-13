@@ -4,9 +4,9 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-------------------------------
+==============================
 Sharing Data Files and Folders
-------------------------------
+==============================
 
 You can `share files and folders <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+and+Unsharing+Data+Files+and+Folders+in+the+DE>`_ you own in your personal folder with any CyVerse user via the Discovery Environment.
 By default, recipients with accounts receive read-only permissions to the specifically shared data item, folder, or subfolder. The owner who shared the item can `change the permission <https://wiki.cyverse.org/wiki/display/DEmanual/Changing+and+Viewing+Data+Permission+Levels+in+the+DE>`_ level to **write**, **own**, or back to **read** for each recipient on a per-item basis. Changing to own grants full rights (ability to rename, move, and delete) to the item so should be done with care. You also can `unshare the file or folder <https://wiki.cyverse.org/wiki/display/DEmanual/Unsharing+Files+and+Folders>`_ on a per-item basis.
@@ -16,7 +16,7 @@ Data files of up to 2 GB can be shared with the public and anonymous users (no a
 Before you begin, you may want to watch a `video <http://www.youtube.com/watch?v=iZDj_MMX3hg>`_ about data sharing in the Discovery Environment (current for version 1.6).
 
 
-------------------------------------------------------
+
 Sharing and Unsharing Data Files and Folders in the DE
 ------------------------------------------------------
 
@@ -26,9 +26,9 @@ Access is granted only to the specifically shared data item, folder, or subfolde
 For information on how to do so, see `Requesting a Permanent Identifier in the Data Commons <https://wiki.cyverse.org/wiki/display/DC/Requesting+a+Permanent+Identifier+in+the+Data+Commons>`_.
 
 
-------------------------
 Sharing a file or folder
 ------------------------
+
 
 Step 1: Share the file or folder
 --------------------------------
@@ -131,7 +131,7 @@ Unsharing a file or folder in the Data window
 
 
 
------------------------------------
+
 Sharing Data Files Via Public Links
 -----------------------------------
 
@@ -187,14 +187,14 @@ The quickest way to create a public link is in the Data window.
     4. Send the message.
 
 
------------------------------------------------------
+
 Managing your public links in the Manage Links window
 -----------------------------------------------------
 
 While you can quickly create a public link in a couple of steps right in the Data window, the real meat of using public links is in the **Manage Public Links** window. From this window, you can create or copy an existing one, delete data links,
 and access advanced sharing to send a URL that allows the user to upload the file via URL to the DE, or send iRods iCommands, Wget, or cURL commands.
 
-
+-----------------------------------------
 Step 1: Open the Manage Data Links window
 -----------------------------------------
 
@@ -202,7 +202,7 @@ Step 1: Open the Manage Data Links window
 
     2. Click the Share menu and then click Create a Public Link.
 
-
+----------------------
 Step 2. Share the link
 -----------------------
 
@@ -245,25 +245,24 @@ Step 2. Share the link
     4. Continue to Step 3 to delete the public link.
 
 
-
+------------------------------
 Step 3: Delete the public link
 ------------------------------
 
-**Public links are accessible to everyone who has the link. We recommend that you delete the link once you have verified that the recipient has downloaded it.**
+    - **Public links are accessible to everyone who has the link. We recommend that you delete the link once you have verified that the recipient has downloaded it.**
 
 
-1. Open the Manage Public Links window.
+    1. Open the Manage Public Links window.
 
-2. Click the red icon to the left of the file:
-
-
-.. image:: img/DataLink_Deactivate.png
-
-The public link is removed from the file, and future attempts to download it will display the message, "That ticket does not exist".
+    2. Click the red icon to the left of the file:
 
 
+    .. image:: img/DataLink_Deactivate.png
 
----------------------------------
+    The public link is removed from the file, and future attempts to download it will display the message, "That ticket does not exist".
+
+
+
 Creating Shared Path Folder Links
 ---------------------------------
 
@@ -292,7 +291,6 @@ You also can send a public link to a **file**, see `Sharing Data Files Via Publi
     5. When the recipient clicks the URL in the message, the DE Data window opens to the folder, and the shared files in that folder are accessible to the recipient.
 
 
-----------------------------------
 Accessing Shared Files and Folders
 ----------------------------------
 
@@ -330,7 +328,7 @@ Problems?
 If you can't access a shared file or folder, contact the owner to verify that the item has been shared with your CyVerse username.
 
 
----------------------------
+
 Unsharing Files and Folders
 ---------------------------
 
@@ -411,7 +409,6 @@ See `Sharing Data Files and Folders <https://wiki.cyverse.org/wiki/display/DEman
 
 
 
------------------------------------------------------
 Changing and Viewing Data Permission Levels in the DE
 -----------------------------------------------------
 
@@ -525,7 +522,7 @@ For more information on data sharing, see `Sharing Data Files and Folders <https
 
 
 
------------------------------------------------------------------
+
 Viewing Genome Files in the Genome Browser, CoGe, and Tree Viewer
 -----------------------------------------------------------------
 
@@ -663,6 +660,12 @@ Thu June 7 05:50:32 2012
 CyVerse Genome Services has moved temporarily to using species data provided by Ensembl as the basis for bioinformatic support files. This release of Genome Services makes support available for all the species in Ensembl Plants v13, as well as several new animal species from Ensembl Metazoa 67. We are working on a solution to support species not catalogued by Ensembl in a future release.
 
 This data is available for analysis in the:
+
+    - `Discovery Environment <http://preview.iplantcollaborative.org/de/>`_
+
+    - `CyVerse APIs <http://www.cyverse.org/science-apis>`_ 
+
+    - `CyVerse Data Store <http://mirrors.cyverse.org/browse/iplant/home/shared/iplantcollaborative/genomeservices>`_ 
 
 
 
