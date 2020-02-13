@@ -4,9 +4,9 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-==================================================================
+
 Providing Feedback and Getting help with the Discovery Environment
-==================================================================
+------------------------------------------------------------------
 
 .. |helpicon| image:: img/HelpIcon.png
 

@@ -5,11 +5,12 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-**Using the DE: Changing preferences**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Using the DE: Changing preferences
+----------------------------------
 
 
-**Opening the Preferences settings window**
+Opening the Preferences settings window
+---------------------------------------
 
 .. |person_icon| image:: img/person_icon.png  
     :width: 2
@@ -20,7 +21,8 @@ Click |person_icon| at the top right of the window and then click **Preferences:
 .. image:: img/Preferences.jpg
 
 
-**Changing Preferences**
+Changing Preferences
+---------------------
 
 
 - Email me when my analysis status change
@@ -29,7 +31,7 @@ Click |person_icon| at the top right of the window and then click **Preferences:
     For more information on notifications, see `Viewing and Deleting Notifications <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+and+Deleting+Notifications>`_ 
       
 
-**Adding and Deleting Users from the Collaborators List in Preferences**
+Adding and Deleting Users from the Collaborators List in Preferences
 ------------------------------------------------------------------------
 
 The Collaborators list is a "short list" of CyVerse users with whom you frequently share `data files and folders <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+and+Unsharing+Data+Files+and+Folders+in+the+DE>`_, `analyses <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+and+Unsharing+an+Analysis>`_, or `unpublished apps <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+your+App+or+Workflow+and+Editing+the+User+Manual>`_.
@@ -37,7 +39,8 @@ The Collaborators list is a "short list" of CyVerse users with whom you frequent
 Although a user does not have to be in your Collaborators list to share a data file or folder, adding a user to your Collaborators list makes it easier to share.
 
 
-**Adding a user to your Collaborators list in Preferences**
+Adding a user to your Collaborators list in Preferences
+-------------------------------------------------------
 
 .. |CollaboratorsWindow| image:: img/CollaboratorsWindow.png
 
@@ -60,7 +63,8 @@ The user is now available in your Collaborators list the next time you want to `
 
 
 
-**Deleting a user from your Collaborators list in Preferences**
+Deleting a user from your Collaborators list in Preferences
+-----------------------------------------------------------
 
 Removing a user from your Collaborators list removes the user only from the Collaborators list but retains the permission level you have granted for that user to each data item. See `Unsharing Files and Folders <https://wiki.cyverse.org/wiki/display/DEmanual/Unsharing+Files+and+Folders>`_ to removen access to the data items as well.
 
@@ -71,8 +75,8 @@ Removing a user from your Collaborators list removes the user only from the Coll
 You can also unshare a `shared data item <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+and+Unsharing+Data+Files+and+Folders+in+the+DE>`_, `shared analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+and+Unsharing+an+Analysis>`_, or `shared unpublished app <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+your+App+or+Workflow+and+Editing+the+User+Manual>`_.
 
 
-**Using DE System Messages and Important Announcements**
---------------------------------------------------------
+Using DE System Messages and Important Announcements
+-----------------------------------------------------
 
 System messages provide information about updates and changes without having to leave the DE home page.
 
@@ -81,7 +85,8 @@ System Messages are accessed from the Preferences menu.
 
 `Notifications <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+and+Deleting+Notifications>`_ are also used in DE. 
 
-**Viewing system messages**
+Viewing system messages
+-----------------------
 
 
 .. |closewindowicon| image:: img/CloseWindowIcon.png
@@ -94,7 +99,8 @@ System Messages are accessed from the Preferences menu.
 3. In the System Messages list, select the message view.
 4. When done, click |closewindowicon| at the top right to close the window. 
 
-**Viewing important announcements**
+Viewing important announcements
+-------------------------------
 
 
 1. Click **Read it** in the announcement at the tip right of the window:
