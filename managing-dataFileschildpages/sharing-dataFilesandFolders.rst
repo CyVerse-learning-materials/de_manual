@@ -201,9 +201,10 @@ Step 1: Open the Manage Data Links window
     1. In the middle section of the Data window, select the file.
 
     2. Click the Share menu and then click Create a Public Link.
+    
 
 -----------------------
-Step 2. Share the link
+Step 2: Share the link
 -----------------------
 
     Do one of the following:
