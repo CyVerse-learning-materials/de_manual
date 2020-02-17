@@ -202,7 +202,7 @@ Step 1: Open the Manage Data Links window
 
     2. Click the Share menu and then click Create a Public Link.
 
-----------------------
+-----------------------
 Step 2. Share the link
 -----------------------
 
