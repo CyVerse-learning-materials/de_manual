@@ -37,7 +37,7 @@ Your list of tags is available only to you; adding or deleting a tag does not af
 Deleting a tag
 --------------
 
-.. image:: |tagdelete| img/TagDeleteIcon.png
+..  |tagdelete| image:: img/TagDeleteIcon.png
 
 When you delete a tag, it is only removed from the file or folder but remains available in your list.
 
@@ -52,7 +52,7 @@ When you delete a tag, it is only removed from the file or folder but remains av
 Entering and editing tag descriptions 
 -------------------------------------
 
-.. image:: |tagediticon| TagEditDescIcon.png
+..  |tagediticon| image:: img/TagEditDescIcon.png
 
 You can enter or edit a tag description to more fully explain the tag or note something about the data item.
 
