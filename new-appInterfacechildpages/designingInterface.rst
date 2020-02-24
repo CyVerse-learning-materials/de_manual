@@ -52,6 +52,8 @@ Selecting the Tool and Naming the App
 
 .. |BrwoseButton| image:: img/BrowseButton.png
 
+.. |CloseWindow| image:: img/CloseWindowPreviewNewApp.png
+
 Whether creating a new app or editing an existing one, the first step in the process is selecting the tool used for the app, and entering or editing the app name and description.
 
     1. `Open the Create Apps window. <https://wiki.cyverse.org/wiki/display/DEmanual/Creating%2C+Copying%2C+and+Editing+DE+Apps>`_
@@ -61,7 +63,24 @@ Whether creating a new app or editing an existing one, the first step in the pro
     .. image:: img/CreateApps-1a.png
 
 
-    3. In the Tool used field, click , and then enter at least 3 characters of the app name.
+    3. In the **Tool used** field, click |BrowseButton|, and then enter at least 3 characters of the app name.
+
+    .. tip:: To indicate a version of your app or that this is an HPC app, you can add opening and closing parentheses in the app name.
+
+    4. To view the attribution and description of the tool, click the app name, then click |CloseWindow| to close.
+
+    .. tip:: Tool or version not listed? 
+            Click **New Tool Request** and `request that a new tool or version be installed <https://wiki.cyverse.org/wiki/display/DEmanual/Adding+or+Requesting+a+New+Tool>`_.
+
+
+    5. Select the tool and click **OK**.
+
+    6. In the App name field, enter a unique name for the app.
+
+    7. In the **App description** field, enter a brief description. The description will be displayed when viewing the `app information <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+App+and+Tool+Information>`_ section in the Apps list.
+
+    8. Click **Save**.
+
 
 
 
