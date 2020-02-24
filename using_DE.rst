@@ -92,7 +92,7 @@ At the top right of each data, apps, or analyses window are icons to help you le
       
 
 
-Table of Contents
+Table of contents
 -----------------
 
 
