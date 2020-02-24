@@ -8,19 +8,24 @@
 Creating a New App Interface
 ============================
 
+
+Creating a New App Interface
+----------------------------
+
 Each app in the DE is built on one tool (executable or binary), but each tool can have more than one app interface. 
 You can create your own app interface, or workflow based on a sequence of different apps, for the tool you want, right within the DE, using the WYSIWYG (What You See Is What You Get) interface. 
 This interface allows you to drag and drop items into the interface.
 
 If you're new to this process, you may want to watch the YouTube video, `Creating and Modifying Apps: Customizing your tools <http://www.youtube.com/watch?v=yTcqH-6wB-Q&feature=em-uploademail>`_.
 
-
+----------------------------------------------------------------------
 Step 1: Complete the steps for Dockerizing your tool for use in the DE
 ----------------------------------------------------------------------
 
 All tools are now Dockerized so they run faster and more efficiently in the DE. For instructions on how to do so, see `Dockerizing Your Tools for the CyVerse Discovery Environment <https://wiki.cyverse.org/wiki/display/DEmanual/Dockerizing+Your+Tools+for+the+CyVerse+Discovery+Environment>`_. 
 For steps on creating a new tool or requesting installation of a new tool, see NEED
 
+-----------------------------------------------------------------------------
 Step 2: Decide how you want to create the app and open the Create Apps window
 -----------------------------------------------------------------------------
 
@@ -38,13 +43,14 @@ There are three ways in which you can create an interface for a tool that is ava
 
 To learn how to use each of these methods, see `Creating, Copying, and Editing DE Apps <https://wiki.cyverse.org/wiki/display/DEmanual/Creating%2C+Copying%2C+and+Editing+DE+Apps>`_.
 
-
+-----------------------
 Step 3: Select the tool
 -----------------------
 
 Select the tool and version to use and then enter the app's name and description. For more information, see `Selecting the Tool and Naming the App <https://wiki.cyverse.org/wiki/display/DEmanual/Selecting+the+Tool+and+Naming+the+App>`_.
 
 
+-----------------------------------------
 Step 4: Design the interface for your app
 -----------------------------------------
 
@@ -54,6 +60,7 @@ Remember to save frequently.
 Once saved, your app is available in your **Apps under development** workspace folder, where you can edit it at any time. 
 For more information, see `Designing the Interface <https://wiki.cyverse.org/wiki/display/DEmanual/Designing+the+Interface>`_.
 
+--------------------
 Step 5: Test the app
 --------------------
 
@@ -63,12 +70,14 @@ In short, this is the time to put yourself in a new user's shoes and make sure y
 
 Remember: Once you've shared the app, you won't be able to edit the app again; you can `edit the user manual <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+your+App+or+Workflow+and+Editing+the+User+Manual>`_ at any time. Now's the time to make sure it really works and works well.
 
+
+----------------------
 Step 6: Share your app
 ----------------------
 
 After you're sure the app is the way you want it, you can `publish <https://pods.iplantcollaborative.org/wiki/display/DEmanual/Sharing+your+App+or+Workflow+and+Editing+the+User+Manual#Publish>`_ it and create the user manual page to help CyVerse users learn how to use it, or keep it unpublished and `share it with selected users <https://pods.iplantcollaborative.org/wiki/display/DEmanual/Sharing+your+App+or+Workflow+and+Editing+the+User+Manual#ShareApp>`_.
 
-
+----------------
 Need assistance?
 ----------------
 
@@ -76,10 +85,11 @@ If you have problems or need assistance, you can `submit feedback <https://wiki.
 
 
 
-----------------------------------------
+
 Creating a New App Interface Quick Start
 ----------------------------------------
 
+----------------------------------------
 Creating a New App Interface Quick Start
 ----------------------------------------
 
