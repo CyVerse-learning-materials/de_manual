@@ -108,7 +108,60 @@ The main steps to creating a new app are:
     3. `Search for the tool <https://wiki.cyverse.org/wiki/display/DEmanual/Finding+the+List+of+Available+Tools>`_ (executable or binary) to use for your app interface.
 
     .. tip:: **Tool not there?**
-        If the tool and version you want to use for your app interface is not in the list, you will need to request that it be installed.
+        If the tool and version you want to use for your app interface is not in the list, you will need to `request that it be installed <https://wiki.cyverse.org/wiki/display/DEmanual/Adding+or+Requesting+a+New+Tool>`_.
+
+    4. Enter basic information about your app.
+    5. Specify the parameters (arguments) that define the functionality and appearance for your app.
+    6. `Preview the app <https://wiki.cyverse.org/wiki/display/DEmanual/Previewing+the+App+and+JSON>`_ and test your app to verify that it looks and functions the way you want it to.
+    7. `Save <https://wiki.cyverse.org/wiki/display/DEmanual/Saving+the+App>`_.
+    8. Open the app in your Workspace **Apps under development** folder and test.
+    9. If necessary, edit the app and preview again, repeating until the app is to your satisfaction, and then save.
+    10. When you want to share it with other users, edit the documentation page for your app and then `submit it for public use <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+your+App+or+Workflow+and+Editing+the+User+Manual>`_ so other users can use your app for their analyses.
+
+For more information on creating and editing DE apps, please see the related Table of Contents in the left pane.
+
+
+
+Creating, Copying, and Editing DE Apps
+--------------------------------------
+
+Before you begin, you might want to `search the list of available tools <https://wiki.cyverse.org/wiki/display/DEmanual/Finding+the+List+of+Available+Tools>`_ to see if the tool and version you want to use for your app interface is available in the DE. 
+If it is not listed, you must first `Dockerize the tool <https://wiki.cyverse.org/wiki/display/DEmanual/Dockerizing+Your+Tools+for+the+CyVerse+Discovery+Environment>`_ and then `request that the tool be installed <https://wiki.cyverse.org/wiki/display/DEmanual/Adding+or+Requesting+a+New+Tool>`_.
+
+You can either create a new app from scratch, copy a public app, or edit an app in your Apps under Development folder (an app that you haven't shared with the public yet). 
+Most people jump right in by creating a new app.
+
+If you don't want to start from scratch, a useful tip is to copy an app in the Public Apps folder, then make any changes you want to that app–perhaps using a different version of the tool, or changing the name of a field–and then save to a new app name to make a totally new app.
+
+You also can `create a new workflow <https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=8391828>`_.
+
+
+----------
+Main Steps
+----------
+
+.. |ForumsIcons| image:: img/de/ForumsIcons.png
+
+    1. To create a new app, or copy or edit an existing one:
+        - To **create a new app or workflow from scratch**, either:
+             - Open the Apps window, click **Apps** on the toolbar for an app or **Workflow** for a workflow, and then click **Create New**.
+                
+             or
+
+             - Click the tool name from the `Manage Tools <https://wiki.cyverse.org/wiki/display/DEmanual/Managing+Tools+in+the+DE>`_ window.
+        - To **create your own version or edit one you already published**, select the app or workflow in the **Public Apps** folder, click either **Apps** or **Workflow**, and then click **Copy**.
+        - To **edit an unpublished apP or workflow** you are working on, select the app or workflow in your **Apps under development** folder, click either **Apps** or **Workflow**, and then click **Edit**.
+    2. `Create or edit the app interface <https://wiki.cyverse.org/wiki/display/DEmanual/Creating+a+New+App+Interface>`_ according to how you want to work.
+    3. Save the changes. The app now is listed in your Apps under development folder. From there, you can test it and try it out. If you want to share it with the public, you can `submit it for public use <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+your+App+or+Workflow+and+Editing+the+User+Manual>`_. If you have additional questions or want to see questions other users have asked, click |ForumsIcons| at the top right of the screen to open `Ask CyVerse <http://ask.iplantcollaborative.org/questions/>`_.
+
+You may want to begin by reading `Creating a New App Interface <https://wiki.cyverse.org/wiki/display/DEmanual/Creating+a+New+App+Interface>`_.
+
+
+.. toctree::
+    designingInterface.rst
+    
+
+
 
 
 
