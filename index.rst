@@ -16,12 +16,10 @@ Welcome to Discovery Environment!
 	:maxdepth: 9
     using_DE.rst
     managing-dataFiles.rst
-
-
-
-.. comment: Next .rst files to be finished: 
     using_VICE.rst
     using-appsWindow.rst
+
+.. comment: Next .rst files to be finished: 
     new-appInterface.rst
     using-analysisWindow.rst
     troubleshooting.rst
