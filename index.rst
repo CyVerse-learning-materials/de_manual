@@ -18,9 +18,9 @@ Welcome to Discovery Environment!
     managing-dataFiles.rst
     using_VICE.rst
     using-appsWindow.rst
+    new-appInterface.rst
 
 .. comment: Next .rst files to be finished: 
-    new-appInterface.rst
     using-analysisWindow.rst
     troubleshooting.rst
     glossary.rst
