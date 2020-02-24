@@ -98,9 +98,11 @@ Once you have created and saved your list file by dragging the files from the Da
     1. In the Data window, click **File**, point to **Create**, and then click **New HT Analysis Path List file**.
     2. In the Data window, navigate to the first file to add to the list, and then drag it to the HT window.
     3. Repeat for each file to add to the list. Remember that all files must have the same parameters when you create the analysis.
+    
     4. When the high-throughput list is complete, select the folder to which you want to save the file, click Save, and enter the filename (no spaces or special characters in the filename or folder). 
         You can `move <https://wiki.cyverse.org/wiki/display/DEmanual/Moving+a+Data+File+or+Folder>`_ it later if necessary.
         The file is displayed in the selected folder with an icon |batch| to the left of the name to indicate it is a high-throughput list file (you may need to refresh the window) and may now be used in an analysis, just like any other file.
+    
     5. Submit the list file as the single input file in an `analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Submitting+an+Analysis>`_ in any app.
     6. To view the status of each file's progress in the analysis, click |individualAnalysis| next to the analysis name in the Analyses window.
 
