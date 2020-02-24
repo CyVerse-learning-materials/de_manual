@@ -5,7 +5,21 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
+================================================
+Using the Apps Window and Submitting an Analysis
+================================================
 
+An app is the mechanism you use to `submit an analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Submitting+an+Analysis>`_. Within the Apps window, you open the app to use for your analysis, and then select the file or files to use, define the settings as needed, and launch the analysis. 
+As the analysis proceeds through the job, you receive updates about its progress. 
+Once the analysis is completed, you retrieve and analyze the results. You can view the Apps list by either tiles (the new default) or by list (the previous view).
+
+
+Opening the Apps window
+-----------------------
+
+Click **Apps** to open the Apps window.
+
+.. image:: img/de/AppsManageTools.png
 
 
 
