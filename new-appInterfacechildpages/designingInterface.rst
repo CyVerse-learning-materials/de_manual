@@ -50,7 +50,7 @@ See this section to help you design the interface:
 Selecting the Tool and Naming the App
 -------------------------------------
 
-.. |BrwoseButton| image:: img/BrowseButton.png
+.. |BrowseButton| image:: img/BrowseButton.png
 
 .. |CloseWindow| image:: img/CloseWindowPreviewNewApp.png
 
