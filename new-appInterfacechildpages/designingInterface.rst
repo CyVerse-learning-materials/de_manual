@@ -58,7 +58,7 @@ Whether creating a new app or editing an existing one, the first step in the pro
 
     2. If necessary, click the **New app** (or current app name) panel header to open the section.
 
-.. image:: img/CreateApps-1a.png
+    .. image:: img/CreateApps-1a.png
 
 
     3. In the Tool used field, click , and then enter at least 3 characters of the app name.
