@@ -14,17 +14,7 @@ To get you started, you may want to read through the introductory information in
 Hints for how to use this manual are also on this page.
 
 
-Table of Contents
------------------
 
-
-.. toctree::
-      :titlesonly:
-
-      using_DEchildpages/logIn-out-DE
-      using_DEchildpages/using-preferences-menu
-      using_DEchildpages/Viewing-deleting-notifications
-      using_DEchildpages/providing-feedback
 
 Navigating the app
 ----------------------
@@ -99,7 +89,18 @@ At the top right of each data, apps, or analyses window are icons to help you le
       - **Layout:** Resizes the window layout to half of the available available desktop space and positions it either to the left (**Snap Left**) or right side (**Snap Right**) of the window.
     * - |WindowIcon-minMaxClose|
       - Minimize, Maximize, or close the active window. 
+      
 
+
+Table of Contents
+-----------------
+
+
+.. toctree::
+      using_DEchildpages/logIn-out-DE
+      using_DEchildpages/using-preferences-menu
+      using_DEchildpages/Viewing-deleting-notifications
+      using_DEchildpages/providing-feedback
 
 
 ----
