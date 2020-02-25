@@ -81,7 +81,74 @@ Whether creating a new app or editing an existing one, the first step in the pro
 
     8. Click **Save**.
 
+===============================
+Adding and Editing App Sections
+===============================
 
+Apps are built section by section. By default, the Section 1 section is created when you first create a new app. You can edit the section name, as well as add additional sections and delete sections.
+
+
+Editing a section name
+----------------------
+
+    1. To create a new app, or copy or edit an existing one:
+        - To **create a new app or workflow from scratch**, either:
+            - Open the Apps window, click **Apps** on the toolbar for an app or **Workflow** for a workflow, and then click **Create New**.
+                or
+            - Click the tool name from the `Manage Tools <https://wiki.cyverse.org/wiki/display/DEmanual/Managing+Tools+in+the+DE>`_ window.
+        - To **create your own version or edit one you already published**, select the app or workflow in the **Public Apps** folder, click either **Apps** or **Workflow**, and then click **Copy**.
+        - To **edit an unpublished app or workflow** you are working on, select the app or workflow in your **Apps under development** folder, click either **Apps** or **Workflow**, and then click **Edit**.
+    2. In the middle section, click the header bar for the section name to edit:
+
+
+    .. image:: img/CreateAppSection.png
+
+
+    3. In the Details section on the right, click in the **Section name** field and edit the section name label.
+    4. Click **Save**.
+
+
+
+Adding a new section
+--------------------
+
+    1. In the Create Apps window for the app, click and drag the Section object in the App Items section on the left to the target position in the selected group:
+
+    .. image:: img/Createapp_AddInputGroup.png
+
+    2. In the Details section, edit the section name label.
+    3. Click **save**
+
+Deleting a section
+------------------
+
+    1. In the Create Apps window for the app, click the header bar of the section to delete.
+    2. In the Details section, click **Delete section**:
+
+    .. image:: img/DeleteSection.png
+
+
+=============================================================
+Adding and Deleting File and Folder Input Fields for Your App
+=============================================================
+
+You can add fields for multiple input files, single files, or folder input fields when creating or editing an app interface.
+
+Adding input fields
+-------------------
+
+--------------------------
+Step 1: Select the section
+--------------------------
+
+    1. To create a new app, or copy or edit an existing one:
+        - To **create a new app or workflow from scratch**, either:
+            - Open the Apps window, click **Apps** on the toolbar for an app or **Workflow** for a workflow, and then click **Create New**.
+             or
+            - Click the tool name from the `Manage Tools <https://wiki.cyverse.org/wiki/display/DEmanual/Managing+Tools+in+the+DE>`_ window.
+        - To **create your own version or edit one you already published**, select the app or workflow in the **Public Apps** folder, click either **Apps** or **Workflow**, and then click **Copy**.
+        - To **edit an unpublished app or workflow** you are working on, select the app or workflow in your **Apps under development** folder, click either **Apps** or **Workflow**, and then click **Edit**.
+    2. In the app, click the section header to expand the section into which you want to add the input field.
 
 
 ----
