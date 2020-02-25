@@ -92,12 +92,19 @@ Editing a section name
 ----------------------
 
     1. To create a new app, or copy or edit an existing one:
+
         - To **create a new app or workflow from scratch**, either:
+    
             - Open the Apps window, click **Apps** on the toolbar for an app or **Workflow** for a workflow, and then click **Create New**.
+    
                 or
+    
             - Click the tool name from the `Manage Tools <https://wiki.cyverse.org/wiki/display/DEmanual/Managing+Tools+in+the+DE>`_ window.
+    
         - To **create your own version or edit one you already published**, select the app or workflow in the **Public Apps** folder, click either **Apps** or **Workflow**, and then click **Copy**.
+    
         - To **edit an unpublished app or workflow** you are working on, select the app or workflow in your **Apps under development** folder, click either **Apps** or **Workflow**, and then click **Edit**.
+    
     2. In the middle section, click the header bar for the section name to edit:
 
 
@@ -105,6 +112,7 @@ Editing a section name
 
 
     3. In the Details section on the right, click in the **Section name** field and edit the section name label.
+
     4. Click **Save**.
 
 
@@ -142,12 +150,19 @@ Step 1: Select the section
 --------------------------
 
     1. To create a new app, or copy or edit an existing one:
+
         - To **create a new app or workflow from scratch**, either:
+    
             - Open the Apps window, click **Apps** on the toolbar for an app or **Workflow** for a workflow, and then click **Create New**.
+
              or
+
             - Click the tool name from the `Manage Tools <https://wiki.cyverse.org/wiki/display/DEmanual/Managing+Tools+in+the+DE>`_ window.
+
         - To **create your own version or edit one you already published**, select the app or workflow in the **Public Apps** folder, click either **Apps** or **Workflow**, and then click **Copy**.
+        
         - To **edit an unpublished app or workflow** you are working on, select the app or workflow in your **Apps under development** folder, click either **Apps** or **Workflow**, and then click **Edit**.
+    
     2. In the app, click the section header to expand the section into which you want to add the input field.
 
 
