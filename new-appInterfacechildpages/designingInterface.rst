@@ -201,12 +201,35 @@ The properties displayed in the Details panel vary according to which input type
     - **Tool tip text**: Enter text to inform the user about how to use the field when viewed in the app.
     - **Type of information contained in these files**: Select the type of file that can be included in the folder, or leave Unspecified to allow more than one file type.
     - **Do not pass this argument to command line**: Allows the user to select input files without including those files in the command line.
-    - **Repeat "Argument option" on the command line before each filename** :rubric:`*(Multiple Input Files only)*`: Includes the select input files in the command line before each filename selected by the user.
+    - **Repeat "Argument option" on the command line before each filename** *:rubric:`(Multiple Input Files only)`*: Includes the select input files in the command line before each filename selected by the user.
 
 
+------------------------
+Step 4: Preview and save
+------------------------
+
+    1. Click **Preview** and then click **Preview UI**.
+
+    2. When done, close the Preview window.
+
+    3. Click **Save**.
 
 
+Deleting file or folder fields
+------------------------------
+.. |deleteicon| img/Createapp_DeleteArgumentIcon.png
 
+
+    1. In the middle section, click in the field to delete. A blue border around it is displayed around the field:
+
+    .. image:: img/CreateApp_DeleteCheckbox1.png
+
+    2. Hover over the the gray |deleteicon| icon at the top right until it turns red:
+
+    .. image:: img/CreateApp_DeleteCheckbox2.png
+
+    3. Click the icon to complete the deletion.
+    4. Click **Save**.
 
 
 ----
