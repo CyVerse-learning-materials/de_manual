@@ -217,7 +217,7 @@ Step 4: Preview and save
 
 Deleting file or folder fields
 ------------------------------
-.. |deleteicon| img/Createapp_DeleteArgumentIcon.png
+    .. |deleteicon| img/Createapp_DeleteArgumentIcon.png
 
 
     1. In the middle section, click in the field to delete. A blue border around it is displayed around the field:
