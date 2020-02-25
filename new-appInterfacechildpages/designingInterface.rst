@@ -166,6 +166,49 @@ Step 1: Select the section
     2. In the app, click the section header to expand the section into which you want to add the input field.
 
 
+------------------------------------------
+Step 2: Select the input field type to add
+------------------------------------------
+
+    - **Multiple Input Files field**: Allows the user to select multiple files, with the ability to specify the type of file that may be added to the list, as shown:
+
+    .. image:: img/CreateApp_MultiInputFiles.png
+
+    - **Input File field**: Allows the user to select one input file, as shown:
+
+    .. image:: img/CreateApp_InputFile-2.png
+
+    - **Input Folder field**: Allows the user to select one input folder, as shown:
+
+    .. image:: img/CreateApp_FolderSelector.png
+
+
+---------------------------------------------------
+Step 3: Edit the Details section in the right panel
+---------------------------------------------------
+
+.. role:: rubric
+
+
+The properties displayed in the Details panel vary according to which input type you selected.
+
+    Click the field in the middle section to edit its properties in the Details section on the right.
+
+    - **Selector label**: Edit the label as you want it to be displayed in the app.
+    - **Argument option**: Enter the command line option according to the tool's requirements.
+    - **Make this field required**: Select to require the user to select at least one input folder.
+    - **Exclude this item if nothing is entered**: Click this option if you want to skip this file type when nothing is entered in the app.
+    - **Tool tip text**: Enter text to inform the user about how to use the field when viewed in the app.
+    - **Type of information contained in these files**: Select the type of file that can be included in the folder, or leave Unspecified to allow more than one file type.
+    - **Do not pass this argument to command line**: Allows the user to select input files without including those files in the command line.
+    - **Repeat "Argument option" on the command line before each filename** :rubric:`*(Multiple Input Files only)*`: Includes the select input files in the command line before each filename selected by the user.
+
+
+
+
+
+
+
 ----
 
 **Fix or improve this documentation:**
