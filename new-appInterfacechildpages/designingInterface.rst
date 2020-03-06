@@ -87,9 +87,9 @@ Adding and Editing App Sections
 
 Apps are built section by section. By default, the Section 1 section is created when you first create a new app. You can edit the section name, as well as add additional sections and delete sections.
 
-----------------------
-Editing a section name
-----------------------
+    ----------------------
+    Editing a section name
+    ----------------------
 
     1. To create a new app, or copy or edit an existing one:
 
@@ -116,9 +116,9 @@ Editing a section name
     4. Click **Save**.
 
 
---------------------
-Adding a new section
---------------------
+    --------------------
+    Adding a new section
+    --------------------
 
     1. In the Create Apps window for the app, click and drag the Section object in the App Items section on the left to the target position in the selected group:
 
@@ -127,9 +127,9 @@ Adding a new section
     2. In the Details section, edit the section name label.
     3. Click **save**
 
-------------------
-Deleting a section
-------------------
+    ------------------
+    Deleting a section
+    ------------------
 
     1. In the Create Apps window for the app, click the header bar of the section to delete.
     2. In the Details section, click **Delete section**:
@@ -143,9 +143,9 @@ Adding and Deleting File and Folder Input Fields for Your App
 
 You can add fields for multiple input files, single files, or folder input fields when creating or editing an app interface.
 
--------------------
-Adding input fields
--------------------
+    -------------------
+    Adding input fields
+    -------------------
 
     --------------------------
     Step 1: Select the section
@@ -216,9 +216,9 @@ The properties displayed in the Details panel vary according to which input type
 
     3. Click **Save**.
 
-------------------------------
-Deleting file or folder fields
-------------------------------
+    ------------------------------
+    Deleting file or folder fields
+    ------------------------------
     .. |deleteicon| img/Createapp_DeleteArgumentIcon.png
 
 
@@ -232,6 +232,24 @@ Deleting file or folder fields
 
     3. Click the icon to complete the deletion.
     4. Click **Save**.
+
+
+
+
+------------------------------
+Adding List Fields to Your App
+------------------------------
+
+    -------------------
+    Adding a list field
+    -------------------
+
+    You can add several different types of list fields to your app.
+
+    
+
+
+
 
 
 ----
