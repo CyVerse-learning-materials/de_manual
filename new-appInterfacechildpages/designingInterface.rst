@@ -81,9 +81,9 @@ Whether creating a new app or editing an existing one, the first step in the pro
 
     8. Click **Save**.
 
-===============================
+-------------------------------
 Adding and Editing App Sections
-===============================
+-------------------------------
 
 Apps are built section by section. By default, the Section 1 section is created when you first create a new app. You can edit the section name, as well as add additional sections and delete sections.
 
@@ -136,9 +136,9 @@ Deleting a section
     .. image:: img/DeleteSection.png
 
 
-=============================================================
+-------------------------------------------------------------
 Adding and Deleting File and Folder Input Fields for Your App
-=============================================================
+-------------------------------------------------------------
 
 You can add fields for multiple input files, single files, or folder input fields when creating or editing an app interface.
 
