@@ -147,9 +147,9 @@ You can add fields for multiple input files, single files, or folder input field
 Adding input fields
 -------------------
 
---------------------------
-Step 1: Select the section
---------------------------
+    --------------------------
+    Step 1: Select the section
+    --------------------------
 
     1. To create a new app, or copy or edit an existing one:
 
@@ -168,9 +168,9 @@ Step 1: Select the section
     2. In the app, click the section header to expand the section into which you want to add the input field.
 
 
-------------------------------------------
-Step 2: Select the input field type to add
-------------------------------------------
+    ------------------------------------------
+    Step 2: Select the input field type to add
+    ------------------------------------------
 
     - **Multiple Input Files field**: Allows the user to select multiple files, with the ability to specify the type of file that may be added to the list, as shown:
 
@@ -185,9 +185,9 @@ Step 2: Select the input field type to add
     .. image:: img/CreateApp_FolderSelector.png
 
 
----------------------------------------------------
-Step 3: Edit the Details section in the right panel
----------------------------------------------------
+    ---------------------------------------------------
+    Step 3: Edit the Details section in the right panel
+    ---------------------------------------------------
 
 .. role:: rubric
 
@@ -206,9 +206,9 @@ The properties displayed in the Details panel vary according to which input type
     - **Repeat "Argument option" on the command line before each filename** *:rubric:`(Multiple Input Files only)`*: Includes the select input files in the command line before each filename selected by the user.
 
 
-------------------------
-Step 4: Preview and save
-------------------------
+    ------------------------
+    Step 4: Preview and save
+    ------------------------
 
     1. Click **Preview** and then click **Preview UI**.
 
