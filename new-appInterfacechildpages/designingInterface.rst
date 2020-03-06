@@ -261,6 +261,43 @@ Adding List Fields to Your App
           - List field into which list items can be added in hierarchical order, with ability to select only one or multiple items
 
     
+    -------------------------------------------------------------------
+    Step 1: Open the Create or Edit Apps window and select the section.
+    -------------------------------------------------------------------
+
+
+    1. To create a new app, or copy or edit an existing one:
+        - To **create a new app or workflow from scratch**, open the Apps window, click **Apps** on the toolbar for an app or **Workflow** for a workflow, and then click **Create New**.
+        - To **create your own version or edit one you already published**, select the app or workflow in the **Public Apps** folder, click either **Apps** or **Workflow**, and then click **Copy**.
+        - To **edit an unpublished app or workflow** you are working on, select the app or workflow in your **Apps under development** folder, click either **Apps** or **Workflow**, and then click **Edit**.
+    2. Click the section header to expand the section into which you want to add the list field.
+
+    -----------------------------------
+    Step 2: Select the list type to add
+    -----------------------------------
+
+    **List, Integer List, and Decimal List Fields**
+
+    1. Select the list type to use, either List, Integer List, or Decimal List.
+    2. Click and drag the list object from the Lists section on the left to the expanded section in the middle.
+    3. Click in the Label field to display its details on the right.
+        - **Label**: Edit the label as you want it to be displayed in the app.
+        - **Default item to display**: After entering the list in the step below (Edit list button), select the default item for the list.
+        - **Make this field required**: Select to require the user to select at least one item in the list.
+        - **Exclude this item if nothing is entered**: Click this option if you want to skip this list when nothing is entered in the app.
+        - **Tool tip text**: Enter text to inform the user about how to use the field when viewed in the app.
+    4. To add a list item:
+        a. Click **Edit list**.
+        b. In the Edit list window, click **Add**.
+        c. Double-click in the **Display** column, edit the display name of the list item, and click **Save**.
+        d. Double-click in the **Argument** column, enter the command-line command according to the tool's requirements, and click **Save**.
+        e. Double-click in the **Value** column, enter the value for the list item, and click **Save**.
+        f. Repeat for each item in the list.
+        g. Click **Done**.
+
+
+
+
 
 
 
