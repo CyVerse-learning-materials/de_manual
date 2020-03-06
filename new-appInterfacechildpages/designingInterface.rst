@@ -303,6 +303,26 @@ Adding List Fields to Your App
         g. Click **Done**.
 
 
+    ---------------------------------------
+    **List Tree (hierarchical lists) fields
+    ---------------------------------------
+
+    1. In the Lists section on the left, click and drag the **List Tree** item to the location in the selected section.
+    2. Click in the List Tree Label field to display its details on the right.
+    3. In the Details section on the right:
+        - **Tree List label**: Edit the label as you want it to be displayed in the DE.
+        - **Make this field required**: Select to require the user to select at least one item in the list.
+        - **Exclude this item if nothing is entered**: Skips the item if no item is selected.
+        - **Tool tip text**: Edit as needed.
+    
+    4. Click **Edit hierarchical** list to open the Edit list window:
+    
+        - **Check Cascade** determines how the list functions when a user takes action upon a section or field. By combining the cascade option with the Single selection only option, you can allow the user to select only one list item, one or more list items, or all list items. Select the cascade option to use:
+
+
+
+    
+
 
 
 
