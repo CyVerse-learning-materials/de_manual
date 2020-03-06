@@ -279,14 +279,19 @@ Adding List Fields to Your App
     **List, Integer List, and Decimal List Fields**
 
     1. Select the list type to use, either List, Integer List, or Decimal List.
+    
     2. Click and drag the list object from the Lists section on the left to the expanded section in the middle.
+    
     3. Click in the Label field to display its details on the right.
+
         - **Label**: Edit the label as you want it to be displayed in the app.
         - **Default item to display**: After entering the list in the step below (Edit list button), select the default item for the list.
         - **Make this field required**: Select to require the user to select at least one item in the list.
         - **Exclude this item if nothing is entered**: Click this option if you want to skip this list when nothing is entered in the app.
         - **Tool tip text**: Enter text to inform the user about how to use the field when viewed in the app.
+    
     4. To add a list item:
+
         a. Click **Edit list**.
         b. In the Edit list window, click **Add**.
         c. Double-click in the **Display** column, edit the display name of the list item, and click **Save**.
