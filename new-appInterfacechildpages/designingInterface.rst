@@ -248,8 +248,19 @@ Adding List Fields to Your App
 
     You can add several different types of list fields to your app.
 
-    
+    .. list-table::
+        :header-rows: 0
 
+        * - List
+          - List field from which the user can select one list item
+        * - Integer List
+          - List of integers from which the user can select one integer item
+        * - Decimal List
+          - List of decimals from which the user can select one decimal item
+        * - List Tree 
+          - List field into which list items can be added in hierarchical order, with ability to select only one or multiple items
+
+    
 
 
 
