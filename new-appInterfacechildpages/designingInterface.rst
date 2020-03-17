@@ -242,6 +242,12 @@ The properties displayed in the Details panel vary according to which input type
 Adding List Fields to Your App
 ------------------------------
 
+.. |create_app| image:: img/Createapp_NewGroupIcon.png
+
+.. |AddArg| image:: img/Createapp_AddArgumentIcon.png
+
+.. |DeleteIcon| image:: img/Createapp_DeleteIcon.png
+
     -------------------
     Adding a list field
     -------------------
@@ -310,6 +316,7 @@ Adding List Fields to Your App
     1. In the Lists section on the left, click and drag the **List Tree** item to the location in the selected section.
     2. Click in the List Tree Label field to display its details on the right.
     3. In the Details section on the right:
+
         - **Tree List label**: Edit the label as you want it to be displayed in the DE.
         - **Make this field required**: Select to require the user to select at least one item in the list.
         - **Exclude this item if nothing is entered**: Skips the item if no item is selected.
@@ -344,9 +351,44 @@ Adding List Fields to Your App
               - Able to select only the parent or only one child
 
         
+        - **Single selection only**: Allows the user to select only one item in the list. When used in combination with the Check Cascade method, it is possible to specify the list items that may be selected.
+
+        - **To add a group**:
+
+            a. Click |create_app|.
+            b. Click in the **Display** cell to edit the group name.
+            c. Click in the Argument cell to enter the argument, according to the tool's requirements.
+            d. Click in the Value to enter the value of the folder.
+            c. Click in the Tool tip text cell to enter the tool tip text for the group.
+            d. Repeat for each group to add.
 
 
+        .. tip::
+            To add a new group after you have added a list item, click **Command+Click** (Mac) or **Control+Click** (PC) to deselect the group, or you can drag the new group out to the desired level.
 
+
+        - **To add an argument (list item)**:
+
+            a. Select the group into which you want to add the list item.
+            b. Click |AddArg|.
+            c. Click in the Display cell to edit the list item name.
+            d. Click in the Argument cell to enter the argument, according to the tool's requirements.
+            e. Click in the Value cell to enter the value of the item.
+            f. Click in the Tool tip text cell to enter the tool tip text.
+            g. Repeat for each argument to add.
+
+        - **To set the default group or argument**, select the item and then click the checkbox in the Default column.
+            
+        - **To delete a group or argument**:
+
+            a. Click the group or argument to delete.
+            b. Click |DeleteIcon|.
+            c. Repeat for each group or list item to delete.
+
+
+    5. When done entering list tree items, click **Done**.
+    6. Click **Preview** and then click **Preview UI**. When done, close the Preview window.
+    7. Click **Save**.
 
 
 ----
