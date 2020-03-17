@@ -323,7 +323,7 @@ You can add several different types of list fields to your app.
 
 
          .. list-table::
-             :header-rows: 0
+             :header-rows: 1
 
             * - **Cascade type**
               - **When parent is selected**
