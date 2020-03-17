@@ -320,10 +320,30 @@ Adding List Fields to Your App
         - **Check Cascade** determines how the list functions when a user takes action upon a section or field. By combining the cascade option with the Single selection only option, you can allow the user to select only one list item, one or more list items, or all list items. Select the cascade option to use:
 
 
+        .. list-table::
+            :header-rows: 1
+            * - **Cascade type**
+              - **When parent is selected**
+              - **When only a child**
+              - **With Single Selection Only option**
+            * - **Both**
+              - Selects parent and all its children (default)
+              - Selects only the checked child or children; highlights parent to indicate a selected child
+              - Able to select only one child
+            * - **Parent**
+              - Selects only the parent
+              - Selects both that child or children and its parent
+              - Selects only the checked child and its parent
+            * - **Children**
+              - Selects both the parent and all its children
+              - Selects only the checked chil
+              - Able to select only one child
+            * - **None**
+              - Selects only the parent
+              - Selects only the checked child
+              - Able to select only the parent or only one child
 
-    
-
-
+        
 
 
 
