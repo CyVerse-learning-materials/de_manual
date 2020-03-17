@@ -221,7 +221,7 @@ The properties displayed in the Details panel vary according to which input type
     ------------------------------
     Deleting file or folder fields
     ------------------------------
-    .. |deleteicon| img/Createapp_DeleteArgumentIcon.png
+    .. |deleteicon| image:: img/Createapp_DeleteArgumentIcon.png
 
 
     1. In the middle section, click in the field to delete. A blue border around it is displayed around the field:
