@@ -326,9 +326,9 @@ You can add several different types of list fields to your app.
     :header-rows: 1
 
     * - **Cascade type**
-        - **When parent is selected**
-        - **When only a child**
-        - **With Single Selection Only option**
+      - **When parent is selected**
+      - **When only a child**
+      - **With Single Selection Only option**
     * - **Both**
       - Selects parent and all its children (default)
       - Selects only the checked child or children; highlights parent to indicate a selected child
