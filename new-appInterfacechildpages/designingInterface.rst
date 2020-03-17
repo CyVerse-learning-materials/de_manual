@@ -248,11 +248,7 @@ Adding List Fields to Your App
 
 .. |DeleteIcon| image:: img/Createapp_DeleteIcon.png
 
-    -------------------
-    Adding a list field
-    -------------------
-
-    You can add several different types of list fields to your app.
+You can add several different types of list fields to your app.
 
     .. list-table::
         :header-rows: 0
@@ -388,6 +384,24 @@ Adding List Fields to Your App
     5. When done entering list tree items, click **Done**.
     6. Click **Preview** and then click **Preview UI**. When done, close the Preview window.
     7. Click **Save**.
+
+
+---------------------
+Deleting a list field
+---------------------
+
+.. |graydelete| image:: img/Createapp_DeleteArgumentIcon.png
+
+    1. In the middle section, hover over the item to delete until you see a blue border around the object:
+
+.. image:: img/CreateApp_DeleteCheckbox1.png
+
+    2. Hover over the gray |graydelete| icon at the top right until it turns red.
+
+.. image:: img/CreateApp_DeleteCheckbox2.png
+
+    3. Click the icon to complete the deletion.
+    4. Click **Save**.
 
 
 
