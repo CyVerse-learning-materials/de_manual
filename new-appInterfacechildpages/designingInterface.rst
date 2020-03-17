@@ -393,16 +393,16 @@ Deleting a list field
 
 .. |graydelete| image:: img/Createapp_DeleteArgumentIcon.png
 
-    1. In the middle section, hover over the item to delete until you see a blue border around the object:
+1. In the middle section, hover over the item to delete until you see a blue border around the object:
 
 .. image:: img/CreateApp_DeleteCheckbox1.png
 
-    2. Hover over the gray |graydelete| icon at the top right until it turns red.
+2. Hover over the gray |graydelete| icon at the top right until it turns red.
 
 .. image:: img/CreateApp_DeleteCheckbox2.png
 
-    3. Click the icon to complete the deletion.
-    4. Click **Save**.
+3. Click the icon to complete the deletion.
+4. Click **Save**.
 
 
 
