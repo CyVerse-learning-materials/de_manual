@@ -248,7 +248,7 @@ Adding List Fields to Your App
 
 .. |DeleteIcon| image:: img/Createapp_DeleteIcon.png
 
-    -------------------
+   
     Adding a list field
     -------------------
 
@@ -267,7 +267,7 @@ Adding List Fields to Your App
           - List field into which list items can be added in hierarchical order, with ability to select only one or multiple items
 
     
-    -------------------------------------------------------------------
+    
     Step 1: Open the Create or Edit Apps window and select the section.
     -------------------------------------------------------------------
 
@@ -280,7 +280,7 @@ Adding List Fields to Your App
     
     2. Click the section header to expand the section into which you want to add the list field.
 
-    -----------------------------------
+    
     Step 2: Select the list type to add
     -----------------------------------
 
@@ -309,9 +309,8 @@ Adding List Fields to Your App
         g. Click **Done**.
 
 
-    ---------------------------------------
-    **List Tree (hierarchical lists) fields
-    ---------------------------------------
+    **List Tree (hierarchical lists) fields**
+    -----------------------------------------
 
     1. In the Lists section on the left, click and drag the **List Tree** item to the location in the selected section.
     2. Click in the List Tree Label field to display its details on the right.
@@ -389,6 +388,9 @@ Adding List Fields to Your App
     5. When done entering list tree items, click **Done**.
     6. Click **Preview** and then click **Preview UI**. When done, close the Preview window.
     7. Click **Save**.
+
+
+
 
 
 ----
