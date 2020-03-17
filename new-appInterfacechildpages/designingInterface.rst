@@ -325,26 +325,26 @@ You can add several different types of list fields to your app.
     .. list-table::
         :header-rows: 0
 
-            * - **Cascade type**
-              - **When parent is selected**
-              - **When only a child**
-              - **With Single Selection Only option**
-            * - **Both**
-              - Selects parent and all its children (default)
-              - Selects only the checked child or children; highlights parent to indicate a selected child
-              - Able to select only one child
-            * - **Parent**
-              - Selects only the parent
-              - Selects both that child or children and its parent
-              - Selects only the checked child and its parent
-            * - **Children**
-              - Selects both the parent and all its children
-              - Selects only the checked chil
-              - Able to select only one child
-            * - **None**
-              - Selects only the parent
-              - Selects only the checked child
-              - Able to select only the parent or only one child
+        * - **Cascade type**
+          - **When parent is selected**
+          - **When only a child**
+          - **With Single Selection Only option**
+        * - **Both**
+          - Selects parent and all its children (default)
+          - Selects only the checked child or children; highlights parent to indicate a selected child
+          - Able to select only one child
+        * - **Parent**
+          - Selects only the parent
+          - Selects both that child or children and its parent
+          - Selects only the checked child and its parent
+        * - **Children**
+          - Selects both the parent and all its children
+          - Selects only the checked chil
+          - Able to select only one child
+        * - **None**
+          - Selects only the parent
+          - Selects only the checked child
+          - Able to select only the parent or only one child
 
         
         - **Single selection only**: Allows the user to select only one item in the list. When used in combination with the Check Cascade method, it is possible to specify the list items that may be selected.
