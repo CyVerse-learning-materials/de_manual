@@ -882,7 +882,7 @@ At any time, you can move items and fields to a new position in the same or even
     2. In the middle section, click the header bar of the section containing the item to move.
     3. Move your pointer to the field label until it becomes a pointer and a blue box surrounds the field:
 
-    .. image:: img/reateApps_Move1.png
+    .. image:: img/CreateApps_Move1.png
 
     4. Begin dragging the field.
        As you move the field, a checkbox in a green circle is displayed in locations to which you can move the field:
