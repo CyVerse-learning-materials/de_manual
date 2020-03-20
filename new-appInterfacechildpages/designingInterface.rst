@@ -502,6 +502,7 @@ Adding Text, Integer, Checkbox, and Variable Input Fields to Your App
         - **Tool tip text**: Edit as needed.
 
     5. To add a validation rule for the text string:
+    
         a. Click |AddArg|.
         b. In the Rule Type list, select either:
 
@@ -602,6 +603,7 @@ Adding Text, Integer, Checkbox, and Variable Input Fields to Your App
         - **Tool tip text**: Edit as needed.
 
     5. To add a validation rule for the integer field:
+
         a. Click |AddArg|.
         b. In the Rule Type field, select either:
 
@@ -636,6 +638,7 @@ Adding Text, Integer, Checkbox, and Variable Input Fields to Your App
         - **Tool tip text**: Edit as needed.
 
     4. To add a validation rule for the decimal:
+
         a. Click |AddArg|.
         b. In the Rule Type list, select either:
 
