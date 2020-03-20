@@ -406,6 +406,82 @@ Deleting a list field
 
 
 
+---------------------------------------------------------------------
+Adding Text, Integer, Checkbox, and Variable Input Fields to Your App
+---------------------------------------------------------------------
+
+Adding Text, Integer, Checkbox, and Variable Input Fields to Your App
+
+    ---------------------------------------------------------------
+    About adding text, integer, checkbox, and variable input fields
+    ---------------------------------------------------------------
+
+    You can choose from several different types of text and numerical input fields:
+
+
+    .. list-table::
+        :header-rows: 1
+
+        * - **Field Type**
+          - **description**
+          - **Define Default Value?**
+          - **Set Validation Rules?**
+        * - Info Text
+          - Textbox into which the integrator can enter informative or descriptive text about the section or field
+          - No
+          - No
+        * - Single-line Text
+          - Textbox into which the user can enter one line of text
+          - Yes
+          - Yes
+        * - Multi-line Text
+          - Textbox into which the user can enter multiple lines of text
+          - Yes
+          - No
+        * - Checkbox
+          - Checkbox option
+          - Yes
+          - No
+        * - Environment Variable
+          - Environment variable that the user can set before running an analysis
+          - Yes
+          - No
+        * - Integer
+          - Textbox that checks for valid integer input
+          - Yes
+          - Yes
+        * - Decimal
+          - Textbox that checks for valid decimal or large integer input
+          - Yes
+          - Yes
+    
+
+    ---------
+    Info Text
+    ---------
+
+    Inserts a text box into which the integrator can enter informative or descriptive text about a section or field. For example, you can add an info text field to explain how to use the following field.
+
+    
+    1. To create a new app, or copy or edit an existing one:
+        - To **create a new app or workflow from scratch**, either:
+            
+            - Open the Apps window, click **Apps** on the toolbar for an app or **Workflow** for a workflow, and then click **Create New**.
+                or
+            - Click the tool name from the `Manage Tools <http://hammer.cyverse.org:8090/display/DEmanual/Managing+Tools+in+the+DE>`_ window.
+       
+        - To **create your own version or edit one you already published**, select the app or workflow in the **Public Apps** folder, click either **Apps** or **Workflow**, and then click **Copy**.
+        - To **edit an unpublished app or workflow** you are working on, select the app or workflow in your **Apps under development folder**, click either **Apps** or **Workflow**, and then click **Edit**.
+    2. Click to open the section into which you want to add the info text field.
+    3. In the Text/Numerical Input section on the left, click and drag the **Info Text** item to the location in the selected section.
+    4. Click in the Info Text Label field to display its Details on the right.
+    5. In the Details section, enter the text to display in the information line.
+    6. Click **Preview** and then click **Preview UI**. When done, close the Preview window.
+    7. Click **Save**.
+
+
+
+
 
 
 ----
