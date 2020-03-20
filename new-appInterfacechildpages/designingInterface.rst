@@ -516,7 +516,70 @@ Adding Text, Integer, Checkbox, and Variable Input Fields to Your App
     9. Click **Save**.
 
 
+    **Multi-line text fields**
 
+    Inserts a text input field into which the user can enter multiple lines of text.
+
+    .. image:: img/CreateApp_MultiLineText.png
+
+
+    1. In the Create Apps window for the app, click to open the section into which you want to add the multi-line text input field.
+    2. In the Text/Numerical Input section on the left, click and drag the **Multi-line Text** object to the location in the selected section.
+    3. Click in the Multi-line Text Label field to display its Details on the right.
+    4. Edit the Details section:
+
+        - **Multi-line Text label**: Edit the label as you want it to be displayed in the DE.
+        - **Argument option**: Enter the command line option according to the tool's requirements.
+        - **Default text**: Enter the default text strings that will be displayed.
+        - **Do not display this item in the app**: Hides the field in the GUI.
+        - **Make this field required**: Requires the user to select at least one input file.
+        - **Exclude this item if nothing is entered**: Skips the item if no selection was made.
+        - **Tool tip text**: Edit as needed.
+
+    5. Click **Preview** and then click **Preview UI**. When done, close the Preview window.
+    6. Click **Save**.
+
+
+    **Checkbox Fields**
+
+    Inserts a checkbox and checkbox label.
+
+    .. image:: img/CreateApp_Checkbox2.png
+
+    1. In the Create Apps window for the app, click to open the section into which you want to add the checkbox.
+    2. In the Text/Numerical Input section on the left, click and drag the Checkbox object to the location in the selected section.
+    3. Click in the Checkbox Label field to display its Details on the right.
+    4. Edit the Details:
+
+        - **Checkbox label**:
+            a. Edit the label as you want it to be displayed in the DE.
+            b. Enter the argument option and value for the Checked and Not Checked options.
+        - **Check item by default**: Defines whether the default state is checked or cleared.
+        - **Do not display this item in the app**: Hides the field in the GUI.
+        - **Exclude this item if nothing is entered**: Skips the item if no selection was made.
+        - **Tool tip text**: Edit as needed.
+
+    5. Click **Preview** and then click **Preview UI**. When done, close the Preview window.
+    6. Click **Save**.
+
+    **Environment variable fields**
+
+    Allows the user to enter variables that affect the user's local machine. For more information, see `Environment variable <http://en.wikipedia.org/wiki/Environment_variable>`_ on the Wikipedia website.
+
+    1. In the Create Apps window for the app, click to open the section into which you want to add the argument.
+    2. In the Text/Numerical Input section on the left, click and drag the **Environment Variable** object to the location in the selected section.
+    3. Click in the Environment Variable Label field to display its Details on the right.
+    4. In the Details panel:
+
+        - **Environment Variable label**: Edit the label as you want it to be displayed in the DE.
+        - **Environment Variable name**: Displays the name of the environment variable name set by the app before the command line tool is run.
+        - **Default value**: Enter the default value for the variable you entered.
+        - **Do not display this item in the app**: Hides the field in the GUI.
+        - **Make this field required**: Requires the user to enter a variable.
+        - **Tool tip text**: Edit as needed.
+    
+    5. Click **Preview** and then click **Preview UI**. When done, close the Preview window.
+    6. Click **Save**.
 
 
 
