@@ -502,7 +502,7 @@ Adding Text, Integer, Checkbox, and Variable Input Fields to Your App
         - **Tool tip text**: Edit as needed.
 
     5. To add a validation rule for the text string:
-    
+
         a. Click |AddArg|.
         b. In the Rule Type list, select either:
 
@@ -667,7 +667,6 @@ Adding Text, Integer, Checkbox, and Variable Input Fields to Your App
     4. Click **Save**.
 
 
-
 ----------------------------------------------
 Adding and Deleting Output Fields for Your App
 ----------------------------------------------
@@ -687,7 +686,7 @@ To create a new app, or copy or edit an existing one:
     - To **create your own version or edit one you already published**, select the app or workflow in the **Public Apps** folder, click either **Apps** or **Workflow**, and then click **Copy**.
     - To **edit an unpublished app or workflow** you are working on, select the app or workflow in your **Apps under development** folder, click either **Apps** or **Workflow**, and then click **Edit**.
 
-
+----------------------
 Adding an output field
 ----------------------
 
@@ -711,6 +710,197 @@ Adding an output field
     
     5. Click **Preview** and then click **Preview UI**. When done, close the Preview window.
     6. Click **Save**.
+
+
+**Output Folder Name field**
+
+    1. In the Create Apps window for the app, click to open the section into which you want to add the argument.
+    2. In the **Output** section on the left, click and drag the **Output Folder Name** item to the location in the selected section.
+    3. Click in the Output Folder Name Label field to display its Details on the right.
+    4. In the Details section:
+
+        - **Output Folder Name label**: Edit the label as you want it to be displayed in the DE.
+        - **Argument option**: Enter the command line option according to the tool's requirements.
+        - **Do not pass this argument to command line**: Click to prevent the argument from being passed to the command line.
+        - **Default output folder name**: Enter the default output folder name.
+        - **Do not display this item in the app**: Displays (default) or hides the field in the GUI.
+        - **Make this field required**: Requires the user to select a folder.
+        - **Exclude this item if nothing is entered**: Skips the item if nothing is selected.
+        - **Tool tip text**: Edit as needed.
+        - *Source of output file:* Enter the output source.
+        - **Type of information in this folder**: Select the type of file that can be included in the folder, or leave Unspecified to allow more than one file type in the folder.
+    
+    5. Click Preview and then click Preview UI. When done, close the Preview window.
+    6. Click **Save**.
+
+
+
+**Multi-File Output Name field**
+
+    1. In the Create Apps window for the app, click to open the section into which you want to add the argument.
+    2. In the Output section on the left, click and drag the Multi-File Output Name object to the location in the selected section.
+    3. Click in the Multi-file Output Label field to display its Details on the right.
+    4. In the Details section:
+    
+        - **Multi-file Output Name label**: Edit the label as you want it to be displayed in the DE.
+        - **Argument option**: Enter the command line option according to the tool's requirements.
+        - **Do not pass this argument to command line**: Click to prevent the argument from being passed to the command line.
+        - **Default Multi-file output names**: Enter the name pattern for the multi-file output.
+        - **Do not display this item in the app**: Hides the field in the GUI.
+        - **Make this field required**: Requires the user to enter an integer.
+        - **Exclude this item if nothing is entered**: Skips the item if nothing is selected.
+        - **Tool tip text**: Edit as needed.
+        - **Type of information in this file**: Select the type of files that can be included in the list, or leave Unspecified to allow more than one file type in the folder.
+    
+    5. Click **Preview** and then click **Preview UI**. When done, close the Preview window.
+    6. Click **Save**.
+
+
+---------------------------------------
+Deleting an output file or folder field
+---------------------------------------
+
+    1. In the middle secton, hover over the argument to delete until you see a blue border around it:
+
+    .. image:: img/CreateApp_DeleteCheckbox1.png
+
+    2. Hover over the gray |graydelete| icon at the top right until it turns red.
+
+    .. image:: img/CreateApp_DeleteCheckbox2.png
+
+    3. Click the icon to complete the deletion.
+    4. Click **Save**.
+
+
+----------------------------------------------------------------------------
+Adding Reference Genome, Reference Sequence, and Reference Annotation fields
+----------------------------------------------------------------------------
+
+You can add fields for reference genomes, only reference sequences, and only reference annotations to your app.
+
+**Reference Genome fields**
+
+    1. To create a new app, or copy or edit an existing one:
+
+        - To **create a new app or workflow from scratch**, either:
+
+            - Open the Apps window, click **Apps** on the toolbar for an app or **Workflow** for a workflow, and then click **Create New**.
+                or
+            - Click the tool name from the **Manage Tools** window.
+
+        - To **create your own version or edit one you already published**, select the app or workflow in the **Public Apps** folder, click either **Apps** or **Workflow**, and then click **Copy**.
+        - To **edit an unpublished app or workflow** you are working on, select the app or workflow in your **Apps under development** folder, click either **Apps** or **Workflow**, and then click **Edit**.
+    
+    2. Click to open the section into which you want to add the genome field.
+    3. In the **Reference Genome** section on the left, click and drag the **Reference Genome** item to the location in the selected section.
+    4. Click in the **Reference Genome Label** field to display its Details on the right.
+    5. Edit the Details section:
+
+        - **Reference Genome Selector label**: Edit the label as you want it to be displayed in the DE.
+        - **Argument option**: Enter the command line option according to the tool's requirements.
+        - **Default item to display**: Select the default genome.
+        - **Make this field required**: Requires the user to select a reference genome.
+        - **Exclude this item if nothing is entered**: Skips the item when no selection has been made.
+        - **Tool tip text**: Edit as needed.
+    
+    6. Click **Preview** and then click **Preview UI**. When done, close the Preview window.
+    7. Click **Save**.
+
+
+**Reference Sequence fields**
+
+    1. In the Create Apps window for the app, click to open the section into which you want to add the sequence field.
+    2. In the **Reference Genome** section on the left, click and drag the **Reference Sequence** item to the location in the selected section.
+    3. Click in the **Reference Sequence Label** field to display its Details on the right.
+    4. In the Details section:
+        
+        - **Reference Sequence Selector label**: Edit the label as you want it to be displayed in the DE.
+        - **Argument option**: Enter the command line option according to the tool's requirements.
+        - **Default item to display**: Select the default reference sequence.
+        - **Make this field required**: Requires the user to select a reference sequence.
+        - **Exclude this item if nothing is entered**: Skips the item when no selection has been made.
+        - **Tool tip text**: Edit as needed.
+
+    5. Click **Preview** and then click **Preview UI**. When done, close the Preview window.
+    6. Click **Save**.
+
+
+**Reference Annotation fields**
+
+    1. In the Create Apps window for the app, click to open the group into which you want to add the annotation field.
+    2. In the **Reference Genome** section on the left, click and drag the **Reference Annotation** item to the location in the selected section.
+    3. Click in the **Reference Annotation** Label field to display its Details on the right.
+    4. In the Details section:
+
+        - **Reference Annotation Selector label**: Edit the label as you want it to be displayed in the DE.
+        - **Argument option**: Enter the command line option according to the tool's requirements.
+        - **Default item to display**: Select the default reference sequence.
+        - **Make this field required**: Requires the user to select a reference annotation.
+        - **Exclude this item if nothing is entered**: Skips the item when no selection has been made.
+        - **Tool tip text**: Edit as needed.
+    
+    5. Click **Preview** and then click **Preview UI**. When done, close the Preview window.
+    6. Click **Save**.
+
+
+----------------------------------------------------------
+Deleting a reference genome, sequence, or annotation field
+----------------------------------------------------------
+
+    1. In the middle secton, hover over the argument to delete until you see a blue border around it:
+
+    .. image:: img/CreateApp_DeleteCheckbox1.png
+
+    2. Hover over the gray |graydelete| icon at the top right until it turns red.
+
+    .. image:: img/CreateApp_DeleteCheckbox2.png
+
+    3. Click the icon to complete the deletion.
+    4. Click **Save**.
+
+
+-------------------------
+Moving fields in your app
+-------------------------
+
+At any time, you can move items and fields to a new position in the same or even to a different section. With the 1.8 release, this is easily done by dragging and dropping the item in the new position.
+
+    1. To create a new app, or copy or edit an existing one:
+        
+        - To **create a new app or workflow from scratch**, either:
+            
+            - Open the Apps window, click **Apps** on the toolbar for an app or **Workflow** for a workflow, and then click **Create New**.
+
+                or
+
+            - Click the tool name from the **Manage Tools** window.
+
+        - To **create your own version or edit one you already published**, select the app or workflow in the **Public Apps** folder, click either **Apps** or **Workflow**, and then click **Copy**.
+
+        - To **edit an unpublished app or workflow** you are working on, select the app or workflow in your **Apps under development** folder, click either **Apps** or **Workflow**, and then click **Edit**.
+
+    2. In the middle section, click the header bar of the section containing the item to move.
+    3. Move your pointer to the field label until it becomes a pointer and a blue box surrounds the field:
+
+    .. image:: img/reateApps_Move1.png
+
+    4. Begin dragging the field.
+       As you move the field, a checkbox in a green circle is displayed in locations to which you can move the field:
+
+    .. image:: img/CreateApps_Move2.png
+
+    5. Drop the field in the desired location.
+    6. Repeat for each field to move. 
+
+    .. tip:: To move a field to a different section, drag and drop it to the new section and then move it to the desired location in that section.
+
+    7. Click **Preview** and then click **Preview App**.
+    8. When done, click **Save**.
+
+
+
+
+
 
 
 
