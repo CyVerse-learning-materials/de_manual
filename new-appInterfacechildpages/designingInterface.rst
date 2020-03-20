@@ -582,6 +582,97 @@ Adding Text, Integer, Checkbox, and Variable Input Fields to Your App
     6. Click **Save**.
 
 
+    **Integer input fields**
+
+    Adds a text field into which the user can enter an integer, with validation for upper limit, lower limit, or range of values.
+
+    .. image:: img/CreateApp_Integer.png
+
+    1. In the Create Apps window for the app, click to open the section into which you want to add the argument.
+    2. In the Text/Numerical Input section on the left, click and drag the **Integer** object to the location in the selected section.
+    3. Click in the Integer Label field to display its Details on the right.
+    4. In the Details section:
+        
+        - **Integer Input label**: Edit the label as you want it to be displayed in the DE.
+        - **Argument option**: Enter the argument to use for the item, according to the tool's requirements.
+        - **Default value**: Enter the default value that will be displayed.
+        - **Do not display this item in the app**: Hides the field in the GUI.
+        - **Make this field required**: Requires the user to enter an integer.
+        - **Exclude this item if nothing is entered**: Skips the item if no selection was made.
+        - **Tool tip text**: Edit as needed.
+
+    5. To add a validation rule for the integer field:
+        a. Click |AddArg|.
+        b. In the Rule Type field, select either:
+
+            - **Has a range of allowed values**: Enter the upper and lower values for the entered integer to define the range the user can enter in the field.
+            - **Has a lower limit**: Enter the value that must be above the entered integer.
+            - **Has an upper limit**: Enter the integer that must be below the entered integer.
+        
+        c. Click **OK**.
+        d. Repeat for each validation rule to define.
+
+    6. To edit a validation rule, click the rule in the table, click **Edit**, change the settings, and click **OK**.
+    7. To delete a validation rule, click the rule in the table and then click **Delete**.
+    8. Click **Preview** and then click **Preview UI**. When done, close the Preview window.
+    9. Click **Save**.
+
+    **Decimal input fields**
+
+    Adds a field into which the user can enter an integer — decimal or large integer — with validation for lower limit, upper limit, or range of values.
+
+    .. image:: img/CreateApp_Double.png
+
+    1. In the Create Apps window for the app, click and drag the **Double** object in the Text/Numerical Input section on the left, to the location in the selected section.
+    2. Click in the Decimal Label field to display its Details on the right.
+    3. In the Details section:
+
+        - **Decimal Input label**: Edit the label as you want it to be displayed in the DE.
+        - **Argument option**: Enter the command line option according to the tool's requirements.
+        - **Default value**: Enter the default value that will be displayed.
+        - **Do not display this item in the app**: Hides the field in the GUI.
+        - **Make this field required**: Requires the user to enter an integer.
+        - **Exclude this item if nothing is entered**: Skips the item if no selection was made.
+        - **Tool tip text**: Edit as needed.
+
+    4. To add a validation rule for the decimal:
+        a. Click |AddArg|.
+        b. In the Rule Type list, select either:
+
+            - **Has a range of allowed values**: Enter the upper and lower values for the entered integer to define the range the user can enter in the field.
+            - **Has a lower limit**: Enter the decimal that the entered value must be above.
+            - **Has an upper limit**: Enter the decimal that the entered value must be below.
+        
+        c. Repeat for each validation rule to define.
+    5. To edit a validation rule, click the rule in the table, click **Edit**, change the settings, and click **OK**.
+    6. To delete a validation rule, click the rule in the table and then click **Delete**.
+    7. Click **Preview** and then click **Preview UI**. When done, close the Preview window.
+    8. Click **Save**.
+
+
+    **Deleting a text, integer, checkbox, or variable input field**
+
+    1. In the middle secton, hover over the argument to delete until you see a blue border around it:
+
+    .. image:: img/CreateApp_DeleteCheckbox1.png
+
+    2. Hover over the gray |graydelete| icon at the top right until it turns red.
+
+    .. image:: img/CreateApp_DeleteCheckbox2.png
+
+    3. Click the icon to complete the deletion.
+    4. Click **Save**.
+
+
+
+
+
+
+
+
+
+
+
 
 ----
 
