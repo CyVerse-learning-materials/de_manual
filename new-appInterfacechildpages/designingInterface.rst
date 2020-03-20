@@ -456,7 +456,7 @@ Adding Text, Integer, Checkbox, and Variable Input Fields to Your App
           - Yes
     
 
-    ---------
+    
     Info Text
     ---------
 
@@ -481,7 +481,7 @@ Adding Text, Integer, Checkbox, and Variable Input Fields to Your App
     7. Click **Save**.
 
 
-    -----------------------------
+    
     Single-line text input fields
     -----------------------------
 
