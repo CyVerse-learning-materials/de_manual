@@ -665,12 +665,49 @@ Adding Text, Integer, Checkbox, and Variable Input Fields to Your App
 
 
 
+----------------------------------------------
+Adding and Deleting Output Fields for Your App
+----------------------------------------------
+
+You can add and delete fields for file output, folder output, and multiple file outputs.
+
+**Open the window**
+
+To create a new app, or copy or edit an existing one:
+
+    - To **create a new app or workflow from scratch**, either:
+    
+            - Open the Apps window, click **Apps** on the toolbar for an app or **Workflow** for a workflow, and then click **Create New**.
+                or
+            - Click the tool name from the **Manage Tools** window.
+    
+    - To **create your own version or edit one you already published**, select the app or workflow in the **Public Apps** folder, click either **Apps** or **Workflow**, and then click **Copy**.
+    - To **edit an unpublished app or workflow** you are working on, select the app or workflow in your **Apps under development** folder, click either **Apps** or **Workflow**, and then click **Edit**.
 
 
+Adding an output field
+----------------------
 
+**Output File Name field**
 
-
-
+    1. Click to open the section into which you want to add the argument.
+    2. In the Output section on the left, click and drag the Output File Name item to the location in the selected section.
+    3. Click in the Output File Name Label field to display its Details on the right.
+    4. In the Details section:
+       
+        - **Output File Name label**: Edit the label as you want it to be displayed in the DE.
+        - **Argument option**: Enter the command line option according to the tool's requirements.
+        - **Do not pass this argument to command line**: Click to prevent the argument from being passed to the command line.
+        - **Default output file name**: Enter the default output file name.
+        - **Do not display this item in the app**: Hides the field in the GUI.
+        - **Make this field required**: Requires the user to select a file.
+        - **Exclude this item if nothing is entered**: Skips the item if nothing is selected.
+        - **Tool tip text**: Edit as needed.
+        - *Source of output file:* Enter the source for your output file.
+        - **Type of information in this folder**: Select the type of file that can be included in the folder, or leave Unspecified to allow more than one file type in the folder.
+    
+    5. Click **Preview** and then click **Preview UI**. When done, close the Preview window.
+    6. Click **Save**.
 
 
 
