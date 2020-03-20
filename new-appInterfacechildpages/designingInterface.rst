@@ -464,6 +464,7 @@ Adding Text, Integer, Checkbox, and Variable Input Fields to Your App
 
     
     1. To create a new app, or copy or edit an existing one:
+        
         - To **create a new app or workflow from scratch**, either:
             
             - Open the Apps window, click **Apps** on the toolbar for an app or **Workflow** for a workflow, and then click **Create New**.
