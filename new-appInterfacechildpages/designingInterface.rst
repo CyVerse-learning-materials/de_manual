@@ -481,6 +481,42 @@ Adding Text, Integer, Checkbox, and Variable Input Fields to Your App
     7. Click **Save**.
 
 
+    -----------------------------
+    Single-line text input fields
+    -----------------------------
+
+    Inserts a text field into which the user can enter a single line of text, with validation either for a maximum number of characters or a regular expression.
+
+    .. image:: img/CreateApp_SingleLineText.png
+
+    1. In the Create Apps window for the app, click to open the section into which you want to add the single-line text input field.
+    2. In the Text/Numerical Input section on the left, click and drag the Single-line Text item to the location in the selected section.
+    3. Click in the Single-line Text Label field to display its Details on the right.
+    4. Edit the Details section:
+
+        - **Text box label**: Edit the label as you want it to be displayed in the DE.
+        - **Argument option**: Enter the command line option according to the tool's requirements.
+        - **Default text**: Enter the default text string that will be displayed.
+        - **Do not display this item in the app**: Hides the field in the GUI.
+        - **Make this field required**: Requires the user to enter at least one text string.
+        - **Exclude this item if nothing is entered**: Skips the item if no selection was made.
+        - **Tool tip text**: Edit as needed.
+
+    5. To add a validation rule for the text string:
+        a. Click |AddArg|.
+        b. In the Rule Type list, select either:
+
+            - **Value must contain, at most, a maximum number of characters**: Enter the maximum number of characters that may be entered in the text string and then click **OK**.
+            - **Matches a regular expression**: Enter the text string that is required and then click **OK**.
+        
+        c. Repeat for each validation rule to define.
+    
+    6. To edit a validation rule, click the validation rule in the Validation rules table, click **Edit**, and change the Rule Type or Value, and then click **OK**.
+    7. To delete a validation rule, click the validation rule in the Validation rules table and then click **Delete**.
+    8. Click **Preview** and then click **Preview UI**. When done, close the Preview window.
+    9. Click **Save**.
+
+
 
 
 
