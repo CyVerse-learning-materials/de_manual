@@ -89,9 +89,9 @@ Adding and Editing App Sections
 
 Apps are built section by section. By default, the Section 1 section is created when you first create a new app. You can edit the section name, as well as add additional sections and delete sections.
 
-    ----------------------
-    Editing a section name
-    ----------------------
+    
+    **Editing a section name**
+
 
     1. To create a new app, or copy or edit an existing one:
 
@@ -118,9 +118,9 @@ Apps are built section by section. By default, the Section 1 section is created 
     4. Click **Save**.
 
 
-    --------------------
-    Adding a new section
-    --------------------
+    
+    **Adding a new section**
+    
 
     1. In the Create Apps window for the app, click and drag the Section object in the App Items section on the left to the target position in the selected group:
 
@@ -129,9 +129,9 @@ Apps are built section by section. By default, the Section 1 section is created 
     2. In the Details section, edit the section name label.
     3. Click **save**
 
-    ------------------
-    Deleting a section
-    ------------------
+    
+    **Deleting a section**
+    
 
     1. In the Create Apps window for the app, click the header bar of the section to delete.
     2. In the Details section, click **Delete section**:
@@ -145,13 +145,12 @@ Adding and Deleting File and Folder Input Fields for Your App
 
 You can add fields for multiple input files, single files, or folder input fields when creating or editing an app interface.
 
-    -------------------
-    Adding input fields
-    -------------------
 
-    --------------------------
-    Step 1: Select the section
-    --------------------------
+**Adding input fields**
+
+    
+    **Step 1: Select the section**
+    
 
     1. To create a new app, or copy or edit an existing one:
 
@@ -170,9 +169,9 @@ You can add fields for multiple input files, single files, or folder input field
     2. In the app, click the section header to expand the section into which you want to add the input field.
 
 
-    ------------------------------------------
-    Step 2: Select the input field type to add
-    ------------------------------------------
+    
+    **Step 2: Select the input field type to add**
+    
 
     - **Multiple Input Files field**: Allows the user to select multiple files, with the ability to specify the type of file that may be added to the list, as shown:
 
@@ -187,9 +186,9 @@ You can add fields for multiple input files, single files, or folder input field
     .. image:: img/CreateApp_FolderSelector.png
 
 
-    ---------------------------------------------------
-    Step 3: Edit the Details section in the right panel
-    ---------------------------------------------------
+    
+    **Step 3: Edit the Details section in the right panel**
+    
 
 .. role:: rubric
 
@@ -208,9 +207,9 @@ The properties displayed in the Details panel vary according to which input type
     - **Repeat "Argument option" on the command line before each filename** *:rubric:`(Multiple Input Files only)`*: Includes the select input files in the command line before each filename selected by the user.
 
 
-    ------------------------
-    Step 4: Preview and save
-    ------------------------
+    
+    **Step 4: Preview and save**
+    
 
     1. Click **Preview** and then click **Preview UI**.
 
@@ -218,9 +217,9 @@ The properties displayed in the Details panel vary according to which input type
 
     3. Click **Save**.
 
-    ------------------------------
-    Deleting file or folder fields
-    ------------------------------
+
+**Deleting file or folder fields**
+
     .. |deleteicon| image:: img/Createapp_DeleteArgumentIcon.png
 
 
@@ -263,9 +262,9 @@ You can add several different types of list fields to your app.
           - List field into which list items can be added in hierarchical order, with ability to select only one or multiple items
 
     
-    -------------------------------------------------------------------
-    Step 1: Open the Create or Edit Apps window and select the section.
-    -------------------------------------------------------------------
+    
+    **Step 1: Open the Create or Edit Apps window and select the section.**
+    
 
 
     1. To create a new app, or copy or edit an existing one:
@@ -276,9 +275,9 @@ You can add several different types of list fields to your app.
     
     2. Click the section header to expand the section into which you want to add the list field.
 
-    -----------------------------------
-    Step 2: Select the list type to add
-    -----------------------------------
+    
+    **Step 2: Select the list type to add**
+    
 
     **List, Integer List, and Decimal List Fields**
 
@@ -304,9 +303,9 @@ You can add several different types of list fields to your app.
         f. Repeat for each item in the list.
         g. Click **Done**.
 
-    -----------------------------------------
+    
     **List Tree (hierarchical lists) fields**
-    -----------------------------------------
+    
 
     1. In the Lists section on the left, click and drag the **List Tree** item to the location in the selected section.
     2. Click in the List Tree Label field to display its details on the right.
@@ -412,9 +411,9 @@ Adding Text, Integer, Checkbox, and Variable Input Fields to Your App
 
 Adding Text, Integer, Checkbox, and Variable Input Fields to Your App
 
-    ---------------------------------------------------------------
-    About adding text, integer, checkbox, and variable input fields
-    ---------------------------------------------------------------
+    
+**About adding text, integer, checkbox, and variable input fields**
+    
 
     You can choose from several different types of text and numerical input fields:
 
@@ -457,8 +456,8 @@ Adding Text, Integer, Checkbox, and Variable Input Fields to Your App
     
 
     
-    Info Text
-    ---------
+    **Info Text**
+    
 
     Inserts a text box into which the integrator can enter informative or descriptive text about a section or field. For example, you can add an info text field to explain how to use the following field.
 
@@ -482,8 +481,8 @@ Adding Text, Integer, Checkbox, and Variable Input Fields to Your App
 
 
     
-    Single-line text input fields
-    -----------------------------
+    **Single-line text input fields**
+    
 
     Inserts a text field into which the user can enter a single line of text, with validation either for a maximum number of characters or a regular expression.
 
