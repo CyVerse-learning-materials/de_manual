@@ -103,6 +103,79 @@ Unsharing a tool
     5. Click **Done**.
 
 
+Adding or Requesting a New Tool
+-------------------------------
+
+Discovery Environment **tools** are `Docker images <http://hammer.cyverse.org:8090/display/DEmanual/Dockerizing+Your+Tools+for+the+CyVerse+Discovery+Environment>`_ from which apps are created. There are numerous tools already available in the DE for new apps you are creating. It's easiest to just use one of those tools. However, sometimes the tool or version isn't available, so you can request installation of a new tool or create a new one yourself. This page describes how to add a new tool to the DE that you created or to request that a new tool or tool version be installed in the DE. To request installation of a new tool on the Condor nodes or via some other method, contact `CyVerse Support <support@cyverse.org>`_ for more information.
+
+If you create a new tool, it is available by default in your personal Tools list and available only for your use until you share it with a collaborator or make it public. Note that all tools created prior to the 2.13 release in June 2017 are public. You can edit and delete a tool you own, as well as jump-start the creation of a new app from the Tools window. For information on managing tools, see **Managing Tools in the DE**.
+
+-----------------
+Adding a new tool
+-----------------
+
+.. |infoicon| image:: img/InfoIcon.png
+
+You can create a new tool.
+
+    1. `View the list of available tools <http://hammer.cyverse.org:8090/display/DEmanual/Finding+the+List+of+Available+Tools#FindingtheListofAvailableTools-SelectTool>`_ to make sure the tool and version are not already installed. If your tool and version are not listed, you must first `Dockerize the tool <http://hammer.cyverse.org:8090/display/DEmanual/Dockerizing+Your+Tools+for+the+CyVerse+Discovery+Environment>`_ before requesting the new tool or version. **Because all tools run inside Docker containers and are installed as Docker images, you must first create the Dockerfile for the image**. See `Dockerizing Your Tools for the CyVerse Discovery Environment <http://hammer.cyverse.org:8090/display/DEmanual/Dockerizing+Your+Tools+for+the+CyVerse+Discovery+Environment>`_. It is recommended that you create a Docker image or Dockerfile for the tool before sending your request to facilitate its installation. For information on using Docker, see the `Docker website <https://www.docker.com/>`_.
+    2. In the Apps window, click **Manage Tools** on the right.
+    3. Click the Tools menu and then click **Add tool**:
+
+    .. image:: img/addTool.png
+
+        a. In the Tool Name field, enter a unique name for the tool.
+        b. In the Description field, add a description. Though optional, this field will help other users know more about your tool when deciding on a tool to use when they click |infoicon| in the Tools list.
+        c. In the Version field, enter the tool version.
+        d. In the Image name field, enter the name of the image.
+        e. In the Tag field, enter the tag (limit one tag). You may want to use the version name again, since this field shows in the Tools list.
+        f. In the Dockerfile does not have an ENTRYPOINT, enter an ENTRYPOINT in the Entrypoint field. Example for a HISAT2 app: ENTRYPOINT ["/usr/bin/hisat2"]. If the Dockerfile has one, you can leave this field blank.
+        g. In the Docker Hub URL field, enter the URL to the Docker hub (optional).
+    
+    4. Click **OK**. The tool is immediately available in your list of personal tools and you may begin using it to create a new app interface.
+
+-------------------------------------
+Requesting installation of a new tool
+-------------------------------------
+
+**Because all tools run inside Docker containers and are installed as Docker images, you must first create the Dockerfile for the image**. See `Dockerizing Your Tools for the CyVerse Discovery Environment <http://hammer.cyverse.org:8090/display/DEmanual/Dockerizing+Your+Tools+for+the+CyVerse+Discovery+Environment>`_. It is recommended that you create a Docker image or Dockerfile for the tool before sending your request to facilitate its installation. For information on using Docker, see the `Docker website <https://www.docker.com/>`_.
+
+    1. In the DE Apps window, click **Manage Tools** on the right.
+    2. Click the Tools and then **Request Tool**.
+    3. In the Request New Tool Installation window:
+        a. Enter the name of the tool (executable or binary).
+        b. Enter a brief description of the tool as you want it to appear in the Apps window `information section <http://hammer.cyverse.org:8090/display/DEmanual/Viewing+App+and+Tool+Information>`_ for apps that use this tool.
+        c. Enter the attribution for the tool, such as the person who created the tool (optional).
+        d. In **How do you want to submit data for your tool's source**, do one of the following:
+            
+            - Click **Enter a link** and enter or paste the URL. 
+            - Click **New upload** and enter a unique filename or browse to upload the file to your personal folder.
+            - Click **Select from existing** and then browse to the source file location in your personal folder.
+        
+        e. Enter the tool's version.
+        f. Select the software architecture for the tool.
+        g. Specify if the file is multi-threaded. For information on threading, see `Thread (computing) <http://en.wikipedia.org/wiki/Thread_%28computing%29>`_ on the Wikipedia website.
+        h. If necessary, click to expand the **Other Information** section.
+        i. In the **How do you want to submit your test data** field, select either **New upload** (to upload the file to your personal Data folder) and enter a **unique** name, or **Select from existing** (to select a file that already exists in your personal Data folder), and then browse to select the first test data file.
+
+        .. note::
+            If choosing New upload, the filename must be unique.
+
+        j. Enter instructions for how to use the tool in the Unix environment.
+        k. To upload a second test data file, click **Browse** in the **How do you want to submit additional data** field and browse to select the second file.
+        l. Enter any additional information that might be useful.
+        m. Click **Submit**. Your request is sent to `CyVerse Support <support@cyverse.org>`_. When the new tool is installed, you will receive an email from CyVerse Support.the
+
+
+---------
+Next step
+---------
+
+After you receive the email notification that the new tool has been added to the Discovery Environment, you can use it to create a new app interface.
+
+
+
+
 
 
 ----
