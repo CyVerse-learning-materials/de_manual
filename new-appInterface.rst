@@ -160,6 +160,7 @@ You may want to begin by reading `Creating a New App Interface <https://wiki.cyv
 .. toctree::
     new-appInterfacechildpages/designingInterface.rst
     new-appInterfacechildpages/PreviewAppJson.rst
+    new-appInterfacechildpages/ManagingToolsinDE.rst
 
 
 
