@@ -74,6 +74,7 @@ You can filter (search) the list to find an analysis or app that was used in an 
     1. In the Analyses window search field, enter at least 3 characters (case-insensitive) of the analysis or app used in the analysis.
     2. Within the search query, you can use the wildcards * (returns any character sequence) and ? (returns any single character sequence) to widen your search. You cannot start the query with a wildcard.
 
+------------
 Window icons
 ------------
 
