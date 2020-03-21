@@ -108,7 +108,7 @@ Viewing analysis output files (Go to output folder)
 .. tip:: You may need to click |refreshicon| or refresh your browser window.
 
 2. Click the checkbox next to the analysis name, click **Analyses**, and then click **Go to output folder**.
-    You also can click the name in the Analyses list and view results in the Data window.
+   You also can click the name in the Analyses list and view results in the Data window.
 
 
 Viewing the parameters used for the analysis
