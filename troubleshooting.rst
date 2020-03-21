@@ -54,13 +54,14 @@ You're in the right place — the Discovery Environment manual. In addition to t
 Additional Help resources
 -------------------------
 
-View the `CyVerse maintenance calendar <<https://calendar.google.com/calendar/embed?src=ceg65s6grs4kgt45ifpr3qpsk8%40group.calendar.google.com&ctz=America/Phoenix>>`_ for upcoming and current maintenance periods. You also can see the `Status <http://status.cyverse.org/>`_ page on the CyVerse website and the most recent `CyVerse *Node* newsletter <http://www.cyverse.org/newsletter>`_(which lists the upcoming maintenance periods). Other helpful sources are the `CyVerse Facebook page <https://www.facebook.com/cyverse.org>`_, `CyVerse Tweets <https://twitter.com/cyverseorg>`_, or the CyVerse Google+ page, and within the DE you may receive system messages as well.
+View the `CyVerse maintenance calendar <<https://calendar.google.com/calendar/embed?src=ceg65s6grs4kgt45ifpr3qpsk8%40group.calendar.google.com&ctz=America/Phoenix>>`_ for upcoming and current maintenance periods. You also can see the `Status <http://status.cyverse.org/>`_ page on the CyVerse website and the most recent `CyVerse *Node* newsletter <http://www.cyverse.org/newsletter>`_(which lists the upcoming maintenance periods). Other helpful sources are the `CyVerse Facebook page <https://www.facebook.com/cyverse.org>`_, `CyVerse Tweets <https://twitter.com/cyverseorg>`_, or the `CyVerse Google+ <https://plus.google.com/+CyverseOrgProject>`_ page, and within the DE you may receive `system messages <http://hammer.cyverse.org:8090/display/DEmanual/Using+DE+System+Messages+and+Important+Announcements>`_ as well.
+
 For answers to questions:
 
-Search in this manual, using the search bar in the left panel.
-Read the FAQs page for the Discovery Environment, Data Store, and answers to software licensing questions.
-Click Get Help below to open Ask CyVerse, which lists questions and answers to commonly-asked questions by other CyVerse users. Also check out the Get Help page on the website.
-You also can enter comments, questions, and suggestions, on the DE Feedback Form.
+    - Search in this manual, using the search bar in the left panel.
+    - Read the FAQs page for the Discovery Environment, Data Store, and answers to software licensing questions.
+    - Click **Get Help** below to open `Ask CyVerse <http://ask.cyverse.org/questions/>`_, which lists questions and answers to commonly-asked questions by other CyVerse users. Also check out the `Get Help <http://www.cyverse.org/learning-center/get-help>`_ page on the website.
+    - You also can enter comments, questions, and suggestions, on the `DE Feedback Form <https://cyverse-de-manual.readthedocs-hosted.com/en/latest/using_DEchildpages/providing-feedback.html>`_.
 
 
 
