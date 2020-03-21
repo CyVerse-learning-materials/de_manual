@@ -130,6 +130,17 @@ You are viewing the DE User Manual now, but you can access it at any time. You a
         - To view the introduction to the DE, click **Introduction**.
 
 
+---------------------------------------------------
+Viewing Information About the Discovery Environment
+---------------------------------------------------
+
+You can view information about the current release number, funding, and other pertinent information about the DE.
+
+    1. Log in to the CyVerse Discovery Environment.
+    2. Click |PreferencesIcon| (Preferences) at the top right of the screen.
+    3. Click About.
+
+
 
 ----
 
