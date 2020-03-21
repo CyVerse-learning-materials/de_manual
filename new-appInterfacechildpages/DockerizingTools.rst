@@ -254,6 +254,115 @@ After creating the new app according to your design, test your app in the DE to 
 If your app works the way you expect it to, skip to Optional steps.
 If your app still needs a bit of work and If the changes you make affect your Dockerfile (for example, it uses a newer version of the software and subsequently new dependencies are created), go back to step 2 and repeat.
 
+.. note:: Having problems?
+    If you've tried and tried and still can't Dockerize your tool, contact CyVerse Support for help by clicking on the chat icon in the lower right corner of the `User Portal <https://user.cyverse.org/>`_ or `Discovery Environment <https://de.cyverse.org/de/>`_.
+
+
+Optional Steps
+--------------
+
+Complete the additional optional steps as needed for your tool.
+
+Sharing (publishing) your app in the DE
+---------------------------------------
+Once the app is working to your satisfaction and you have published it, it is immediately available in your personal workspace in the DE and you can begin using it to run your own analyses. If you want to share it with other users, you can either keep it in your personal workspace and share it with selected users (including defining their permissions in the app), or share it with the public. For more information, see `Sharing your App or Workflow and Editing the User Manual <http://hammer.cyverse.org:8090/display/DEmanual/Sharing+your+App+or+Workflow+and+Editing+the+User+Manual>`_.
+
+
+Editing an unshared app
+-----------------------
+If you have not yet shared the app with the public (that is, it is still listed in your Apps under development folder in your personal workspace), you can still edit the file and create a new Dockerfile. Then `email CyVerse Support <support@cyverse.org>`_ to replace the Dockerfile.
+
+Deleting/editing a publicly shared app
+--------------------------------------
+Once you have shared an app with the public, it cannot be deleted because of CyVerse's commitment to supporting reproducible science. Because public apps cannot be edited once they have been made public, if you need to change the app you must create a new version of the app and then create a new Dockerfile. `Learn more about editing apps <http://hammer.cyverse.org:8090/display/DEmanual/Creating%2C+Copying%2C+and+Editing+DE+Apps>`_.
+
+Requesting a different category for your app
+--------------------------------------------
+When you share your app with the public, you will indicate the category or categories into which you think it should be placed. To request that your app be moved or added to a different or additional category, `email CyVerse Support <support@cyverse.org>`_ with the app name, current category or categories, and desired target category or categories.
+
+
+--------------------------------------------
+Examples of Dockerization of tools in the DE
+--------------------------------------------
+
+Before you Dockerize a tool, it is important that you understand program dependencies (check the program documentation/manual thoroughly).
+
+
+Example 1: Dockerizing a simple bioinformatics tool - `Kallisto <https://github.com/pachterlab/kallisto>`_
+----------------------------------------------------------------------------------------------------------
+
+The Kallisto Docker image was built on an Ubuntu-64 bit Virtual Machine using Virtual Box.
+
+**1. Install Docker:**
+
+.. code-block:: bash
+    wget -qO- https://get.docker.com/ | sudo sh
+
+**2. Create a Dockerfile:**
+
+.. code-block:: bash
+    FROM ubuntu:14.04.3
+    MAINTAINER Kapeel Chougule
+    LABEL Description="This image is used for running Kallisto RNA seq quantification tool"
+    # Install dependencies
+    RUN apt-get update && apt-get install -y build-essential cmake zlib1g-dev libhdf5-dev
+    # Install git and clone the kallisto tool
+    RUN apt-get install --yes git
+    RUN git clone https://github.com/pachterlab/kallisto.git \
+    && cd kallisto \
+    && git checkout 5c5ee8a45d6afce65adf4ab18048b40d527fcf5c \
+    && mkdir build \
+    && cd build \
+    && cmake .. \
+    && make \
+    && make install
+    ENTRYPOINT ["kallisto"]
+
+**3. Build a Docker image:**
+
+.. code-block:: bash
+    Docker build -t"=ubuntu/kallisto" .
+
+**4. Test the built Kallisto image:**
+
+.. code-block:: bash
+    docker run --rm -v=/Users/kchougul/Downloads:/kallisto_data -w kallisto_data ubuntu/kallisto kallisto index -i transcripts.idx transcripts.fasta.gz
+
+**5. Tag the built Kallisto image:**
+
+.. code-block:: bash
+    docker tag ubuntu/kallisto:latest kapeel/kallisto:latest
+
+**6. Push the Kallisto image to Dockerhub (optional):**
+
+.. code-block:: bash
+    docker login
+    docker push kapeel/kallisto:latest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
