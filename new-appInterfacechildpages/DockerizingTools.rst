@@ -466,7 +466,7 @@ FAQs – Dockerizing
 
     The DE has a number of reference genomes uploaded and available for use. View the list `here <http://mirrors.cyverse.org/browse/iplant/home/shared/iplantcollaborative/genomeservices/builds/1.0.0/19_72>`_. If the genome you want to use is not listed, `contact CyVerse Support <support@cyverse.org>`_ to ask that it be added.
 
-**Can HPC apps be Dockerized?**
+- **Can HPC apps be Dockerized?**
 
     No, due to security issues, currently Docker is not available to apps that require HPC resources, i.e., apps integrated using the Agave API.
 
