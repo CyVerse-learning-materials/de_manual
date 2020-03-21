@@ -60,6 +60,48 @@ Once you've found the tool to use in an app you want to create, you can "jump-st
     4. Continue to :doc:`../new-appInterface.rst` for instructions on how to create the new app.
 
 
+-------------
+Sharing tools
+-------------
+
+Once you have created a tool, by default, it is private and available only for your personal use. You can share it with selected collaborators or make the tool public (the default for all tools created prior to the 2.13 release). You also can edit and delete a tool you created that is in Own status. Giving Own access allows the collaborator to share, edit, and delete the tool, so grant this permission with care.
+
+Before a new app can be created, the tool that app is based on must be made available in the DE.
+
+----------------------------------
+Sharing a tool with a collaborator
+----------------------------------
+
+    1. In the Apps window, click **Manage Tools** at the top.
+    2. Click to select the tool you own that you want to share.
+    3. Click the **Share** menu and then click **Share with collaborators**.
+    4. Select a user in your `Collaborators <https://pods.iplantcollaborative.org/wiki/display/DEmanual/Adding+and+Deleting+Users+from+the+Collaborators+List+in+Preferences>`_ list: Click **Choose Collaborators**, select the user, click **OK**, and then click **Done**.
+       To add a new collaborator, click in the search field, begin entering the user's name, and then click the user's name from the list.
+    5. To change the collaborator's permission level, click the **Permissions** down arrow and change the permission.
+    6. Repeat for each collaborator.
+    7. Click **Done**.
+
+------------------------------
+Sharing a tool with the public
+------------------------------
+
+    1. In the Apps window, click **Manage Tools** at the top.
+    2. Click to select the tool you own that you want to share with the public.
+    3. Click the **Share** menu and then click **Make public**.
+    4. This opens a form which you will need to fill it up and click **Submit**
+    5. You will receive email notifications as the tool progresses through the process of making it public.
+
+
+----------------
+Unsharing a tool
+----------------
+
+    1. In the Apps window, click **Manage Tools** at the top and then click to select the tool to unshare.
+    2. Click the **Share** menu and then click **Share with collaborators**.
+    3. Find the collaborator and click
+    4. Click  to the right of the collaborator's name.
+    5. Click **Done**.
+
 
 
 
