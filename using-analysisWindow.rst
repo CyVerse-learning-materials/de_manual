@@ -230,6 +230,106 @@ Opening the Select Collaborators window
     2. Click the **Share** menu and then click **Share with collaborators**.
     3. Click Choose **Collaborators**.
 
+Sharing an analysis with a collaborator
+---------------------------------------
+
+    1. In the Select Collaborators window, either:
+        - Select an existing collaborator with whom you want to share the analysis by clicking a name in your list and then clicking **OK**. For information on creating and managing your collaborators list, see `Adding and Deleting Users from the Collaborators List in Preferences <http://hammer.cyverse.org:8090/display/DEmanual/Adding+and+Deleting+Users+from+the+Collaborators+List+in+Preferences>`_.
+          or 
+        - Add and share the analysis with a new collaborator by clicking **Manage Collaborators**, entering the first few letters of the user to add, clicking the user, and then clicking **OK**.
+
+Both the owner and the recipient receive notification that the analysis has been shared.
+
+
+Unsharing an analysis with a collaborator
+-----------------------------------------
+
+    1. In the Select Collaborators window for the analysis, click the user's name for the sharing to revoke.
+    2. Click |xicon|.
+    3. Click **Done**.
+    
+-------------------------
+Searching for an Analysis
+-------------------------
+
+You can filter (search) the list to find an analysis or app that was used in an analysis.
+
+    1. In the Analyses window search field, enter at least 3 characters (case-insensitive) of the analysis or app used in the analysis.
+    2. Within the search query, you can use the wildcards * (returns any character sequence) and ? (returns any single character sequence) to widen your search. You cannot start the query with a wildcard.
+
+-------------
+Analyses FAQs
+-------------
+
+These questions are also available within the DE. To view them there, open the Analyses window and then click |helpiconwindow|. You can also view the Data FAQs within the Data window and the Apps FAQs within the Apps window.
+
+- **Why has my job failed or been running forever?**
+    `Troubleshooting a Failed Analysis <https://pods.iplantcollaborative.org/wiki/display/DEmanual/Troubleshooting+a+Failed+Analysis>`_ will help you determine what went wrong and collect information for CyVerse staff in case you cannot resolve the problem yourself.
+
+- **How do I get help with a tool (app) or workflow?**
+    The steps to get help depend on whether you’re a novice or an expert with the tool—executable or binary—on which the app or workflow is based.
+
+
+    **Novice**
+
+        1. **Learn more about the tools used:**
+
+            - Search the internet for the publication describing the tool and any related documentation.
+
+            - Make sure you understand what the tool is designed to do, what inputs it can accept and in which format, and how to set any parameters.
+
+        2. **Search the internet for informative sites in your domain**. For example, `SEQanswers <http://seqanswers.com/>`_ is the go-to online forum for the next-generation sequencing community.
+
+        3. **Talk with someone at your institution** who is more experienced with the tool.
+
+        4. **Try to use the app in the Discovery Environment**. Click |infoicon| next to the app name to view the app manual and its sample test input files and expected outputs.
+
+        5. **Search** `Ask CyVerse <http://ask.cyverse.org/>`_ for the answer. If it is not there, post a question.
+
+
+    **Experienced with the tool or workflow**
+
+    If you are experienced with the tool or workflow and need advice for how to work with very large-scale data or a complex workflow, you may request community support or `Extended Collaborative Support <http://www.cyverse.org/collaborate>`_.
+
+- **Why is my analysis sitting in the Submitted state for so long?**
+
+Analyses that use an app that runs on an HPC system can remain in the Submitted state for hours or even days. They may sit in in the queue in Submitted state waiting to run, along with other possibly long-running jobs that were in the queue first. Therefore, it may take several days for your analysis to get its turn to run. Once your analysis runs, its results will be returned to the Data Store and the DE status will change to Completed. See `Troubleshooting a Failed Analysis <https://pods.iplantcollaborative.org/wiki/display/DEmanual/Troubleshooting+a+Failed+Analysis>`_ for more information on the different statuses and why an analysis might not complete.
+
+- **Is there a limit to how many analyses (jobs) I can run at the same time in the Discovery Environment?**
+
+Only 8 of your analyses will run at the same time. It’s fine to launch more, but they will not run until some of your analyses have completed.
+
+- **I’m trying to run an analysis, but when I enter an input I can’t see my files. Why? I know they are there.**
+
+Because the app requires a folder as input, not a file, the files don’t show since they aren’t the appropriate inputs for the app. The files are indeed there but don’t show. Check the app’s input box; if it says “Select a folder”, then it requires a folder input. Put the file(s) you want to input into a folder and then use that folder as input. Note: You can use Drag and Drop to input the folder by finding it in the Data window, making sure the folder name is shown in the center panel, and then `dragging <https://wiki.cyverse.org/wiki/display/DEmanual/Moving+a+Data+File+or+Folder#MovingaDataFileorFolder-DragDrop>`_ the folder into the app’s input box.
+
+- **How do I rerun a job I previously ran in the DE, but change some parameters or use a different input?**
+
+You can easily relaunch the same analysis with different settings:
+
+    1. In the Analyses window, click the app name in the App column for the analysis to rerun. This opens up an app window for that app, which is already configured with the inputs and settings you used for the previous analysis run.
+    2. Change settings or inputs as needed.
+    3. Click **Launch Analysis** to launch the new analysis.
+
+`Learn more here. <https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=11446455#Analyses%20Menu:%20View%20Outputs,%20Parameters,%20and%20Info;%20Relaunch,%20Cancel,%20and%20Delete-Relaunch>`_
+
+- **How do I run the same analysis on a number of files most efficiently?**
+
+You can create a file that contains a list of up to 16 files to use as input for high-throughput and batch file execution. Such a file is called an HT Analysis Path List file. Learn more here, and if you still have questions, read here.
+
+- **I have a series of files that need to be analyzed by the same app, but the output files all have the same name. How do I distinguish them so I can use them in a workflow?**
+
+You can avoid confusion by:
+
+    1. Find the output folder in your Data list,
+    2. `Rename <https://wiki.cyverse.org/wiki/display/DEmanual/Renaming+a+Data+File+or+Folder>`_ each output file with a unique name.
+    3. Use the files together in a step of the analysis workflow.
+
+
+
+
+
+
 
 
 
@@ -287,6 +387,10 @@ Opening the Select Collaborators window
 .. |AnalysisHelpSubmitted| image:: img/de/AnalysisHelp-Submitted-Help.png
 
 .. |AppsCommentIcon| image:: img/de/AppCommentsIcon.png
+
+.. |xicon| image:: img/de/X-icon.jpg
+
+.. |infoicon| image:: img/de/InfoIcon.jpg
 
 .. Comment: Place URLS Below This Line
 
