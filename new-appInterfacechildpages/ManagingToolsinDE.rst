@@ -191,8 +191,11 @@ The tools — executables or binaries — that are available for use in the DE h
     3. To view information about a tool and the apps that use it, click |infoicon|:
         
         a. View **tool attribution and description** on the **Tool Information** tab:
+
         .. image:: img/ToolAttribution.png
+        
         b. Click the **Apps using this tool** tab to view the list of apps that use the tool:
+        
         .. image:: img/Tool-AppsUsed.png
 
         .. tip::
