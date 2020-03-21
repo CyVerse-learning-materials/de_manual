@@ -23,6 +23,7 @@ Welcome to Discovery Environment!
     using_VICE.rst
     using-appsWindow.rst
     new-appInterface.rst
+    using-analysisWindow.rst
 
 .. comment: Next .rst files to be finished: 
     using-analysisWindow.rst
