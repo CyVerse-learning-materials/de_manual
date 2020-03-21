@@ -220,7 +220,7 @@ Sharing and Unsharing an Analysis
 
 All analyses—both DE and Agave—now can be shared in any status within the DE beginning with the 2.11 release. When you do so, the output results files, input files, and parameters you used in the analysis are shared.
 
-.. note:: **About Sharing Permissions**
+.. note:: **About Sharing Permissions**:
         When sharing an analysis that used an unpublished Agave app, it is important to understand that sharing permissions for Agave apps are different from sharing permissions for DE apps. Unless you are an Agave expert, we recommend that you set permissions for your unpublished Agave app within the DE rather than within Agave in order to avoid possible conflicts.
 
 Opening the Select Collaborators window
