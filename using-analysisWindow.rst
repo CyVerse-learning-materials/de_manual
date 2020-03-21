@@ -90,6 +90,52 @@ At the top right of each data, apps, or analyses window are icons to help you le
     * - |WindowIcon-minMaxClose|
       - Minimize, Maximize, or close the active window. 
 
+--------------------------------------------------------------------------------
+Relaunching, Canceling, and Deleting Analyses, Viewing Analysis Outputs and Info
+--------------------------------------------------------------------------------
+
+The Analyses menu contains the list of all submitted, running, completed, and failed analyses. You `submit the analysis <http://hammer.cyverse.org:8090/display/DEmanual/Submitting+an+Analysis>`_ in the Apps window and view the outputs or manage your analyses in the Analyses window.
+
+After an analysis is completed, you can view the outputs of the analysis, the parameters you used to run the analysis, and different `log files <http://hammer.cyverse.org:8090/display/DEmanual/About+Log+Files>`_ that provide useful information about the results. You also can troubleshoot a failed analysis from the Analyses window, and `view troubleshooting pointers <http://hammer.cyverse.org:8090/display/DEmanual/Troubleshooting+an+Analysis>`_.
+
+|AnalysesMenu|
+
+Viewing analysis output files (Go to output folder)
+---------------------------------------------------
+
+1. In the Analyses window, find the analysis whose results you want to view with the status of Completed.
+
+.. tip:: You may need to click |refreshicon| or refresh your browser window.
+
+2. Click the checkbox next to the analysis name, click **Analyses**, and then click **Go to output folder**.
+    You also can click the name in the Analyses list and view results in the Data window.
+
+
+Viewing the parameters used for the analysis
+--------------------------------------------
+
+After an analysis is completed, you can view the parameters you used to run the analysis. This is useful if you want to confirm or save the settings or files you used for the analysis. You also can view the outputs of the analysis and different log files, which provide useful information about the results.
+
+    1. In the Analyses window, click the checkbox next to the completed analysis, click **Analyses**, and then click **View Parameters**.
+    2. To save the parameters, click **Save As**, specify the file name and location, and click **OK**.
+
+Viewing the status of an analysis and getting help
+--------------------------------------------------
+
+New for the 2.11 release is the ability to view more information about the status of an analysis that is taking a long time to complete or didn't return the expected output files, and then request help within the DE.
+
+1. In the Analyses window, click the status of the analysis in the right column:
+
+|AnalysisHelp|
+
+2. View the Help text that is displayed (the current status defines what is displayed).
+3. If you still need help, click I still need help:
+
+|AnalysisHelpSubmitted|
+
+4. Enter additional comments about the analysis, click the checkbox to agree to share your output files and details with Support staff, and click **Submit**.
+    You will receive a response within 2 work days.
+
 
 ----
 
@@ -139,6 +185,10 @@ At the top right of each data, apps, or analyses window are icons to help you le
 .. |WindowIcon-cascadeTile| image:: img/de/WindowIcon-CascadeTile.png
 
 .. |WindowIcon-minMaxClose| image:: img/de/WindowIcon-MinMaxClose.png
+
+.. |AnalysisHelp| image:: img/de/AnalysisHelp-Submitted.png
+
+.. |AnalysisHelpSubmitted| image:: img/de/AnalysisHelp-Submitted-Help.png
 
 .. Comment: Place URLS Below This Line
 
