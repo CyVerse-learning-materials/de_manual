@@ -137,6 +137,82 @@ New for the 2.11 release is the ability to view more information about the statu
     You will receive a response within 2 work days.
 
 
+Relaunching an analysis with the same or different settings
+-----------------------------------------------------------
+
+You can relaunch an analysis with the same settings used in a previous analysis. This is useful if you want to change some but not all of the settings used for the previous analysis or just want to relaunch the same analysis with the same settings.
+
+    1. In the Analysis window, click the name of the app in the App column for the analysis to rerun. A window opens with the same settings as used in the previous analysis.
+    2. Change settings or inputs as needed.
+    3. Click **Launch Analyses**,
+
+    .. tip:: You also can relaunch by clicking the checkbox for the analysis you want to relaunch, clicking the **Analyses** menu and then clicking **Relaunch**.
+
+
+
+Viewing the Job ID and Type for an analysis
+-------------------------------------------
+
+A useful tool for troubleshooting a failed Agave Analysis is sharing the job ID and job type with Support.
+
+    1. In the Analysis window, click the checkbox for the analysis to relaunch.
+    2. Click **Analyses** and then click **View Analysis Info**.
+    3. To copy the Job ID, double-click on the ID and copy the string.
+
+Canceling an executing analysis
+-------------------------------
+
+You can cancel an analysis that is currently in a status of Submitted, Running, or Idle. This can be useful when an analysis has been running much longer than expected, or you simply want to cancel the analysis, make a change, and resubmit without having to wait for the analysis to complete.
+
+    1. In the Analyses window, click the checkbox for the analysis that is in Submitted, Running, or Idle status.
+    2. Click **Analyses** and then click **Cancel**.
+        A popup is displayed in the bottom right corner that the analysis has been canceled, and your Notifications and Analyses lists show that the analysis failed.
+
+If the analysis cannot be canceled, please `email CyVerse Support <support@cyverse.org>`_ with the analysis name so they can terminate the analysis.
+
+Deleting analysis results
+-------------------------
+
+As an analysis proceeds, its status is displayed in the Analyses window and Notifications list. Once it has completed its execution, you can delete it.
+
+    1. In the Analyses window, select the checkbox for the completed analysis to delete.
+    2. Click Analyses and then click Delete.
+    3. Click OK to the warning prompt.
+
+You also can delete analysis results in the Data window by `moving the results files to the trash <http://hammer.cyverse.org:8090/pages/viewpage.action?pageId=11446737>`_.
+
+---------------------------------------------------
+Renaming an Analysis and Adding Comments (Edit menu)
+---------------------------------------------------
+
+Within the Edit menu in the Analyses window, you can rename an analysis and view, add, and edit comments about an analysis.
+
+|Analyses_EditMenu|
+
+Renaming an analysis
+--------------------
+
+You can rename an analysis that is in a status of Completed, Canceled, or Failed.
+
+    1. In the Analyses window, click the analysis name you want to rename.
+    2. Click **Edit** and then click **Rename**.
+    3. Edit the name and click **OK**.
+
+Updating comments about an analysis
+-----------------------------------
+
+You can add, edit, and view comments at any time.
+
+    1. In the Analyses window, `find the analysis <https://pods.iplantcollaborative.org/wiki/display/DEmanual/Using+the+Analyses+Window#AnalysisSearch>`_ whose comments you want to add or update.
+    2. Either:
+        - Click |AppsCommentIcon| (Comments) next to the name of the analysis whose comments you want to view.
+            or
+        - Click **Edit** and then click **Update Comments**.
+    3. In the Comments window, add, edit, or view the comments and click **OK**.
+
+
+
+
 ----
 
 **Fix or improve this documentation:**
@@ -189,6 +265,8 @@ New for the 2.11 release is the ability to view more information about the statu
 .. |AnalysisHelp| image:: img/de/AnalysisHelp-Submitted.png
 
 .. |AnalysisHelpSubmitted| image:: img/de/AnalysisHelp-Submitted-Help.png
+
+.. |AppsCommentIcon| image:: img/de/AppCommentsIcon.png
 
 .. Comment: Place URLS Below This Line
 
