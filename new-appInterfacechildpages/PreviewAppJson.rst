@@ -12,6 +12,7 @@ Previewing the App and JSON
 
 At any step in creating or editing an app, you can preview the app and JSON code. Previewing the app allows you to see how it will look so you can test how the app looks and functions. You also can preview and save the JSON code to a txt file.
 
+-----------------------
 Open the Preview window
 -----------------------
 
@@ -19,6 +20,7 @@ Open the Preview window
     2. In your **Apps under development** folder, open the app to preview by clicking **Edit** and then click **Edit**.
     3. Click **Preview**.
 
+---------------
 Preview the app
 ---------------
 
@@ -38,7 +40,7 @@ Preview the app
 
     3. When done previewing the app, click |close| to close the preview window so you can continue editing and previewing the app until it is to your satisfaction.
 
-
+-------------------------
 Preview and save the JSON
 -------------------------
 
