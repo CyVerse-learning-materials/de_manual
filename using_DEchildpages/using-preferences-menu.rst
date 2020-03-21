@@ -4,11 +4,11 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
+==========================
+Using the Preferences Menu
+==========================
 
-Using the DE: Changing preferences
-----------------------------------
-
-
+---------------------------------------
 Opening the Preferences settings window
 ---------------------------------------
 
@@ -20,9 +20,9 @@ Click |person_icon| at the top right of the window and then click **Preferences:
 
 .. image:: img/Preferences.jpg
 
-
+--------------------
 Changing Preferences
----------------------
+--------------------
 
 
 - Email me when my analysis status change
@@ -30,15 +30,16 @@ Changing Preferences
     This is useful when you want to track the status of your analyses while outside of the DE. 
     For more information on notifications, see `Viewing and Deleting Notifications <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+and+Deleting+Notifications>`_ 
       
-
+--------------------------------------------------------------------
 Adding and Deleting Users from the Collaborators List in Preferences
-------------------------------------------------------------------------
+--------------------------------------------------------------------
 
 The Collaborators list is a "short list" of CyVerse users with whom you frequently share `data files and folders <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+and+Unsharing+Data+Files+and+Folders+in+the+DE>`_, `analyses <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+and+Unsharing+an+Analysis>`_, or `unpublished apps <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+your+App+or+Workflow+and+Editing+the+User+Manual>`_.
 
 Although a user does not have to be in your Collaborators list to share a data file or folder, adding a user to your Collaborators list makes it easier to share.
 
 
+-------------------------------------------------------
 Adding a user to your Collaborators list in Preferences
 -------------------------------------------------------
 
@@ -62,7 +63,7 @@ The user is now available in your Collaborators list the next time you want to `
             - Unpublished apps: `Sharing your App or Workflow and Editing the User Manual <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+your+App+or+Workflow+and+Editing+the+User+Manual>`_ 
 
 
-
+-----------------------------------------------------------
 Deleting a user from your Collaborators list in Preferences
 -----------------------------------------------------------
 
@@ -75,6 +76,7 @@ Removing a user from your Collaborators list removes the user only from the Coll
 You can also unshare a `shared data item <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+and+Unsharing+Data+Files+and+Folders+in+the+DE>`_, `shared analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+and+Unsharing+an+Analysis>`_, or `shared unpublished app <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+your+App+or+Workflow+and+Editing+the+User+Manual>`_.
 
 
+-----------------------------------------------------
 Using DE System Messages and Important Announcements
 -----------------------------------------------------
 
@@ -85,6 +87,7 @@ System Messages are accessed from the Preferences menu.
 
 `Notifications <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+and+Deleting+Notifications>`_ are also used in DE. 
 
+-----------------------
 Viewing system messages
 -----------------------
 
@@ -94,11 +97,13 @@ Viewing system messages
 1. Click |person_icon| (Preferences) at the top right of the screen.
 2. Click **System Messages**:
 
-.. image img/de/SystemMessages.png
+.. image:: img/de/SystemMessages.png
 
 3. In the System Messages list, select the message view.
 4. When done, click |closewindowicon| at the top right to close the window. 
 
+
+-------------------------------
 Viewing important announcements
 -------------------------------
 
@@ -108,6 +113,23 @@ Viewing important announcements
 .. image:: img/ImportantAnnouncement.png
 
 after reading the announcement, the message is no longer displayed.
+
+
+--------------------------------------------------
+Viewing the User Manual and Introduction to the DE
+--------------------------------------------------
+
+.. |PreferencesIcon| image:: img/de/DE-PreferencesIcon.jpg
+
+You are viewing the DE User Manual now, but you can access it at any time. You also can view an introduction to the DE, which shows you a few pertinent points about the DE window and basics on how to use it.
+
+
+    1. Click the |PreferencesIcon| (Preferences) at the top right of the screen.
+
+        - To view the user manual, click **User Manual**.
+        - To view the introduction to the DE, click **Introduction**.
+
+
 
 ----
 

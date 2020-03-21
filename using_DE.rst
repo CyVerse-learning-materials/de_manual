@@ -98,6 +98,9 @@ At the top right of each data, apps, or analyses window are icons to help you le
       - Minimize, Maximize, or close the active window. 
       
 
+--------------------------
+Using DE Table of Contents
+--------------------------
 
 .. toctree::
       using_DEchildpages/logIn-out-DE
