@@ -483,28 +483,58 @@ Future enhancements include the ability to:
     - Perform network functions. Currently, this is not available for security reasons.
 
 
+--------------------------------
+App Publication request workflow
+--------------------------------
+
+Rationale:
+----------
+
+Let's say you build a tool and made an app and now you want to make the app public. You follow the normal process of clicking the app that you want to make public, click `Make Public` and fill up all the mandatory fields. Now the good news is that you don't have to make the tool public (unlike before) but the bad news is that you'll have some work to do. Here are the steps:
+
+- ssh onto to Rogue
+
+.. code-block:: bash
+
+    $ ssh <username>@rogue.cyverse.org
+
+- Pull the Docker image
+
+.. code-block:: bash
+
+    $ docker pull <docker_image:tag>
+ 
+    Example:
+    $ docker pull cyversevice/jupyterlab-qiime2:2019.10
+
+- Change the tag of the Docker image to gims
+
+.. code-block:: bash
+
+    $ docker tag <docker_image>:<tag> gims.cyverse.org:5000/<docker_image>:<tag>
+  
+    Example:
+    $ docker tag cyversevice/jupyterlab-qiime2:2019.10 gims.cyverse.org:5000/jupyterlab-qiime2:2019.10
+
+- Push it to the gims
+
+.. code-block:: bash
+
+    $ docker push gims.cyverse.org:5000/<dokcer_image>:<tag>
+ 
+ 
+    Example:
+    $ docker push gims.cyverse.org:5000/jupyterlab-qiime2:2019.10
 
 
+- Log-in to Belphegor
+
+    - Go to Belphegor replace `cyversevice/<image_name>` (Example: `cyversevice/jupyterlab-qiime2`) to `gims.cyverse.org:5000/<image_name>` (Ex: `gims.cyverse.org:5000/jupyterlab-qiime2`) in the Container Image section of `Tool Admin` tab of that particular tool
 
 
+    .. image:: img/qiime2_tool_belphegor.png
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    - Finally, go to `Application Publication Requests` tab in Belphegor, find your app and click the little globe symbol next to App and it will be published
 
 
 ----
