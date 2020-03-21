@@ -174,8 +174,33 @@ Next step
 After you receive the email notification that the new tool has been added to the Discovery Environment, you can use it to create a new app interface.
 
 
+Finding the List of Available Tools
+-----------------------------------
 
+The tools — executables or binaries — that are available for use in the DE have been integrated by the CyVerse Support staff, based on user requests. Before `requesting installation of a new tool <http://hammer.cyverse.org:8090/display/DEmanual/Adding+or+Requesting+a+New+Tool>`_, you should view the list of all available tools to make sure the tool and version isn't already available in the list. You can view the name of the tool's creator, a description of the tool, and the apps that currently use the tool.
 
+    1. In the Apps window, click the **Manage Tools** icon at the top right. 
+    2. Search for a tool:
+    
+        - To narrow the search from all tools (default) to search only on your tools or on all public tools, click the drop-down menu at the top and then click either **All**, **Only my tools**, or **Public tools**:
+        .. image:: img/ManageToolsSearchMyTools.png
+        - To sort a column, click the column header and then click either **Sort Ascending** or **Sort Descending**:
+        .. image:: img/SortTools.png
+        - To search for a specific tool, enter the tool's name in the Search field.
+    
+    3. To view information about a tool and the apps that use it, click |infoicon|:
+        
+        a. View **tool attribution and description** on the **Tool Information** tab:
+        .. image:: img/ToolAttribution.png
+        b. Click the **Apps using this tool** tab to view the list of apps that use the tool:
+        .. image:: img/Tool-AppsUsed.png
+
+        .. tip::
+            In this window, click |infoicon| to view information about the app, or click the app name to open the app. For more information on app info, see `Viewing App and Tool Information <http://hammer.cyverse.org:8090/display/DEmanual/Viewing+App+and+Tool+Information>`_.
+
+            To quickly begin creating an app using the tool, click the tool name. For more information on creating new apps, see `Creating a New App Interface <http://hammer.cyverse.org:8090/display/DEmanual/Creating+a+New+App+Interface>`_.
+
+If the tool or tool version you want to use is not available in the list, click **New Tool Request** and `complete the form <http://hammer.cyverse.org:8090/display/DEmanual/Adding+or+Requesting+a+New+Tool>`_.
 
 
 ----
