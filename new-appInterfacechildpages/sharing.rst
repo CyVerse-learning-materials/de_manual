@@ -108,6 +108,33 @@ Manuals and comments for apps or workflows that were shared prior to the 2.0 rel
      If you shared the app (made it public) **before the 2.0 release**, your user manual is on the CyVerse Wiki and accessible from the List of Applications page. 
      If you shared the app **after the 2.0 release**, your manual was created when you shared your app, and is available in the DE in the user manual link of the App Info section for the app. When CyVerse Support tests your app to ensure it is ready for public use, they create a copy of your manual for use in the List of Applications on the wiki, so all manuals are accessible in the same place.
 
+Regardless of where your manual lives, you can edit it, including updating the path to the pertinent test data files and any steps required to test the app.
+
+Editing a manual that was shared publicly or moved to the DE *after* the 2.0 release
+------------------------------------------------------------------------------------
+
+1. Open the Apps window and `find the app <http://hammer.cyverse.org:8090/pages/viewpage.action?pageId=8390764>`_ **you integrated after the 2.0 release** with the manual to edit.
+2. Click |infoicon| next to the app name.
+3. Click the **Edit** tab.
+4. Edit the text as necessary, using `Markdown syntax <https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html>`_.
+5. Click **Save**.
+6. Close the window and reopen again to view your changes.
+
+Editing manual shared publicly prior to the 2.0 release (on the Wiki)
+---------------------------------------------------------------------
+
+1. Open the Apps window and `find the app <http://hammer.cyverse.org:8090/pages/viewpage.action?pageId=8390764>`_ **you integrated before the 2.0 release** with the manual to edit.
+2. Click  next to the app name and then click the **User Manual** link.
+3. Click the **Edit** tab.
+4. Edit the manual.
+5. When done, click **Save**.
+6. Close the window and reopen again to view your changes.
+
+--------------------------------------------------------
+Requesting a different category for your app or workflow
+--------------------------------------------------------
+
+When you share your app or workflow via the DE, you indicate the category or categories into which you think it should be placed. To request that your app or workflow be moved to a different category after it is public, `email CyVerse Support <support@cyverse.org>`_ with the app or workflow name, current topic and operation categories, and the desired target topic and operation categories. Note that HPC apps are not categorized in the DE.
 
 
 
@@ -142,6 +169,8 @@ Manuals and comments for apps or workflows that were shared prior to the 2.0 rel
     :height: 25
 
 .. |redx| image:: img/CheckmarkIcon.jpg
+
+.. |infoicon| image:: img/AppInfoIcon.png
 
 
 .. Comment: Place URLS Below This Line
