@@ -22,7 +22,7 @@ Open the Preview window
 Preview the app
 ---------------
 
-.. |close| image:: img/CloseWindowPreviewNewApp.png
+    .. |close| image:: img/CloseWindowPreviewNewApp.png
 
     1. Click Preview App.
     2. Review the GUI for the new app to make sure it looks and functions the way you want:
