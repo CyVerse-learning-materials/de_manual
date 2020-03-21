@@ -124,7 +124,7 @@ Editing manual shared publicly prior to the 2.0 release (on the Wiki)
 ---------------------------------------------------------------------
 
 1. Open the Apps window and `find the app <http://hammer.cyverse.org:8090/pages/viewpage.action?pageId=8390764>`_ **you integrated before the 2.0 release** with the manual to edit.
-2. Click  next to the app name and then click the **User Manual** link.
+2. Click |infoicon| next to the app name and then click the **User Manual** link.
 3. Click the **Edit** tab.
 4. Edit the manual.
 5. When done, click **Save**.
