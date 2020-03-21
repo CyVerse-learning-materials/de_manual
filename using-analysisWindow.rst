@@ -127,7 +127,7 @@ At the top right of each data, apps, or analyses window are icons to help you le
 
 .. |ts-2| image:: img/de/ts-2.png
 
-.. |AnalysesMenu| image::img/de/Analyses-AnalysesMenu.png
+.. |AnalysesMenu| image:: img/de/Analyses-AnalysesMenu.png
 
 .. |Analyses_EditMenu| image:: img/de/Analyses_EditMenu.png
 
