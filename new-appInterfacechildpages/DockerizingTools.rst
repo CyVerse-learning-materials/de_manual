@@ -296,11 +296,13 @@ The Kallisto Docker image was built on an Ubuntu-64 bit Virtual Machine using Vi
 **1. Install Docker:**
 
 .. code-block:: bash
+
     wget -qO- https://get.docker.com/ | sudo sh
 
 **2. Create a Dockerfile:**
 
 .. code-block:: bash
+
     FROM ubuntu:14.04.3
     MAINTAINER Kapeel Chougule
     LABEL Description="This image is used for running Kallisto RNA seq quantification tool"
@@ -321,21 +323,25 @@ The Kallisto Docker image was built on an Ubuntu-64 bit Virtual Machine using Vi
 **3. Build a Docker image:**
 
 .. code-block:: bash
+
     Docker build -t"=ubuntu/kallisto" .
 
 **4. Test the built Kallisto image:**
 
 .. code-block:: bash
+
     docker run --rm -v=/Users/kchougul/Downloads:/kallisto_data -w kallisto_data ubuntu/kallisto kallisto index -i transcripts.idx transcripts.fasta.gz
 
 **5. Tag the built Kallisto image:**
 
 .. code-block:: bash
+
     docker tag ubuntu/kallisto:latest kapeel/kallisto:latest
 
 **6. Push the Kallisto image to Dockerhub (optional):**
 
 .. code-block:: bash
+
     docker login
     docker push kapeel/kallisto:latest
 
