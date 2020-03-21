@@ -15,11 +15,13 @@ Hints for how to use this manual are also on this page.
 
 
 
-
+----------------------
 Navigating the app
 ----------------------
 While much of the interface is intuitive and easy to use, there are a few tips to keep in mind as you move between windows in the DE.
 
+
+----------
 Main Icons
 ----------
 At the top right of every DE screen are the main icons:
@@ -42,6 +44,8 @@ At the top right of every DE screen are the main icons:
       - **Click to access the FAQs page or Ask CyVerse, and to submit feedback or contact Support.**
 
 
+
+-----------------
 Open window icons
 -----------------
 At the top right of each data, apps, or analyses window are icons to help you learn more about the DE, and manage the window's size and display. 
@@ -65,7 +69,7 @@ At the top right of each data, apps, or analyses window are icons to help you le
 
 
 
-
+----------------
 Open window tabs
 ----------------
 The tabs that are displayed at the bottom of the Data, Apps, or Analyses screen are the apps, files, and windows that are currently open. Click a tab to quickly open the window.
@@ -74,8 +78,11 @@ Clikcing the **Data** desktop icon when `multiple Data windows <https://wiki.cyv
 
 .. image:: img/de/TabBars.jpg
 
+
+---------------------------------------------------------------------------
 Layout (Snap Left or Snap Right), Minimize/Maximize, and Close window icons
--------------------------------------
+---------------------------------------------------------------------------
+
 At the top right of each data, apps, or analyses window are icons to help you learn more about the DE, and manage the window's size and display.
 
 
@@ -90,10 +97,6 @@ At the top right of each data, apps, or analyses window are icons to help you le
     * - |WindowIcon-minMaxClose|
       - Minimize, Maximize, or close the active window. 
       
-
-
-Table of contents
------------------
 
 
 .. toctree::
