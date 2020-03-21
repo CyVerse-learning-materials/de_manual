@@ -898,8 +898,31 @@ At any time, you can move items and fields to a new position in the same or even
     8. When done, click **Save**.
 
 
+--------------------------
+Setting the Argument Order
+--------------------------
 
+Command line order determines the order in which the arguments are sent to the app. Many command line apps only work properly when arguments are listed in a specific order.
 
+By default, the argument order is assigned the order in which it appears in the app. You can reorder the arguments.
+
+    1. To create a new app, or copy or edit an existing one:
+        
+        - To **create a new app or workflow from scratch**, either:
+        
+            - Open the Apps window, click **Apps** on the toolbar for an app or **Workflow** for a workflow, and then click **Create New**.
+
+                or
+        
+            - Click the tool name from the **Manage Tools** window.
+
+        - To **create your own version or edit one you already published**, select the app or workflow in the **Public Apps** folder, click either **Apps** or **Workflow**, and then click **Copy**.
+        - To **edit an unpublished app or workflow** you are working on, select the app or workflow in your **Apps under development** folder, click either **Apps** or **Workflow**, and then click **Edit**.
+
+    2. Click **Argument order** on the toolbar. The Command line order window opens.
+    3. Drag the argument to move to the desired location in the list.
+    4. Repeat until all of the arguments are in the correct order.
+    5. Click **Done**.
 
 
 
