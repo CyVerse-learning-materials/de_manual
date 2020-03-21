@@ -5,15 +5,46 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
+===========================
+Previewing the App and JSON
+===========================
 
 
+At any step in creating or editing an app, you can preview the app and JSON code. Previewing the app allows you to see how it will look so you can test how the app looks and functions. You also can preview and save the JSON code to a txt file.
+
+Open the Preview window
+-----------------------
+
+    1. Click **Apps** to open the Apps window.
+    2. In your **Apps under development** folder, open the app to preview by clicking **Edit** and then click **Edit**.
+    3. Click **Preview**.
+
+Preview the app
+---------------
+
+.. |close| image:: img/CloseWindowPreviewNewApp.png
+
+    1. Click Preview App.
+    2. Review the GUI for the new app to make sure it looks and functions the way you want:
+
+    .. tip:: Test the app as if you are a new user:
+        - Try entering something in each field.
+        - Click each button to make sure it's going where you want it to do and doing what you want it to do.
+        - Close and open each section.
+        - Review the field labels to make sure they're spelled correctly.
+        - Select a file.
+        - Change options.
+
+    3. When done previewing the app, click |close| to close the preview window so you can continue editing and previewing the app until it is to your satisfaction.
 
 
+Preview and save the JSON
+-------------------------
 
+JSON (JavaScript Object Notation) is the code that creates your app. You can preview the JSON for any DE app and save it to a txt file. For more information on JSON, see `Introducing JSON <http://www.json.org/>`_.
 
-
-
-
+    1. Click **Preview JSON**.
+    2. To save the JSON, select and copy all of the code in the text window, and save to a .txt file.
 
 
 
