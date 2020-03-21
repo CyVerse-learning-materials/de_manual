@@ -73,9 +73,38 @@ You can share an unpublished DE or Agave app in your **Apps under development** 
     5. **To share the app with a user or change permission levels for the user**:
         a. Select the user from your `Collaborators list <http://adding%20and%20deleting%20users%20from%20the%20collaborators%20list%20in%20preferences/>`_.
         b. In the **Who has access** section, click the Permissions drop-down and select the permission level for the user:
+        .. note:: We recommend that unless you are experienced Agave user, you set permissions for your unpublished Agave app within the DE. Because permissions are different between Agave and DE apps, this avoids possible conflicts.
+        
+        - **read** allows the user to use the app. This setting applies both to DE and Agave apps.
+        - **write**: This setting allows the user to use, copy, and edit the app.
+        - **own**: This setting allows the user to delete, share the app with other collaborators, and make the app or workflow public, in addition to the other permissions. **Use this setting with caution**.
 
 
+The app is displayed with a green name in the user's Shared with me folder in the My Apps tab.
 
+
+Unsharing a shared unpublished app or workflow
+----------------------------------------------
+
+    1. In your Apps under development folder on the My Apps tab, click to select the app or workflow to unshare.
+    2. Click the Share menu and then click Share with Collaborators.
+    3. Select the user in the Who has access section.
+    4. Click |redx|.
+
+The app is removed from the user's Shared with me folder and the user's permissions are retracted.
+
+-----------------------------------------------------
+Editing the User Manual page for your app or workflow
+-----------------------------------------------------
+
+User manuals for apps published after the 2.0 release are stored in the DE in Markdown format and may be edited within the DE.
+
+Manuals and comments for apps or workflows that were shared prior to the 2.0 release remain in the Wiki unless you `email CyVerse Support <support@cyverse.org>`_ to request that they be moved to the DE.
+
+.. caution::
+
+     If you shared the app (made it public) **before the 2.0 release**, your user manual is on the CyVerse Wiki and accessible from the List of Applications page. 
+     If you shared the app **after the 2.0 release**, your manual was created when you shared your app, and is available in the DE in the user manual link of the App Info section for the app. When CyVerse Support tests your app to ensure it is ready for public use, they create a copy of your manual for use in the List of Applications on the wiki, so all manuals are accessible in the same place.
 
 
 
@@ -110,6 +139,7 @@ You can share an unpublished DE or Agave app in your **Apps under development** 
     :width: 25
     :height: 25
 
+.. |redx| image:: img/CheckmarkIcon.jpg
 
 
 .. Comment: Place URLS Below This Line
