@@ -15,10 +15,52 @@ Start here
 
 Within the DE, simply click |help_icon| at the top right of the screen, and then click FAQs to view the list of frequently asked questions, Forum to go to the Ask CyVerse forum, or Feedback to contact Support or provide feedback about the DE.
 
+Is the DE down?
+---------------
+
+From time to time, the Discovery Environment is taken down for updates, maintenance releases, or other reasons. The `CyVerse Maintenance Calendar <https://calendar.google.com/calendar/embed?src=ceg65s6grs4kgt45ifpr3qpsk8%40group.calendar.google.com&ctz=America/Phoenix>`_ lists the upcoming maintenance periods, so check there first.
+
+In addition, a banner will be displayed in this manual before the maintenance window to notify you of the affected services, CyVerse's newsletter, *The Node*, lists upcoming maintenance windows, and you will receive an email prior to the downtime.
+
+Can't log in, need to reset your password, or don't remember your CyVerse username?
+-----------------------------------------------------------------------------------
+
+See `Resetting Your Password. <http://www.cyverse.org/learning-center/manage-account#ResetPassword>`_
+
+Stuck in Loading or a window is "stuck"?
+----------------------------------------
+
+You can use the keyboard shortcut to close active windows. Unless you changed your `default preference <https://cyverse-de-manual.readthedocs-hosted.com/en/latest/using_DEchildpages/using-preferences-menu.html>`_, the shortcut is **Ctrl + Shift + Q**.
+
+Where do I find out how to troubleshoot a failed analysis?
+----------------------------------------------------------
+
+If your analysis failed, see `Troubleshooting an Analysis <https://cyverse-de-manual.readthedocs-hosted.com/en/latest/using-analysisWindow.html#troubleshooting-an-analysis>`_. Also see `Analyses FAQs <https://cyverse-de-manual.readthedocs-hosted.com/en/latest/using-analysisWindow.html#analyses-faqs>`_.
 
 
+Where can I learn more about the DE?
+------------------------------------
 
+You're in the right place — the Discovery Environment manual. In addition to the table of contents that is always available in the panel on the left, this list points you to some important informational pages:
 
+- **Discovery Environment Manual**: This manual! Contains a basic overview of the Discovery Environment, introduction to its tools, and detailed, step-by-step instructions for using its features. You also can view the list of `Discovery Environment Applications List <http://hammer.cyverse.org:8090/display/DEapps>`_ on a separate page, or simply go to the `Apps <http://hammer.cyverse.org:8090/display/DEmanual/Using+Apps>`_ list in the DE.
+- **Website**: The CyVerse website contains some overview information about the Discovery Environment. Check it out `here <http://www.cyverse.org/discovery-environment>`_.
+- **Tutorials**: Take a look at the `Tutorials list <https://pods.iplantcollaborative.org/wiki/display/TUT/Tutorials+List>`_ to see the many learning materials we offer.
+- **Workshops**: Consider attending a workshop on using the Discovery Environment. Learn more about our upcoming events `here <http://www.cyverse.org/events>`_.
+- `**YouTube videos** <http://www.youtube.com/watch?v=abV1xLMU4ig&feature=em-uploademail>`_: `Overview of the Discovery Environment video <http://www.youtube.com/watch?v=abV1xLMU4ig&feature=em-uploademail>`_: On the CyVerse YouTube channel.
+- **Introduction**: The first time you logged in to the DE after creating your account, an Introduction was displayed. You can `view the Introduction <http://hammer.cyverse.org:8090/display/DEmanual/Viewing+the+User+Manual+and+Introduction+to+the+DE>`_ again at any time.
+- **Create a new app or integrate a new tool**: See `Creating a New App Interface <https://cyverse-de-manual.readthedocs-hosted.com/en/latest/new-appInterface.html>`_ for how to create your own app interface or automated workflow for use in the DE. Also take a look at `New Tool Integration Quick Start <http://hammer.cyverse.org:8090/pages/viewpage.action?pageId=6718936>`_.
+
+Additional Help resources
+-------------------------
+
+View the `CyVerse maintenance calendar <<https://calendar.google.com/calendar/embed?src=ceg65s6grs4kgt45ifpr3qpsk8%40group.calendar.google.com&ctz=America/Phoenix>>`_ for upcoming and current maintenance periods. You also can see the `Status <http://status.cyverse.org/>`_ page on the CyVerse website and the most recent `CyVerse *Node* newsletter <http://www.cyverse.org/newsletter>`_(which lists the upcoming maintenance periods). Other helpful sources are the `CyVerse Facebook page <https://www.facebook.com/cyverse.org>`_, `CyVerse Tweets <https://twitter.com/cyverseorg>`_, or the CyVerse Google+ page, and within the DE you may receive system messages as well.
+For answers to questions:
+
+Search in this manual, using the search bar in the left panel.
+Read the FAQs page for the Discovery Environment, Data Store, and answers to software licensing questions.
+Click Get Help below to open Ask CyVerse, which lists questions and answers to commonly-asked questions by other CyVerse users. Also check out the Get Help page on the website.
+You also can enter comments, questions, and suggestions, on the DE Feedback Form.
 
 
 
