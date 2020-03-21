@@ -46,7 +46,7 @@ Window Icons
     * - |WindowIcon-minMaxClose|
       - Minimize, Maximize, or close the active window. 
 
-
+----------
 Data Menus
 ----------
 .. |datamenu| image:: img/de/DataMenu.jpg
@@ -55,13 +55,13 @@ The Data toolbar helps you `manage files and folders. <https://wiki.cyverse.org/
 
 |datamenu|
 
------------
+
 Upload menu
 -----------
 
     - `Upload (simple and bulk) and import <https://wiki.cyverse.org/wiki/display/DEmanual/Managing+Data+Files+and+Folders>`_ files and folders
 
----------
+
 File menu
 ---------
 
@@ -70,7 +70,7 @@ File menu
     - `Create a new file <https://wiki.cyverse.org/wiki/display/DEmanual/Creating+New+Files+and+Folders>`_ including plain text files; tabular data files; R, Perl, Python, and Shell scripts; and Markdown files.
     - `Move a file or folder to Trash <https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=11446737>`_ 
 
----------
+
 Edit menu
 ---------
 
@@ -80,14 +80,14 @@ Edit menu
     - `Edit information type <https://wiki.cyverse.org/wiki/display/DEmanual/Editing+a+File%27s+Info-Type>`_ 
     - `Move files and folders <https://wiki.cyverse.org/wiki/display/DEmanual/Moving+a+Data+File+or+Folder>`_ 
 
-------------
+
 Dowload menu
 ------------
 
     - `Download a file or folder using Simple or Bulk ownload <https://wiki.cyverse.org/wiki/display/DEmanual/Downloading+Files+and+Folders>`_ 
 
 
-----------
+
 Share menu
 ----------
 
@@ -96,25 +96,25 @@ Share menu
     - `Share a folder location <https://wiki.cyverse.org/wiki/display/DEmanual/Creating+Shared+Path+Folder+Links>`_ 
     - View genome files in `CoGe <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+Genome+Files+in+CoGe>`_ or `Ensembl <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+Genome+Files+in+a+Genome+Browser>`_, or Newick files in the `Tree Viewer <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+Newick+Files+in+the+Tree+Viewer>`_. These commands are also available for selected CoGe, Ensembl, or Newick files in the details pane. 
 
---------
+
 Metadata
 --------
 
     - Use `metadata and metadata templates <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE>`_, and `request a permanent identifier <https://wiki.cyverse.org/wiki/display/DC/Requesting+a+Permanent+Identifier+in+the+Data+Commons>`_ (DOI or ARK) to allow others to reuse your datasets
 
--------
+
 Refresh
 -------
 
     - Refresh the Data window if results are not updating as expected.
 
-------
+
 Search
 ------
 
     - Search for a file using `basic or advanced search <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+Data+Items>`_.
 
------
+
 Trash
 -----
 
