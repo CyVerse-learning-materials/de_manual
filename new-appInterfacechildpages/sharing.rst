@@ -71,9 +71,10 @@ You can share an unpublished DE or Agave app in your **Apps under development** 
 
     4. If you selected more than one app or workflow, click the items to share in the **Selected Apps** section.
     5. **To share the app with a user or change permission levels for the user**:
+        
         a. Select the user from your `Collaborators list <http://adding%20and%20deleting%20users%20from%20the%20collaborators%20list%20in%20preferences/>`_.
         b. In the **Who has access** section, click the Permissions drop-down and select the permission level for the user:
-        
+
         .. note:: We recommend that unless you are experienced Agave user, you set permissions for your unpublished Agave app within the DE. Because permissions are different between Agave and DE apps, this avoids possible conflicts.
         
         - **read** allows the user to use the app. This setting applies both to DE and Agave apps.
