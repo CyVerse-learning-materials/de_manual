@@ -206,8 +206,11 @@ You can add, edit, and view comments at any time.
     1. In the Analyses window, `find the analysis <https://pods.iplantcollaborative.org/wiki/display/DEmanual/Using+the+Analyses+Window#AnalysisSearch>`_ whose comments you want to add or update.
     2. Either:
         - Click |AppsCommentIcon| (Comments) next to the name of the analysis whose comments you want to view.
+
             or
+        
         - Click **Edit** and then click **Update Comments**.
+    
     3. In the Comments window, add, edit, or view the comments and click **OK**.
 
 
