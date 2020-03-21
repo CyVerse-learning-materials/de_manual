@@ -134,7 +134,7 @@ New for the 2.11 release is the ability to view more information about the statu
 |AnalysisHelpSubmitted|
 
 4. Enter additional comments about the analysis, click the checkbox to agree to share your output files and details with Support staff, and click **Submit**.
-    You will receive a response within 2 work days.
+   You will receive a response within 2 work days.
 
 
 Relaunching an analysis with the same or different settings
