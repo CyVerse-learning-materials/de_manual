@@ -28,12 +28,13 @@ Preview the app
     2. Review the GUI for the new app to make sure it looks and functions the way you want:
 
     .. tip:: Test the app as if you are a new user:
-        - Try entering something in each field.
-        - Click each button to make sure it's going where you want it to do and doing what you want it to do.
-        - Close and open each section.
-        - Review the field labels to make sure they're spelled correctly.
-        - Select a file.
-        - Change options.
+        
+            - Try entering something in each field.
+            - Click each button to make sure it's going where you want it to do and doing what you want it to do.
+            - Close and open each section.
+            - Review the field labels to make sure they're spelled correctly.
+            - Select a file.
+            - Change options.
 
     3. When done previewing the app, click |close| to close the preview window so you can continue editing and previewing the app until it is to your satisfaction.
 
