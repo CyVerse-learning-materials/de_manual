@@ -20,12 +20,13 @@ You can access and manage data from outside the DE as well. For more information
 
 
 
-
+-----------------------
 Opening the Data Window
 -----------------------
 
 Click the **Data** icon to open the Data window
 
+------------
 Window Icons
 ------------
 

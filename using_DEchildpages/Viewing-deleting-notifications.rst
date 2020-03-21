@@ -7,14 +7,16 @@
 .. |notificationsicon| image:: img/NotificationsIcon.png
 
 
-
+================================================
 Using the DE: Viewing and Deleting Notifications
-----------------------------------------------------
+================================================
 
 Notifications are status updates about the requests for import or uploaded data files or folders, the progression of a submitted analysis, the status of `shared data items <https://cyverse-doi-request-quickstart.readthedocs-hosted.com/en/latest/>`_. Up to 10 unread notifications are displayed in the short list, and you can filter by new, all, analysis, data, or tool request notifications, and delete some or all notifications.
 
 In addition to notifications in the Notifications menu, you can set the preference to recieve an email notification when the status of a submitted analysis or URL import changes.
 
+
+---------------------
 Viewing notifications
 ---------------------
 
@@ -39,7 +41,7 @@ Click **See all notifications** to open the **first page** of up to 10 notificat
    .. image:: img/ViewNotifs.png
 
 
-
+----------------------
 Deleting notifications
 ----------------------
 

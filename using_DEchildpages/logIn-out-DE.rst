@@ -12,7 +12,10 @@ Logging in and out of the Discovery Environment
 Logging in to the Discovery Environment
 ---------------------------------------
 
-    If you have not already done so, you will need to msign up for a CyVerse account. For more information, see `Create Account <https://cyverse.org/learning-center/create-account>`_.
+   .. tip::
+       If you have not already done so, you will need to msign up for a CyVerse account. For more information, see `Create Account <https://cyverse.org/learning-center/create-account>`_.
+    
+    
     1. Go to `CyVerse Discovery Environment <https://de.cyverse.org/de/>`_ and enter your CyVerse credentials. If you need to reset your password or forgot your CyVerse username, click **Need to reset your password?** and complete the form.
     2. Click **LOGIN**. If the Save Session preference is enabled, the progress bar is displayed while the data and windows from your last session are loaded.
 
