@@ -122,7 +122,7 @@ You can create a new tool.
     2. In the Apps window, click **Manage Tools** on the right.
     3. Click the Tools menu and then click **Add tool**:
 
-     .. image:: img/addTool.png
+        .. image:: img/addTool.png
 
         a. In the Tool Name field, enter a unique name for the tool.
         b. In the Description field, add a description. Though optional, this field will help other users know more about your tool when deciding on a tool to use when they click |infoicon| in the Tools list.
