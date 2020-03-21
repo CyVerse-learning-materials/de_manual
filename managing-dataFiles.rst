@@ -302,9 +302,9 @@ To begin, you need the data files you want to use in your analysis. You can use 
 .. tip::
     It is also possible to manage data outside of the Discovery Environment using other tools, as documented in `Downloading and Uploading Data <https://wiki.cyverse.org/wiki/display/DS/Downloading+and+Uploading+Data>`_.
 
-
-Table of contents
------------------
+-------------------------------------------------
+Managing Data Files and Folders Table of contents
+-------------------------------------------------
 
 .. toctree::
 	:maxdepth: 9
