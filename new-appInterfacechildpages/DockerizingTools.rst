@@ -346,7 +346,141 @@ The Kallisto Docker image was built on an Ubuntu-64 bit Virtual Machine using Vi
     docker push kapeel/kallisto:latest
 
 
+Example 2: Dockerizing a bioinformatics tool - ParaAT
+-----------------------------------------------------
 
+The ParaAT Docker image was built on Mac OS X using the Docker toolkit (quick start terminal). 
+
+**1. Install Docker Toolbox for Mac OS X** (see step 1 in Example 1).
+
+**2. Create a paraAT git repo on GitHub.**
+
+**3. Create a paraAT git repo locally on your computer:**
+
+.. code-block:: bash
+
+    git init paraAT
+
+**4. Clone the paraAT git repo to local:**
+
+.. code-block:: bash
+
+    git clone https://github.com/jdebarry/paraat.git
+
+**5. Download the `paraAT files <https://code.google.com/archive/p/paraat/downloads>`_, and then add and commit them to the local paraAT GitHub repo folder:**
+
+.. code-block:: bash
+
+    git add . && git commit -m "adding paraat files"
+
+**6. Push the local paraAT repo to the remote repo:**
+
+.. code-block:: bash
+
+    git push -u origin master
+
+**7. Create a Dockerfile:**
+
+.. code-block:: bash
+
+    FROM ubuntu:14.04
+    MAINTAINER Jeremy DeBarry   jdebarry@cyverse.org
+    #Get paraat.pl and epal2nal.pl code and add into $PATH to make it executable anywhere, then make it executable
+    ADD https://raw.githubusercontent.com/jdebarry/paraat/master/ParaAT2.0/ParaAT.pl /usr/bin/
+    ADD https://raw.githubusercontent.com/jdebarry/paraat/master/ParaAT2.0/Epal2nal.pl /usr/bin/
+    RUN [ "chmod", "+x",  "/usr/bin/ParaAT.pl" ]
+    RUN [ "chmod", "+x",  "/usr/bin/Epal2nal.pl" ]
+ 
+    #Installing aligners, renaming clustalw executable so paraat.pl will use it - this is a bandaid but it works
+    RUN echo "deb http://archive.ubuntu.com/ubuntu trusty multiverse" >> /etc/apt/sources.list
+    RUN DEBIAN_FRONTEND=noninteractive apt-get -qq update
+    RUN DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y clustalw
+    RUN DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y mafft
+    RUN DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y muscle
+    RUN DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y t-coffee
+    RUN [ "mv", "/usr/bin/clustalw" , "usr/bin/clustalw2" ]
+    ENTRYPOINT ["ParaAT.pl"]
+
+**8. Build the paraAT image:**
+
+.. code-block:: bash
+
+    docker build -t paraat .
+
+**9. Test the paraAT image:**
+
+.. code-block:: bash
+
+    docker run --rm -v=/Users/jdebarry/Dropbox/Docker/paraat/Development/input/:/data paraat -h /data/test.homologs -n /data/test.cds -a /data/test.pep -p proc -o
+
+------------------
+FAQs – Dockerizing
+------------------
+- **How do you troubleshoot the build process and local testing of a Dockerfile?**
+        
+    Start with Google. Also check out the websites `Stack Overflow <http://stackoverflow.com/>`_ or `Biostars <https://www.biostars.org/>`_, as well as the `Docker cheat sheet <https://github.com/wsargent/docker-cheat-sheet>`_ for help troubleshooting the build and Dockerfile-related issues. For local testing of Dockerfiles, please refer to step 3. 
+
+
+- **What is the base image required to build a Docker container?**
+
+    The base image depends on the tool or script. You can pursue available images by searching Docker Hub for the domain (e.g., “biology”, “science”) and read the documentation for specific images.      
+
+    Most frequently used CyVerse base images:
+
+    - ubuntu:12.04
+    - ubuntu:14.04
+        
+    Other CyVerse base images:
+
+    - perl:latest
+    - r-base
+    - ubuntu
+    - ubuntu:latest
+    - python:2.7
+    - centos:7
+    - biobakery/base
+    - java:7
+    - centos:6.6
+    - gcc:5.1
+    - debian:latest
+
+- **Is licensing information required for creating Docker images?**
+
+    Licensing is a definite factor to consider in Docker image creation. Many programs want to count downloads or have other restraints, and creating a Dockerfile means you are essentially automating access to the software. Due diligence is required to ensure that the onus is on the user and not on CyVerse (click below to view the example).
+
+    View sample licensing information:
+
+        Copyright 2015. The Regents of the University of California (Regents). All Rights Reserved. Permission to use, copy, modify, and distribute this software and its documentation for educational and research not-for-profit purposes, without fee and without a signed licensing agreement, is hereby granted, provided that the above copyright notice, this paragraph and the following two paragraphs appear in all copies, modifications, and distributions. Contact The Office of Technology Licensing, UC Berkeley, 2150 Shattuck Avenue, Suite 510, Berkeley, CA 94720-1620, (510) 643-7201, for commercial licensing opportunities. Created by Nicolas Bray, Harold Pimentel, Pall Melsted and Lior Pachter, University of California, Berkeley IN NO EVENT SHALL REGENTS BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF REGENTS HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. REGENTS SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE AND ACCOMPANYING DOCUMENTATION, IF ANY, PROVIDED HEREUNDER IS PROVIDED "AS IS". REGENTS HAS NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+- **Where should I store the Dockerfiles and executables for an app?**
+
+    Dockerfile creators should store their Dockerfiles and dependencies (wrapper scripts, etc.) in a reliable source such as GitHub or Bitbucket. CyVerse has its own `GitHub repository <https://github.com/iPlantCollaborativeOpenSource/docker-builds>`_ where sources and Dockerfiles are saved for tools installed in the DE.
+
+- **What are the hardware limitations for running a Docker container? How much RAM and disk space is allowed for a Docker app?**
+
+    The DE does not specifically cap the disk size for each Docker container running in Condor nodes, so we are using the default Docker cap of 10 GB per image. This limit applies only to the tool's Docker images and data containers, not to any inputs or outputs used when running the analysis (which are mounted from the node's working directory).
+
+    Although a tool's Docker image may contain up to 10 GB of data if required, users should still strive to keep their Docker images small. This will ensure that jobs run faster for DE users when the tool's image needs to be pulled from our registry to a Condor node before running an analysis.
+
+- **Do I need to import reference genomes to Docker containers?**
+
+    The DE has a number of reference genomes uploaded and available for use. View the list `here <http://mirrors.cyverse.org/browse/iplant/home/shared/iplantcollaborative/genomeservices/builds/1.0.0/19_72>`_. If the genome you want to use is not listed, `contact CyVerse Support <support@cyverse.org>`_ to ask that it be added.
+
+**Can HPC apps be Dockerized?**
+
+    No, due to security issues, currently Docker is not available to apps that require HPC resources, i.e., apps integrated using the Agave API.
+
+-------------------
+Future enhancements
+-------------------
+
+Future enhancements include the ability to:
+
+    - Import Docker images from a private repository such as GitHub or Docker Hub, or from files, etc.
+    - Share an app or Docker container within groups.
+    - Bring your own compute for containers, attach the container to the CyVerse pool, and manage the list of users who can access the container.
+    - Run Docker containers on HPC systems.
+    - Perform network functions. Currently, this is not available for security reasons.
 
 
 
