@@ -4,31 +4,19 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
+===============================================================
+Troubleshooting and Getting Help with the Discovery Environment
+===============================================================
 
-**Discovery Environment Manual**
-================================
+There are lots of ways to get help with the DE. This page lists the places to start.
+
+Start here
+----------
+
+Within the DE, simply click |help_icon| at the top right of the screen, and then click FAQs to view the list of frequently asked questions, Forum to go to the Ask CyVerse forum, or Feedback to contact Support or provide feedback about the DE.
 
 
 
-Welcome to Discovery Environment!
----------------------------------
-
-
-----
-
-.. toctree::
-	:maxdepth: 9
-    using_DE.rst
-    managing-dataFiles.rst
-    using_VICE.rst
-    using-appsWindow.rst
-    new-appInterface.rst
-    using-analysisWindow.rst
-    troubleshooting.rst
-
-.. comment: Next .rst files to be finished: 
-    glossary.rst
-    file-Lists.rst
 
 
 
@@ -64,6 +52,9 @@ Welcome to Discovery Environment!
     :height: 25
 
 
+.. |helpiconwindow| image:: img/de/HelpIconWindows.png
+
+.. |help_icon| image:: img/de/HelpIcon.png
 
 .. Comment: Place URLS Below This Line
 
