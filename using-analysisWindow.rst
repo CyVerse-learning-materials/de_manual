@@ -326,10 +326,119 @@ You can avoid confusion by:
     3. Use the files together in a step of the analysis workflow.
 
 
+---------------------------
+Troubleshooting an Analysis
+---------------------------
 
+It can be confusing to figure out why an analysis failed or doesn't complete, because there are any number of reasons why this might happen. It could be that one of your input files is corrupted, wasn't fully uploaded to the DE, or is in the wrong format. Maybe the problem is with the analysis name. Or maybe there's a technical problem with the binary tool used for the app or with the Discovery Environment itself.
 
+This page gives some tips on how to troubleshoot the problem so you can figure out whether it's a problem with your file or with the Discovery Environment, and then help you either work on getting the problem fixed or resubmitting another analysis. See Analyses FAQs (above) as well.
 
+Troubleshooting a failed or stalled analysis
+--------------------------------------------
 
+If you know that an analysis typically completes in 20 minutes but you have one that still shows Running status 24 hours after you submitted it, if you didn't get any output files or the output files were not what you expected, there could be a problem with your input files, the parameters you used, or there could be a problem with the app.
+
+For more information on analyses status help, see Using the Analyses Window - Viewing the status of your analysis and getting help (above).
+
+1. Read the tool's documentation
+--------------------------------
+
+CyVerse hosts hundreds of apps, and our staff are not experts on most of them. The best way to find out how an app should work is by reading the original documentation that came with the tool. You can access the documentation for an app by clicking on the "i" button next to the app name (see Viewing App and Tool Information). This will take you either directly to the tool documentation or to a wiki page that links out to the tool documentation. You should always understand how an app works before you use it to analyze data.
+
+2. Check the log files
+----------------------
+
+One of the main tools available for troubleshooting a failed analysis is the set of log files that are returned with each completed or failed analysis. These log files contain important information about the analysis, such as the settings that were used, files you used, and, in the case of a failed analysis, information to help explain why the analysis failed.
+
+Because different apps are based on different tools, there is no standard method used for error reporting, so the same type of error may land in different log files. For example, one app may return errors to the `stdout <http://en.wikipedia.org/wiki/Standard_streams#Standard_output_.28stdout.29>`_ files (usually the screen, although it can be redirected and is generally captured in a log file here), while another saves its errors to the `stderr <http://en.wikipedia.org/wiki/Standard_streams#Standard_error_.28stderr.29>`_ files (which usually writes to a file, but can also be redirected). This means you may well have to look in more than one log file when troubleshooting a failed analysis.
+
+The log files that most commonly contain error information are (numerals in the filename correspond to the step number that was logged in your analysis):
+
+    - **condor-stderr** and **condor-input-stdout** log files contain errors and details about Condor, the batch manager program that handles the execution of your analyses submission in the analyses queue.
+
+    - **condor-input-stderr** and **condor-input-stdout** files contain details about outputs from the tool upon which the app is based.
+
+If there was a problem with your input files or parameters, this will often be reported in the **condor-stderr** file.
+
+See `About Log Files <http://hammer.cyverse.org:8090/display/DEmanual/About+Log+Files>`_ for a more complete description of the contents of the files that are returned, as well as useful tips for app integrators.
+
+3. Check the input files and parameter
+--------------------------------------
+
+`View the parameters <http://hammer.cyverse.org:8090/display/DEmanual/Using+the+Analyses+Window>`_ to make sure you used the correct input files and settings
+
+4. Did CyVerse go into maintenance?
+-----------------------------------
+
+If you had a long-running analysis that failed, make sure that CyVerse did not enter maintenance while it was running. Check the `maintenance calendar <http://www.cyverse.org/maintenance-calendar>`_.
+
+If your job was interrupted by maintenance, you can `relaunch the analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Relaunching%2C+Canceling%2C+and+Deleting+Analyses%2C+Viewing+Analysis+Outputs+and+Info>`_ using the same files and settings.
+
+5. Check is the app is functioning properly
+-------------------------------------------
+
+If you suspect that the app is not working correctly, try to run it with the example data. Most apps have a quickstart that lists example data in the `List of Applications <http://hammer.cyverse.org:8090/display/DEapps/List+of+Applications>`_. You can also get to the quickstart by viewing the app info by clicking on the "i" button.
+
+Requesting additional help
+--------------------------
+
+Please **go through all the troubleshooting steps yourself** before requesting help. The problem is often something that you can diagnose yourself.
+
+If you still need help, you can submit a request for help directly in the Analyses window. The status of the analysis determines the Help information that is displayed.
+
+    1. In the Analyses window, find the analysis with the possible issue. Click the status (i.e. 'Failed') of the failed analysis whose outputs you want to view.
+
+    2. Review the troubleshooting suggestions above.
+
+    3. If you still need assistance, click I still need help and complete the form.
+
+Getting additional help
+-----------------------
+
+View the CyVerse maintenance calendar for upcoming and current maintenance periods. You also can see the Status page on the CyVerse website and the most recent `CyVerse *Node* newsletter <http://www.cyverse.org/newsletter>`_ (which lists the upcoming maintenance periods). Other helpful sources are the `CyVerse Facebook page <https://www.facebook.com/cyverse.org>`_, `CyVerse Tweets <https://twitter.com/cyverseorg>`_, or the `CyVerse Google+ <https://plus.google.com/+CyverseOrgProject>`_ page, and within the DE you may receive `system messages <http://hammer.cyverse.org:8090/display/DEmanual/Using+DE+System+Messages+and+Important+Announcements>`_ as well.
+
+---------------
+About Log Files
+---------------
+
+About the Logs directory
+------------------------
+
+The **logs** directory is created as a subdirectory in every analysis results directory. It contains several log files that may be useful for troubleshooting when problems occur. They also are extremely useful to the people in CyVerse Support as well as those who `created the new app interface <https://cyverse-de-manual.readthedocs-hosted.com/en/latest/new-appInterface.html>`_. This page contains a description of each log file. **Note that not all log files are returned for every analysis.**
+
+The Job Execution Framework (JEX) treats single-app analyses as a workflow in which only a single app is executed as part of the analysis; hence the files are numbered even when a single tool is being executed. In reality, all analyses are workflows since the JEX adds executions of administrative tools to every analysis execution. The numbers in the log file names (as in **condor-0-input-0-stderr**) correspond to the number of the step in your analysis; in a single-app analysis, the number is always 0.
+
+.. note:: Files that contain **err** and **stdout** in the name are available in several log files, and one or more may contain useful error and warning messages. One effective troubleshooting technique is to examine all **err** and **stdout** files that have a nonzero size.
+
+Renamed Condor files
+--------------------
+
+The files that follow the naming convention **condor-0-input-0-stderr** and **condor-0-input-0-stdout** have been renamed to follow this convention: logs-stdout-input-0 or logs-stdout-input-0. This was done because those log files are no longer generated by condor and to make the filenames more easily sorted. The content in the files may has been changed in format, but they still contain the output of the file transfer steps.
+
+The files that follow the naming convention of **condor-stderr-0** and **condor-stdout-0** have not been changed.
+
+    - **logs-stdout-input-0** (renamed from **condor-0-input-0-stderr**): **stderr** output from the first input file transfer of the first app in the workflow.
+
+    - **logs-stdout-input-0** (renamed from **condor-0-input-0-stdout**): **stdout** output from the first input file transfer of the first app in the workflow.
+
+    - **condor-stderr-0: stderr** output from the execution of the analysis for the first app in the workflow.
+
+    - **condor-stdout-0: stdout** output from the execution of the analysis for the first app in the workflow.
+
+Removed files
+-------------
+
+    - **imkdir log files**: The imkdir log files, **imkdir-stderr** and **imkdir-stdout**, are no longer returned. The creation of the output directory is now performed by the tool that does the uploads of the output files, so these logs are no longer created.
+    - **iPlant log files**: The iPlant log files, **iplant.cmd** and **iplant.sh**, are no longer returned. We no longer generate an iplant.sh file for each job, and the iplant.cmd file is a templated file that barely changes between jobs. The logic for running the applications is now handled by a tool written specifically for that job, so we no longer have to generate bash scripts. The new JobSummary.csv file (see below) roughly corresponds to the useful information that was contained in the iplant.cmd file before it was eliminated.
+    - **Output log files**: The output log files, **output-last-stderr** and **output-last-stdout**, are no longer returned. There was a nasty race condition where the the tool that performs file transfers would sometimes try to upload these files while they were still being written to by the same uploader tool, resulting in a crash and job failures.
+    - **Script log files**: The script log files, **script-condor-log**, **script-error.log**, and **script-output.log**, are no longer returned. They were created by HTCondor in the submission directory on our submission node in an NFS mount shared across all of our compute nodes. The NFS mount was/is a single point of failure that could cause all jobs running in the cluster to fail at the same time, so we've been moving everything off of it. Unfortunately, this means that the script log files are now only available on the submission node (since that's where HTCondor creates them) and we haven't yet found a good way of transferring the files into iRODS without turning the submission node into a significant performance bottleneck.
+
+New files
+---------
+
+    - **JobSummary.csv** contains a summary of the job as a CSV file. This roughly corresponds to the useful information that was contained in the iplant.cmd file before it was eliminated. 
+    - **JobParameters.csv** contains the command-line flags used to invoke the tools used in the app. This can be used to figure out what flags were passed to a tool, what order they were passed in, and how they were parsed by the system.
 
 
 
