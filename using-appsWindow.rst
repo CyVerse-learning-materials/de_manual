@@ -24,7 +24,7 @@ Refreshing the apps window
 
 Click |Refresh| to update the Apps window.
 
---------------------------------
+
 Searching for an app or workflow
 --------------------------------
 
@@ -42,16 +42,16 @@ You also can click |HelpIcon| to read FAQs, ask and view questions in Ask CyVers
 |AppsManageTools|
 
 
---------------
+
 Managing Tools 
 --------------
 
 The Manage Tools menu is the hub for managing the Discovery Environment **tools** Docker images from which apps are created. Within this menu, you can manage (add, request installation, edit, delete, and use the tool in an app) and share the tool with specific collaborators, with the public, or keep it personal for just your use. For information on the Manage Tools menu, see **Managing Tools in the DE**.
 
---------------------------------
 Customizing the Apps window view
 --------------------------------
 
+-------------------------------
 Switching the Apps list display
 -------------------------------
 
@@ -60,7 +60,7 @@ The apps that are displayed in the right panel can be viewed either in tiles vie
 
 |AppsSwitchView_Tiles| |AppsSwitchView_List|
 
-
+---------------------------------------
 Changing the columns that are displayed
 ---------------------------------------
 
