@@ -77,6 +77,108 @@ You can sort on any column in the Apps list, and hide or show columns to customi
 
 
 
+About categories
+----------------
+
+In the left panel, the Categories are displayed.
+
+   - **My Apps**: Apps and workflows you are in the process of `creating and editing <https://cyverse-de-manual.readthedocs-hosted.com/en/latest/new-appInterface.html>`_ that you have not yet made public, your favorite apps, the apps you have already `made public <https://cyverse-de-manual.readthedocs-hosted.com/en/latest/new-appInterfacechildpages/sharing.html>`_, and the apps that have been shared with you by other users. Click the **My Apps** tab, click the folder to use, and then click the app to use in the right panel. Note that the category name is displayed above the right panel.
+   - **Topic**: Public apps categorized by science type (such as biology, biomedical science, etc.). Click the **Topic** tab, navigate through the categories to the correct topic, and then click the app to use in the right panel. The path and category name are displayed above the right panel.
+   - **Operation**: Public apps categorized by operation type (such as alignment, analysis, etc.). Click the **Operation** tab, navigate through the categories to the correct operation, and then click the app to use in the right panel. The path and category name are displayed above the right panel.
+   - **HPC**: High-performance computing (HPC) apps that may be submitted directly to the Agave API. HPC apps, which are contained in a different repository, require that you sign in to the Agave server the first time you open either the DE, the Apps window, or click the **HPC** tab. Once you have done so, you will rarely have to authenticate again. Click the HPC tab, authenticate if necessary using your CyVerse username and password, and then click the app to use in the right panel. For more information, see Using HPC Apps in the DE and `The Agave API <http://agaveapi.co/>`_.
+
+Based on the `EDAM ontology <http://edamontology.org/page>`_, categories under Topic and Operation help you more quickly find an app or workflow for the type of analysis you need to do. An app can be tagged with more than one category and can appear in more than one tab. Apps that have not yet been categorized are located in the Unclassified categories of the Topic and Operation tabs. All apps are available in search by name, integrator, and tool used for the app.
+
+You can search for an app by name, integrator, tool used for the app, topic, or operation. Once you have authenticated to the Agave apps using your CyVerse username and password (usually required only the first time you log in to the DE and rarely thereafter), the list of HPC apps will also be displayed in search results and within the HPC tab. If the HPC app has been tagged with Topic and Operation terms, it will also show up under those tabs. 
+
+In the right panel, you can view details about the app, such as the integrator's name, and any ratings and comments entered by other users. Click the name of the app to use for your analysis from this section.
+
+
+About app status
+----------------
+
+Depending on the status of the app, it may display an icon to denote its status (if no icon is displayed, the app is a public app). In the tiles view, the icon is displayed at the bottom right of the tile, while in the list view, the icon is displayed to the left of the app name.
+
+   - **Private** apps (either an app you created and have not yet made public, or a private app that has been shared with you by another user) have a blue lock icon: |PrivateAppIcon|.
+   - **Beta** apps (Apps that have been made public but have not yet been vetted by our team) have a green Beta icon: |Beta|.
+   - **Disabled** apps (apps that can no longer be used, most often because they don't work properly) have a red X icon: |xicon|.
+   - **Public** apps that are not in beta or disabled status have no icon.
+
+
+
+Viewing categories
+------------------
+
+To view the categories used for the app or the list of other apps in the same category:
+
+   1. Click the category tab to use and select the app whose categories you want to view.
+   2. Click |AppInfoIcon| to the left of the app name:
+
+|AppInfoWithCat|
+
+   3. Next to Category, click **Operation** or **Topic** to expand the category.
+   4. Click through the tree to view other apps in that category.
+
+You also can add the app to your Favorite Apps in your My Apps list, click **User Manual** to view the app's manual, and `share the URL <<https://cyverse-de-manual.readthedocs-hosted.com/en/latest/new-appInterfacechildpages/sharing.html>`_ for the app with another user, click **App URL**, and then copy and send the URL to the recipient.
+
+
+Requesting a new or different category
+--------------------------------------
+
+You can request that a public app be added to a different or additional category, or suggest addition of a new category. If the curators determine it is appropriate, they will add the app to that category within one month for existing categories. New categories may take longer if they require updates to the EDAM ontology. 
+
+To request a new or additional category for an app, click |AppCommentsIcon| to the right of the app name and enter the requested category as a comment. Your suggestion will be emailed to the app integrator and CyVerse app curators.
+
+
+.. note::
+   Wondering why an app has a funny symbol or is no longer in the list?
+
+   Apps with |xicon| are disabled and currently not available for use.
+
+   Apps with |beta| are public apps that have not yet been vetted by the CyVerse team.
+
+   Apps with |PrivateAppIcon| are private apps that you either you created or that have been shared with you by another user.
+
+   **If an app is no longer returned in a search query**, it may have been deprecated as part of the app recategorization efforts. You can use a similar app by searching for an app with a similar name or that uses the same tool. If you are the app integrator or need access to the app from a link in a publication, contact CyVerse Support at support@cyverse.org for assistance.
+
+   It's also possible you haven't **authenticated** to the HPC server. You are prompted to log in to the server when you log in to the DE, open the Apps window, or click the HPC tab. Once you have authenticated, you won't see the prompt again unless major changes to the HPC server require re-authentication, which should happen rarely. So if the app you are searching for is in the HPC list, logging in will return the app to you in search results.
+
+
+You can view, rate, and add comments about an app.
+
+
+Using Apps
+----------
+
+Apps are the mechanism you use in the DE to submit your analysis. **See Using the Apps Window and Submitting an Analysis** for information on submitting an analysis and navigating within the Apps window.
+
+You can view information about the app interface and the tool (executable or binary) used for the app in the Information window.
+
+For an overview of the Apps window menus, see **Using the Apps Window and Submitting an Analysis**.
+
+--------------
+Viewing an app
+--------------
+
+Once you have identified the app to use, click it to open the app window.
+
+Each app has a basic set of standard interface elements, as shown in this example of FASTX quality filter:
+
+|AppsFastX|
+
+.. list-table::
+   * - 1
+     - App name, as defined by the app's integrator
+   * - 2
+     - Window icons.
+   * - 3
+     - Panels:
+         - Contents of each panel are defined by the integrator who created the app. The first panel is where you enter specifics about the analysis, including the analysis name, description, selected output folder, and whether to have input files returned with the analysis output files.
+         - Note the red asterisks * on the second and third panels, indicating that they contain a required field. Each required field also has a red asterisk.
+   * - 4
+     - Click to open or close a panel.
+   * - 5
+     - Click to launch the analysis. Note that you must complete all required fields in the analysis before the analysis can be launched.
 
 
 
@@ -86,19 +188,6 @@ You can sort on any column in the Apps list, and hide or show columns to customi
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
------------------------
 Opening the Apps window
 -----------------------
 
@@ -247,6 +336,18 @@ Each app in the DE has a user manual that should list the test data files and se
 .. |AppsSwitchView_List| image:: img/de/AppsSwitchView_List.jpg
 
 .. |ColumnsCustomize| image:: img/de/ColumnsCustomize.png
+
+.. |PrivateAppIcon| image:: img/de/PrivateAppIcon.jpg
+
+.. |Beta| image:: img/de/BetaAppIcon.jpg
+
+.. |xicon| image:: img/de/X-icon.jpg
+
+.. |AppInfoWithCat| image:: img/de/AppInfoWithCategoryTree.jpg
+
+.. |AppCommentsIcon| image:: img/de/AppCommentsIcon.png
+
+.. |AppsFastX| image:: img/de/Apps-FastxAnnotated.jpg
 
 
 
