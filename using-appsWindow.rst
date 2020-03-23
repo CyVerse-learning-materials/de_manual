@@ -127,7 +127,7 @@ To view the categories used for the app or the list of other apps in the same ca
    3. Next to Category, click **Operation** or **Topic** to expand the category.
    4. Click through the tree to view other apps in that category.
 
-You also can add the app to your Favorite Apps in your My Apps list, click **User Manual** to view the app's manual, and `share the URL <<https://cyverse-de-manual.readthedocs-hosted.com/en/latest/new-appInterfacechildpages/sharing.html>`_ for the app with another user, click **App URL**, and then copy and send the URL to the recipient.
+You also can add the app to your Favorite Apps in your My Apps list, click **User Manual** to view the app's manual, and `share the URL <https://cyverse-de-manual.readthedocs-hosted.com/en/latest/new-appInterfacechildpages/sharing.html>`_ for the app with another user, click **App URL**, and then copy and send the URL to the recipient.
 
 
 Requesting a new or different category
@@ -380,15 +380,219 @@ Each app in the DE has a user manual that should list the test data files and se
 .. note:: To contact the app's integrator, copy the integrator's email address listed on the app information tab and send an email.
 
 
+Searching for an App, Workflow, or Tool
+---------------------------------------
+
+The Apps list is categorized by your list of apps, and published apps by topic, operation, or HPC, as described in Using Apps.
+
+You can search for a specific app or workflow by name, integrator's name, description, description, or tool in the search field. You also can browse through the categories in each tab, and view information about the tool (executable or binary used for the app) by clicking |AppInfoIcon| next to the app name.
+
+If a tool or tool version is not yet available in the DE, you can `request installation of a new tool <https://cyverse-de-manual.readthedocs-hosted.com/en/latest/new-appInterfacechildpages/ManagingToolsinDE.html>`_.
+
+When you find an app you like or use frequently, you can add it to your list of Favorite Apps.
+
+**What's an app? tool? analysis?**
+
+- **App**: Interface of a tool that has been configured and made available for use in the DE. The same tool can be used in more than one app, and may also be created by different integrators with different intents and interfaces.
+- **Tool**: Software program (executable binary or executable) that is installed on a server and integrated into the back end of the DE for use in DE apps.
+- **Analysis**: Detailed examination of data performed in the DE by selecting one or more apps to perform a desired task for the purpose of discussion or interpretation.
+
+1. In the Apps window, enter a search term in the Search Apps field – app or workflow name, integrator's name, tool name, or part of the app description. As you type, the list of matching apps updates dynamically. If you are searching for an HPC app and have not yet done so, click the prompt to log in to the Agave server.
+
+|AppsMenu|
+
+2. In the results list, click the app or workflow name to select the app. To learn more about the item, click the |AppInfoIcon| icon.
+
+.. note::
+   Wondering why an app has a funny symbol or is no longer in the list?
+
+   Apps with |xicon| are disabled and currently not available for use.
+
+   Apps with |beta| are public apps that have not yet been vetted by the CyVerse team.
+
+   Apps with |PrivateAppIcon| are private apps that you either you created or that have been shared with you by another user.
+
+   **If an app is no longer returned in a search query**, it may have been deprecated as part of the app recategorization efforts. You can use a similar app by searching for an app with a similar name or that uses the same tool. If you are the app integrator or need access to the app from a link in a publication, contact CyVerse Support at support@cyverse.org for assistance.
+
+   It's also possible you haven't **authenticated** to the HPC server. You are prompted to log in to the server when you log in to the DE, open the Apps window, or click the HPC tab. Once you have authenticated, you won't see the prompt again unless major changes to the HPC server require re-authentication, which should happen rarely. So if the app you are searching for is in the HPC list, logging in will return the app to you in search results.
+
+----------------------
+About deprecated apps
+----------------------
+
+If an app name is not returned in a search, the app may have been deprecated. You may want to search for a similar app or contact the integrator to see if there is a suitable alternative or a possibility of unarchiving the app. If you are the app integrator and want to unarchive an app, `contact Support <support@iplantcollaborative.org>`_ for assistance.
+
+If you haven't yet authenticated to the HPC server, HPC apps will not be returned in search results. To do so, click the HPC tab to receive the prompt and then authenticate, or close and reopen the DE to receive the prompt and log in to the Agave server.
 
 
+Using App Ratings and App Comments
+----------------------------------
+
+Public DE apps can be rated and commented on by other CyVerse users. This is useful for providing feedback such as questions about how to use the app, suggestions for improvements, errors in the app or app documentation, useful tips, or letting the integrator and other users know how you use the app.
+
+The Apps list has a Rating column containing 5 stars, ranging from 1 (Not Useful) to 5 (Exceptional). Red stars are the average user rating given by other users, yellow stars are the rating you gave the app, and no stars mean the app has not yet been rated by you or others. The number of ratings that have been received by users toward the rating is also displayed.
+
+-------------
+Rating an App 
+-------------
+
+.. note:: This feature is not available for Agave apps.
+
+1. In the Apps window, find the app to rate.
+
+.. note::
+   Wondering why an app has a funny symbol or is no longer in the list?
+
+   Apps with |xicon| are disabled and currently not available for use.
+
+   Apps with |beta| are public apps that have not yet been vetted by the CyVerse team.
+
+   Apps with |PrivateAppIcon| are private apps that you either you created or that have been shared with you by another user.
+
+   **If an app is no longer returned in a search query**, it may have been deprecated as part of the app recategorization efforts. You can use a similar app by searching for an app with a similar name or that uses the same tool. If you are the app integrator or need access to the app from a link in a publication, contact CyVerse Support at support@cyverse.org for assistance.
+
+   It's also possible you haven't **authenticated** to the HPC server. You are prompted to log in to the server when you log in to the DE, open the Apps window, or click the HPC tab. Once you have authenticated, you won't see the prompt again unless major changes to the HPC server require re-authentication, which should happen rarely. So if the app you are searching for is in the HPC list, logging in will return the app to you in search results.
+
+Red stars are the average rating given by other users, if any.
+Yellow stars, if displayed, indicate the rating you gave the app.
+1=Not useful, 2=Poor, 3=Works, 4=Very useful, 5=Exceptional
+The number to the right of the stars indicates the number of users who have rated the app.
+
+2. To rate an app, click the star that denotes your rating for the app:
+
+|AppRatings|
+
+The stars are now yellow to denote your rating and |RatingsDelete| is displayed to the right of your rating.
+
+3. To change your rating, click the star that more accurately reflects your opinion of the app.
+
+4. To remove a rating:
+
+      a. Click **Favorite Apps** on the **My Apps** tab.
+      b. Click |RatingsDelete| to the right of the yellow stars to remove your rating for the app.
 
 
+-------------------------------
+Viewing and adding app comments
+-------------------------------
+
+.. note:: This feature is not available for Agave apps.
+
+1. To view other users' comments about an app:
+      a. Find the app whose comments you want to view.
+      b. Click |AppCommentsIcon| on the right side of the app row.
+      c. View the comments at the bottom of the page.
+2. To add a comment or reply to a comment:
+      a. Click |AppCommentsIcon| on the right side of the app row.
+      b. Enter your comments in the lower box and click **Add**.
+3.To remove a comment, click the comment in the top section and then click **Retract**.
 
 
+Using Favorite Apps and Workflows
+---------------------------------
+
+----------------------------------------------------
+Adding an app or workflow to your Favorite Apps list
+----------------------------------------------------
+
+.. note:: This feature is not available for Agave apps.
+
+1. In the Apps window, find the app to favorite.
+
+.. note::
+   Wondering why an app has a funny symbol or is no longer in the list?
+
+   Apps with |xicon| are disabled and currently not available for use.
+
+   Apps with |beta| are public apps that have not yet been vetted by the CyVerse team.
+
+   Apps with |PrivateAppIcon| are private apps that you either you created or that have been shared with you by another user.
+
+   **If an app is no longer returned in a search query**, it may have been deprecated as part of the app recategorization efforts. You can use a similar app by searching for an app with a similar name or that uses the same tool. If you are the app integrator or need access to the app from a link in a publication, contact CyVerse Support at support@cyverse.org for assistance.
+
+   It's also possible you haven't **authenticated** to the HPC server. You are prompted to log in to the server when you log in to the DE, open the Apps window, or click the HPC tab. Once you have authenticated, you won't see the prompt again unless major changes to the HPC server require re-authentication, which should happen rarely. So if the app you are searching for is in the HPC list, logging in will return the app to you in search results.
+
+2. Click the star to the left of the name:
+|FavAdd|
+The star now is yellow and the app or workflow is listed in your Favorite Apps list on the My Apps tab.
+|FavAppIcon|
+
+--------------------------------------------------------
+Removing an app or workflow from your Favorite Apps list
+--------------------------------------------------------
+
+1. Click the **My Apps** tab and then click **Favorite Apps**.
+In the app to remove from your Favorite Apps list, click the yellow star to the left of the app name:
+
+|Apps_RemoveFromFavs|
+
+The app is removed from your Favorite Apps list and the star icon next to the name in the Apps list is removed.
 
 
+Viewing App and Tool Information
+--------------------------------
 
+Tucked away in the Apps list is pertinent information about each app or workflow, and its tools (executable or binary) and tool versions upon which the app or workflow is based.
+
+The information that is available is provided by the integrator of the app or workflow: the date shared, the name and email of the integrator who created it, the link to the `user manual <https://cyverse-de-manual.readthedocs-hosted.com/en/latest/new-appInterfacechildpages/sharing.html>`_ page created by the integrator, the URL to the app for quickly sharing it with other CyVerse users, and the ratings submitted by other users. Information about the tool (the executable or binary upon which the app is based) used for the app or workflow can be viewed as well.
+
+You can view the list of all tools that are available in the DE, or simply search for a tool in the Apps window search field. If the tool or tool version you want to use for an app is not available, you can request installation of a new tool or new tool version.
+
+
+Viewing app information
+-----------------------
+
+1. In the **Apps** window, find the app or workflow whose information you want to view.
+
+.. note::
+   Wondering why an app has a funny symbol or is no longer in the list?
+
+   Apps with |xicon| are disabled and currently not available for use.
+
+   Apps with |beta| are public apps that have not yet been vetted by the CyVerse team.
+
+   Apps with |PrivateAppIcon| are private apps that you either you created or that have been shared with you by another user.
+
+   **If an app is no longer returned in a search query**, it may have been deprecated as part of the app recategorization efforts. You can use a similar app by searching for an app with a similar name or that uses the same tool. If you are the app integrator or need access to the app from a link in a publication, contact CyVerse Support at support@cyverse.org for assistance.
+
+   It's also possible you haven't **authenticated** to the HPC server. You are prompted to log in to the server when you log in to the DE, open the Apps window, or click the HPC tab. Once you have authenticated, you won't see the prompt again unless major changes to the HPC server require re-authentication, which should happen rarely. So if the app you are searching for is in the HPC list, logging in will return the app to you in search results.
+
+
+2. Click |AppInfoIcon| to the left of the name.
+
+3. Information about the app is available on the **Information** tab:
+
+|AppInfoWithCat|
+
+- **Favorite App star**: Select |FavoriteStar| at the top left to add it to your Favorite Apps list (also available next to the app name in the Apps list), or click to clear.
+- **Description**: Brief description of the app, as entered by the app's integrator.
+- **Published on**: Date the app was published to the DE.
+- **Integrator name**: Name of the person who integrated the app into the DE.
+- **Integrator email**: Email of the person who integrated the app into the DE – handy when you have questions, comments, or issues with the app or the app documentation.
+- **Help**: Click **User Manual** to view the user manual, which is written by the app's integrator. Most user manuals contain a brief introduction to how to use the app and steps for trying out the app, including **example input files** and parameters to use. Email the integrator if you have questions about using the app or need more information. For information on creating a documentation page for your apps, see Sharing your App or Workflow and Editing the User Manual.
+- **Rating**: Average rating given by other users of the app, if any. If you previously rated this app, the stars will be yellow. You can remove your rating here by clicking |RatingsDelete| for the app you rated. For more information on entering app ratings and comments about an app, see Using App Ratings and App Comments.
+- **App URL**: You can send the URL to a public app to quickly share the path with another user. To do so, click **App URL**, copy the URL, paste it into your text messaging or email application, and send. The user must be logged in to access the app.
+      - To share an unpublished app (one in your private workspace that has not yet been made public), see Sharing your App or Workflow and Editing the User Manual.
+- **Category**: To view the Operation or Topic categories in which the app is placed, click either Operation or Topic, click through the hierarchy, and click the lowest level to view other apps in the same category.
+
+------------------------
+Viewing tool information
+------------------------
+
+You can view tool information in two ways.
+
+- In the **Apps** window:
+   1. In the Apps window, find the app with the tool information to view.
+   2. Click the **Tool Information** tab to view information about the tool (executable) used for the app or workflow: app name, description, path, version, and attribution. Email the integrator if you have questions about the tool used for the app.
+
+- In the **Manage Tools** window:
+   1. In the Apps window, click **Manage Tools** at the top.
+   2. Click to select the tool whose information you want to view.
+   3. Click |RatingsDelete|.
+   4. View the tool's attribution and description on the Tool Information tab.
+   5. Click Apps using this tool tab to view the list of apps that use the tool.
+
+For more information on managing tools, see Managing Tools in the DE.
 
 
 ----
@@ -451,6 +655,19 @@ Each app in the DE has a user manual that should list the test data files and se
 
 .. |AppsFastX| image:: img/de/Apps-FastxAnnotated.jpg
 
+.. |AppsMenu| image:: img/de/AppsMenu.jpg
+
+.. |AppRatings| image:: img/de/AppRatingsExceptional.jpg
+
+.. |RatingsDelete| image:: img/de/RatingsDeleteIcon.png
+
+.. |FavAdd| image:: img/de/Favs_Add.png
+
+.. |FavAppIcon| image:: img/de/FavAppIcon.png
+
+.. |Apps_RemoveFromFavs| image:: img/de/Apps_RemoveFromFavs.png
+
+.. |FavoriteStar| image:: img/de/FavoriteStar.jpg
 
 
 .. Comment: Place URLS Below This Line
