@@ -168,7 +168,7 @@ Each app has a basic set of standard interface elements, as shown in this exampl
 
 
 .. list-table::
-     :header-rows: 0
+      :header-rows: 0
      
       * - 1
         - App name, as defined by the app's integrator
