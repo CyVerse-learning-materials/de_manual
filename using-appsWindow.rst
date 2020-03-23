@@ -175,7 +175,9 @@ Each app has a basic set of standard interface elements, as shown in this exampl
       * - 2
         - Window icons.
       * - 3
-        - Panels: • Contents of each panel are defined by the integrator who created the app. The first panel is where you enter specifics about the analysis, including the analysis name, description, selected output folder, and whether to have input files returned with the analysis output files. • Note the red asterisks * on the second and third panels, indicating that they contain a required field. Each required field also has a red asterisk.
+        - Panels: 
+            - Contents of each panel are defined by the integrator who created the app. The first panel is where you enter specifics about the analysis, including the analysis name, description, selected output folder, and whether to have input files returned with the analysis output files. 
+            - Note the red asterisks * on the second and third panels, indicating that they contain a required field. Each required field also has a red asterisk.
       * - 4
         - Click to open or close a panel.
       * - 5
