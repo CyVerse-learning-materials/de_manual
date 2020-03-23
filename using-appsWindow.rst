@@ -106,10 +106,11 @@ Click **Apps** to open the Apps window.
 
 |AppsManageTools|
 
--------
+
 Use App
 -------
 
+----------------------
 Submitting an Analysis
 ----------------------
 
@@ -171,7 +172,7 @@ Not sure is the analysis completed, or want to cancel the anlysis?
    Want to cancel the analysis? See the Canceling an analysis section on Relaunching, Canceling, and Deleting Analyses, Viewing Analysis Outputs and Info.
 
 
-
+---------------
 Using Test Data 
 ---------------
 
