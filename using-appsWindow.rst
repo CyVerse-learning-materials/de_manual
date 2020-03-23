@@ -479,12 +479,16 @@ Viewing and adding app comments
 .. note:: This feature is not available for Agave apps.
 
 1. To view other users' comments about an app:
+
       a. Find the app whose comments you want to view.
       b. Click |AppCommentsIcon| on the right side of the app row.
       c. View the comments at the bottom of the page.
+
 2. To add a comment or reply to a comment:
+
       a. Click |AppCommentsIcon| on the right side of the app row.
       b. Enter your comments in the lower box and click **Add**.
+      
 3.To remove a comment, click the comment in the top section and then click **Retract**.
 
 
@@ -513,8 +517,11 @@ Adding an app or workflow to your Favorite Apps list
    It's also possible you haven't **authenticated** to the HPC server. You are prompted to log in to the server when you log in to the DE, open the Apps window, or click the HPC tab. Once you have authenticated, you won't see the prompt again unless major changes to the HPC server require re-authentication, which should happen rarely. So if the app you are searching for is in the HPC list, logging in will return the app to you in search results.
 
 2. Click the star to the left of the name:
+
 |FavAdd|
+
 The star now is yellow and the app or workflow is listed in your Favorite Apps list on the My Apps tab.
+
 |FavAppIcon|
 
 --------------------------------------------------------
@@ -572,6 +579,7 @@ Viewing app information
 - **Help**: Click **User Manual** to view the user manual, which is written by the app's integrator. Most user manuals contain a brief introduction to how to use the app and steps for trying out the app, including **example input files** and parameters to use. Email the integrator if you have questions about using the app or need more information. For information on creating a documentation page for your apps, see Sharing your App or Workflow and Editing the User Manual.
 - **Rating**: Average rating given by other users of the app, if any. If you previously rated this app, the stars will be yellow. You can remove your rating here by clicking |RatingsDelete| for the app you rated. For more information on entering app ratings and comments about an app, see Using App Ratings and App Comments.
 - **App URL**: You can send the URL to a public app to quickly share the path with another user. To do so, click **App URL**, copy the URL, paste it into your text messaging or email application, and send. The user must be logged in to access the app.
+      
       - To share an unpublished app (one in your private workspace that has not yet been made public), see Sharing your App or Workflow and Editing the User Manual.
 - **Category**: To view the Operation or Topic categories in which the app is placed, click either Operation or Topic, click through the hierarchy, and click the lowest level to view other apps in the same category.
 
@@ -582,10 +590,12 @@ Viewing tool information
 You can view tool information in two ways.
 
 - In the **Apps** window:
+
    1. In the Apps window, find the app with the tool information to view.
    2. Click the **Tool Information** tab to view information about the tool (executable) used for the app or workflow: app name, description, path, version, and attribution. Email the integrator if you have questions about the tool used for the app.
 
 - In the **Manage Tools** window:
+
    1. In the Apps window, click **Manage Tools** at the top.
    2. Click to select the tool whose information you want to view.
    3. Click |RatingsDelete|.
