@@ -14,6 +14,14 @@ As the analysis proceeds through the job, you receive updates about its progress
 Once the analysis is completed, you retrieve and analyze the results. You can view the Apps list by either tiles (the new default) or by list (the previous view).
 
 
+Opening the Apps window
+-----------------------
+
+Click **Apps** to open the Apps window.
+
+|AppsManageTools|
+
+
 Quesions about apps?
 --------------------
 
@@ -186,22 +194,112 @@ Each app has a basic set of standard interface elements, as shown in this exampl
 
 
 
+Main steps to submitting an analysis
+------------------------------------
+
+This is a brief overview of the main steps required to submit an analysis.
+
+Before you begin, you may want to view a `video <http://www.youtube.com/watch?v=Ah8sKlIeglI&feature=em-uploademail>`_ about running analyses in the Discovery Environment. Please note that this is for release version 1.6, and may look and function differently from this release.
+
+   1. In the Apps window, click to open the app to use.
+   2. Select the input data file or files and specify the settings.
+   3. Launch the analysis.
+   4. View progress of the analysis in the Notifications list.
+   5. When the analysis is completed, review the results in the Analyses window, including:
+
+      - View outputs or results of analyses
+      - Manage or delete data
+      - Delete analyses outputs
+      - Troubleshoot failed analyses
 
 
+Using HPC Apps in the DE
+------------------------
+
+Most CyVerse Discovery Environment (DE) applications that are listed in the High-Performance Computing (HPC) category, as well as CyVerse applications which run through our `Agave API <http://agaveapi.co/>`_, run at `TACC <https://www.tacc.utexas.edu/>`_ (the Texas Advanced Computing Center), part of the `XSEDE <https://www.xsede.org/>`_ (Extreme Science and Engineering Discovery Environment) national supercomputing network. Access to this powerful resource is made available to CyVerse users at no cost to the user through a grant from the National Science Foundation.
+
+In order to fairly distribute this high-demand resource, both XSEDE and TACC follow allocation policies that limit how long any single analysis can be run (usually 24 or 48 hours, depending on the queue), how many analyses a user can have running simultaneously , and the total amount of computational time any one user can access over the course of a year. Analyses (also known as jobs) submitted through the CyVerse DE run on XSEDE using the same queues as every other scientist in the country uses. Thus, if there are many analyses or a few very large analyses in the queue, the wait time for each analysis can be very long, up to several days for certain applications.
+
+--------------------------------------------
+Want to apply for your own XSEDE allocation?
+--------------------------------------------
+
+See the `XSEDE allocation policy page <https://portal.xsede.org/allocation-policies>`_.
+
+------------------------
+Understanding HPC queues
+------------------------
+
+Queues on HPC systems are much like queues at the coffee shop: the first analysis submitted is the first one to run. However, to efficiently exploit resources, HPC queues also have features similar to amusement parks that squeeze single riders in with larger groups. On an HPC system, this consists of scheduling jobs that are shorter or that use fewer nodes into smaller blocks that can be placed in between longer jobs. XSEDE supercomputing centers generally have more than one supercomputer, and the supercomputers have multiple queues for different types of analyses (e.g., serial, parallel, large memory). Each center/computer/queue has its own rules and algorithms for ensuring fair and efficient allocation of resources.
 
 
+**Optimizing the runtime of an HPC analysis**
+
+Because the size of data files frequently used for HPC apps can be quite large, it is strongly suggested that you consider the following when submitting your HPC analyses:
+
+.. caution:: 
+
+   **About launching HPC analyses**
+
+   **A user can run only 5 HPC analyses at a time, and only 1 HPC analysis if it is running on the large-memory queue**. You can launch additional analyses via the DE, but they will not be submitted to the XSEDE system until another analysis finishes. At the moment, although CyVerse does not limit the total amount of compute time per user, we may need to begin doing so as demand for these resources increases.
 
 
-Opening the Apps window
------------------------
+- Submit your analyses at a time of low demand—generally, Friday and Saturday nights tend to be low-demand times.
+- Choose the app with the shortest runtime or fewest nodes when analyzing smaller datasets  
 
-Click **Apps** to open the Apps window.
+- Consider an HPC app that doesn't run on the TACC large memory queue.
 
-|AppsManageTools|
+- List of CyVerse apps running on the TACC large memory queue
+   
+   - AllpathsLG 48777
+   - GeneSeqer-large (Stampede) 5.0.0
+   - IDBA-UD (1000GB-24:00:00) 1.1.2
+   - InterProScan Sequence Search 5.17.56
+   - Maker-P v.2.3 for annotation genomes 300Mb-500Mb 2.3
+   - Newbler 2.6.0
+   - Oases 0.2.08
+   - Ray-2.2.0
+   - Soapdenovo 2.04
+   - Soapdenovo-Trans-1.01
+   - SPAdes-high-mem 3.6.0
+   - Trinity normalize_k-mer_coverage r11.10.13
+   - Trinity r2013-11-10
+   - Velvetg-1.2.08
+   - Velveth-1.2.08
+
+- If there are multiple apps for the same analysis method, choose the one that is the appropriate size for your dataset. If you have a small dataset, search for the word "small", which is included in the name or description of many apps that use shorter runtimes or run on fewer nodes.
+- Read the app's user manual to help you choose the correct app.
+
+- Where's the user manual?
+   - To find the app's user manual, click  to the left of the name and then click User Manual.
 
 
-Use App
--------
+- **Do not launch the same analysis multiple times**. Resubmitting the same analysis when it does not appear to be running can tie up the queue, making the problem worse. If you launched an HPC analysis on CyVerse whose status has not changed to a status of Submitted within a few hours or to Running within a few days (assuming you haven't exceeded the maximum number of running analyses), contact support@cyverse.org with the job ID.
+
+- How do I find the job ID?
+   - In the Analyses window, click the checkbox for the analysis, click the **Analyses** menu and then click **View Analysis Info**.
+
+
+Users or groups who have very large computational needs are likely to run into bottlenecks using standard CyVerse infrastructure. We recommend that these users `apply for their own XSEDE allocation <https://portal.xsede.org/allocation-policies>`_, which will allow them to run CyVerse tools and applications on XSEDE with fewer restrictions. Users or groups with very large computational needs should first apply for a startup allocation and use it to benchmark their jobs, thereby collecting data on efficiency of resource use which must be part of a full XSEDE allocation request.
+
+Want to learn more about XSEDE? Visit the `XSEDE Getting Started <https://portal.xsede.org/documentation-overview>`_ documentation or consider signing up for `XSEDE online training <https://www.xsede.org/web/xup/online-training>`_.
+
+
+Deleting an App or Worlflow
+---------------------------
+
+---------------------------------------------
+Deleting an app or workflow under development
+---------------------------------------------
+
+You can delete an app or workflow that is in your Apps under development Workspace folder. Only CyVerse Support can delete a public app or workflow in the Topic or Operation tabs.
+
+   1. In your **Apps under development** folder, select the app or workflow to delete.
+   2. Click either the **Apps** menu or the **Workflow** menu.
+   3. Click **Delete**.
+      Delete not available?
+         - To delete an app you submitted for public use,`contact CyVerse Support <support@cyverse.org>`_.
+   4. Click **Yes** to the warning prompt.
 
 ----------------------
 Submitting an Analysis
