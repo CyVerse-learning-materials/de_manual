@@ -127,9 +127,7 @@ For information on submitting a high-throughput or batch analysis, see Using HPC
 
 2. Click the app name to open the app.
 
-.. cation:: 
-   
-   **About HPC Analyses** 
+.. caution:: **About HPC Analyses** 
 
    **A user can run only 5 HPC analyses at a time, and only 1 HPC analysis if it is running on the large-memory queue**. You can launch additional analyses via the DE, but they will not be submitted to the XSEDE system until another analysis finishes. At the moment, although CyVerse does not limit the total amount of compute time per user, we may need to begin doing so as demand for these resources increases. For more information on HPC apps, see Using HPC Apps in the DE.
 
